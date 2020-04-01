@@ -31,103 +31,103 @@
             this.navigation_panal = new System.Windows.Forms.Panel();
             this.nav_exit_btn = new System.Windows.Forms.Button();
             this.nav_menu_btn = new System.Windows.Forms.Button();
-            this.result_label_panel = new System.Windows.Forms.Panel();
-            this.result_label = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.AppTitle = new System.Windows.Forms.Label();
+            this.result_label_panel = new System.Windows.Forms.Panel();
+            this.result_label = new System.Windows.Forms.Label();
             this.elem_table_panel = new System.Windows.Forms.Panel();
-            this.element_choice_label = new System.Windows.Forms.Label();
-            this.result_panel = new System.Windows.Forms.Panel();
-            this.elem_btn = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
+            this.btnAstatine = new System.Windows.Forms.Button();
+            this.btnPolonium = new System.Windows.Forms.Button();
+            this.btnBismuth = new System.Windows.Forms.Button();
+            this.btnLead = new System.Windows.Forms.Button();
+            this.btnThallium = new System.Windows.Forms.Button();
+            this.btnMercury = new System.Windows.Forms.Button();
+            this.btnGold = new System.Windows.Forms.Button();
+            this.btnPlatinum = new System.Windows.Forms.Button();
+            this.btnIridium = new System.Windows.Forms.Button();
+            this.btnOsmium = new System.Windows.Forms.Button();
+            this.btnRhenium = new System.Windows.Forms.Button();
+            this.btnTungsten = new System.Windows.Forms.Button();
+            this.btnTantalum = new System.Windows.Forms.Button();
+            this.btnHafnium = new System.Windows.Forms.Button();
+            this.btnIodine = new System.Windows.Forms.Button();
+            this.btnTellurium = new System.Windows.Forms.Button();
+            this.btnAntimony = new System.Windows.Forms.Button();
+            this.btnTin = new System.Windows.Forms.Button();
+            this.btnIndium = new System.Windows.Forms.Button();
+            this.btnCadmium = new System.Windows.Forms.Button();
+            this.btnSilver = new System.Windows.Forms.Button();
+            this.btnPalladium = new System.Windows.Forms.Button();
+            this.btnRhodium = new System.Windows.Forms.Button();
+            this.btnRuthenium = new System.Windows.Forms.Button();
+            this.btnTechnetium = new System.Windows.Forms.Button();
+            this.btnMolybdenum = new System.Windows.Forms.Button();
+            this.btnNiobium = new System.Windows.Forms.Button();
+            this.btnZirconium = new System.Windows.Forms.Button();
             this.button61 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
-            this.button74 = new System.Windows.Forms.Button();
-            this.button75 = new System.Windows.Forms.Button();
-            this.button76 = new System.Windows.Forms.Button();
-            this.button77 = new System.Windows.Forms.Button();
-            this.button78 = new System.Windows.Forms.Button();
-            this.button79 = new System.Windows.Forms.Button();
-            this.button80 = new System.Windows.Forms.Button();
-            this.button81 = new System.Windows.Forms.Button();
-            this.button82 = new System.Windows.Forms.Button();
-            this.button83 = new System.Windows.Forms.Button();
-            this.button84 = new System.Windows.Forms.Button();
-            this.button85 = new System.Windows.Forms.Button();
-            this.button86 = new System.Windows.Forms.Button();
-            this.button87 = new System.Windows.Forms.Button();
-            this.button88 = new System.Windows.Forms.Button();
-            this.button89 = new System.Windows.Forms.Button();
+            this.btnYttrium = new System.Windows.Forms.Button();
+            this.btnTennessine = new System.Windows.Forms.Button();
+            this.btnLivermorium = new System.Windows.Forms.Button();
+            this.btnMoscovium = new System.Windows.Forms.Button();
+            this.btnFlerovium = new System.Windows.Forms.Button();
+            this.btnNihonium = new System.Windows.Forms.Button();
+            this.btnCopernicium = new System.Windows.Forms.Button();
+            this.btnRoentgenium = new System.Windows.Forms.Button();
+            this.btnDarmstadtium = new System.Windows.Forms.Button();
+            this.btnMeitnerium = new System.Windows.Forms.Button();
+            this.btnHassium = new System.Windows.Forms.Button();
+            this.btnBohrium = new System.Windows.Forms.Button();
+            this.btnSeaborgium = new System.Windows.Forms.Button();
+            this.btnDubnium = new System.Windows.Forms.Button();
+            this.btnRutherfordium = new System.Windows.Forms.Button();
+            this.button45 = new System.Windows.Forms.Button();
+            this.btnOganesson = new System.Windows.Forms.Button();
+            this.btnRadon = new System.Windows.Forms.Button();
+            this.btnXenon = new System.Windows.Forms.Button();
+            this.btnKrypton = new System.Windows.Forms.Button();
+            this.btnBromine = new System.Windows.Forms.Button();
+            this.btnSelenium = new System.Windows.Forms.Button();
+            this.btnArsenic = new System.Windows.Forms.Button();
+            this.btnGermanium = new System.Windows.Forms.Button();
+            this.btnChlorine = new System.Windows.Forms.Button();
+            this.btnSulfur = new System.Windows.Forms.Button();
+            this.btnPhosphorus = new System.Windows.Forms.Button();
+            this.btnSilicon = new System.Windows.Forms.Button();
+            this.btnArgon = new System.Windows.Forms.Button();
+            this.btnHelium = new System.Windows.Forms.Button();
+            this.btnNeon = new System.Windows.Forms.Button();
+            this.btnFluorine = new System.Windows.Forms.Button();
+            this.btnOxygen = new System.Windows.Forms.Button();
+            this.btnNitrogen = new System.Windows.Forms.Button();
+            this.btnCarbon = new System.Windows.Forms.Button();
+            this.btnBoron = new System.Windows.Forms.Button();
+            this.btnAluminum = new System.Windows.Forms.Button();
+            this.btnGallium = new System.Windows.Forms.Button();
+            this.btnZinc = new System.Windows.Forms.Button();
+            this.btnCopper = new System.Windows.Forms.Button();
+            this.btnNickel = new System.Windows.Forms.Button();
+            this.btnCobalt = new System.Windows.Forms.Button();
+            this.btnIron = new System.Windows.Forms.Button();
+            this.btnManganese = new System.Windows.Forms.Button();
+            this.btnChromium = new System.Windows.Forms.Button();
+            this.btnVanadium = new System.Windows.Forms.Button();
+            this.btnTitanium = new System.Windows.Forms.Button();
+            this.btnScandium = new System.Windows.Forms.Button();
+            this.btnRadium = new System.Windows.Forms.Button();
+            this.btnBarium = new System.Windows.Forms.Button();
+            this.btnStrontium = new System.Windows.Forms.Button();
+            this.btnCalcium = new System.Windows.Forms.Button();
+            this.btnMagnesium = new System.Windows.Forms.Button();
+            this.btnBeryllium = new System.Windows.Forms.Button();
+            this.btnFrancium = new System.Windows.Forms.Button();
+            this.btnCaesium = new System.Windows.Forms.Button();
+            this.btnRubidium = new System.Windows.Forms.Button();
+            this.btnPotassium = new System.Windows.Forms.Button();
+            this.btnSodium = new System.Windows.Forms.Button();
+            this.btnLithium = new System.Windows.Forms.Button();
+            this.btnHydrogen = new System.Windows.Forms.Button();
+            this.result_panel = new System.Windows.Forms.Panel();
+            this.element_choice_label = new System.Windows.Forms.Label();
             this.navigation_panal.SuspendLayout();
             this.result_label_panel.SuspendLayout();
             this.elem_table_panel.SuspendLayout();
@@ -142,8 +142,9 @@
             this.navigation_panal.Controls.Add(this.label1);
             this.navigation_panal.Controls.Add(this.AppTitle);
             this.navigation_panal.Location = new System.Drawing.Point(0, -1);
+            this.navigation_panal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.navigation_panal.Name = "navigation_panal";
-            this.navigation_panal.Size = new System.Drawing.Size(1090, 89);
+            this.navigation_panal.Size = new System.Drawing.Size(818, 72);
             this.navigation_panal.TabIndex = 1;
             this.navigation_panal.Paint += new System.Windows.Forms.PaintEventHandler(this.navigation_panal_Paint);
             // 
@@ -154,9 +155,10 @@
             this.nav_exit_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nav_exit_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.nav_exit_btn.ForeColor = System.Drawing.Color.White;
-            this.nav_exit_btn.Location = new System.Drawing.Point(984, 19);
+            this.nav_exit_btn.Location = new System.Drawing.Point(738, 15);
+            this.nav_exit_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nav_exit_btn.Name = "nav_exit_btn";
-            this.nav_exit_btn.Size = new System.Drawing.Size(85, 53);
+            this.nav_exit_btn.Size = new System.Drawing.Size(64, 43);
             this.nav_exit_btn.TabIndex = 5;
             this.nav_exit_btn.Text = "EXIT";
             this.nav_exit_btn.UseVisualStyleBackColor = false;
@@ -168,42 +170,24 @@
             this.nav_menu_btn.FlatAppearance.BorderSize = 0;
             this.nav_menu_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nav_menu_btn.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
-            this.nav_menu_btn.Location = new System.Drawing.Point(887, 20);
+            this.nav_menu_btn.Location = new System.Drawing.Point(665, 16);
+            this.nav_menu_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nav_menu_btn.Name = "nav_menu_btn";
-            this.nav_menu_btn.Size = new System.Drawing.Size(85, 53);
+            this.nav_menu_btn.Size = new System.Drawing.Size(64, 43);
             this.nav_menu_btn.TabIndex = 4;
             this.nav_menu_btn.Text = "MENU";
             this.nav_menu_btn.UseVisualStyleBackColor = false;
             this.nav_menu_btn.Click += new System.EventHandler(this.nav_menu_btn_Click);
-            // 
-            // result_label_panel
-            // 
-            this.result_label_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
-            this.result_label_panel.Controls.Add(this.result_label);
-            this.result_label_panel.Location = new System.Drawing.Point(0, 359);
-            this.result_label_panel.Name = "result_label_panel";
-            this.result_label_panel.Size = new System.Drawing.Size(1090, 40);
-            this.result_label_panel.TabIndex = 2;
-            // 
-            // result_label
-            // 
-            this.result_label.AutoSize = true;
-            this.result_label.Font = new System.Drawing.Font("Bahnschrift Light", 10.8F);
-            this.result_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.result_label.Location = new System.Drawing.Point(53, 8);
-            this.result_label.Name = "result_label";
-            this.result_label.Size = new System.Drawing.Size(65, 23);
-            this.result_label.TabIndex = 3;
-            this.result_label.Text = "Result";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bahnschrift Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(422, 30);
+            this.label1.Location = new System.Drawing.Point(316, 24);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(294, 29);
+            this.label1.Size = new System.Drawing.Size(232, 23);
             this.label1.TabIndex = 2;
             this.label1.Text = "Create an Ionic Compound";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -213,1048 +197,584 @@
             this.AppTitle.AutoSize = true;
             this.AppTitle.Font = new System.Drawing.Font("Bahnschrift", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AppTitle.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.AppTitle.Location = new System.Drawing.Point(23, 21);
+            this.AppTitle.Location = new System.Drawing.Point(17, 17);
+            this.AppTitle.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.AppTitle.Name = "AppTitle";
-            this.AppTitle.Size = new System.Drawing.Size(190, 40);
+            this.AppTitle.Size = new System.Drawing.Size(156, 33);
             this.AppTitle.TabIndex = 1;
             this.AppTitle.Text = "ChemisTree";
+            // 
+            // result_label_panel
+            // 
+            this.result_label_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
+            this.result_label_panel.Controls.Add(this.result_label);
+            this.result_label_panel.Location = new System.Drawing.Point(0, 292);
+            this.result_label_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.result_label_panel.Name = "result_label_panel";
+            this.result_label_panel.Size = new System.Drawing.Size(818, 32);
+            this.result_label_panel.TabIndex = 2;
+            // 
+            // result_label
+            // 
+            this.result_label.AutoSize = true;
+            this.result_label.Font = new System.Drawing.Font("Bahnschrift Light", 10.8F);
+            this.result_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.result_label.Location = new System.Drawing.Point(40, 6);
+            this.result_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.result_label.Name = "result_label";
+            this.result_label.Size = new System.Drawing.Size(51, 18);
+            this.result_label.TabIndex = 3;
+            this.result_label.Text = "Result";
             // 
             // elem_table_panel
             // 
             this.elem_table_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
-            this.elem_table_panel.Controls.Add(this.button89);
-            this.elem_table_panel.Controls.Add(this.button88);
-            this.elem_table_panel.Controls.Add(this.button87);
-            this.elem_table_panel.Controls.Add(this.button86);
-            this.elem_table_panel.Controls.Add(this.button85);
-            this.elem_table_panel.Controls.Add(this.button84);
-            this.elem_table_panel.Controls.Add(this.button83);
-            this.elem_table_panel.Controls.Add(this.button82);
-            this.elem_table_panel.Controls.Add(this.button81);
-            this.elem_table_panel.Controls.Add(this.button80);
-            this.elem_table_panel.Controls.Add(this.button79);
-            this.elem_table_panel.Controls.Add(this.button78);
-            this.elem_table_panel.Controls.Add(this.button77);
-            this.elem_table_panel.Controls.Add(this.button76);
-            this.elem_table_panel.Controls.Add(this.button75);
-            this.elem_table_panel.Controls.Add(this.button74);
-            this.elem_table_panel.Controls.Add(this.button73);
-            this.elem_table_panel.Controls.Add(this.button72);
-            this.elem_table_panel.Controls.Add(this.button71);
-            this.elem_table_panel.Controls.Add(this.button70);
-            this.elem_table_panel.Controls.Add(this.button69);
-            this.elem_table_panel.Controls.Add(this.button68);
-            this.elem_table_panel.Controls.Add(this.button67);
-            this.elem_table_panel.Controls.Add(this.button66);
-            this.elem_table_panel.Controls.Add(this.button65);
-            this.elem_table_panel.Controls.Add(this.button64);
-            this.elem_table_panel.Controls.Add(this.button63);
-            this.elem_table_panel.Controls.Add(this.button62);
+            this.elem_table_panel.Controls.Add(this.btnAstatine);
+            this.elem_table_panel.Controls.Add(this.btnPolonium);
+            this.elem_table_panel.Controls.Add(this.btnBismuth);
+            this.elem_table_panel.Controls.Add(this.btnLead);
+            this.elem_table_panel.Controls.Add(this.btnThallium);
+            this.elem_table_panel.Controls.Add(this.btnMercury);
+            this.elem_table_panel.Controls.Add(this.btnGold);
+            this.elem_table_panel.Controls.Add(this.btnPlatinum);
+            this.elem_table_panel.Controls.Add(this.btnIridium);
+            this.elem_table_panel.Controls.Add(this.btnOsmium);
+            this.elem_table_panel.Controls.Add(this.btnRhenium);
+            this.elem_table_panel.Controls.Add(this.btnTungsten);
+            this.elem_table_panel.Controls.Add(this.btnTantalum);
+            this.elem_table_panel.Controls.Add(this.btnHafnium);
+            this.elem_table_panel.Controls.Add(this.btnIodine);
+            this.elem_table_panel.Controls.Add(this.btnTellurium);
+            this.elem_table_panel.Controls.Add(this.btnAntimony);
+            this.elem_table_panel.Controls.Add(this.btnTin);
+            this.elem_table_panel.Controls.Add(this.btnIndium);
+            this.elem_table_panel.Controls.Add(this.btnCadmium);
+            this.elem_table_panel.Controls.Add(this.btnSilver);
+            this.elem_table_panel.Controls.Add(this.btnPalladium);
+            this.elem_table_panel.Controls.Add(this.btnRhodium);
+            this.elem_table_panel.Controls.Add(this.btnRuthenium);
+            this.elem_table_panel.Controls.Add(this.btnTechnetium);
+            this.elem_table_panel.Controls.Add(this.btnMolybdenum);
+            this.elem_table_panel.Controls.Add(this.btnNiobium);
+            this.elem_table_panel.Controls.Add(this.btnZirconium);
             this.elem_table_panel.Controls.Add(this.button61);
-            this.elem_table_panel.Controls.Add(this.button60);
-            this.elem_table_panel.Controls.Add(this.button59);
-            this.elem_table_panel.Controls.Add(this.button58);
-            this.elem_table_panel.Controls.Add(this.button57);
-            this.elem_table_panel.Controls.Add(this.button56);
-            this.elem_table_panel.Controls.Add(this.button55);
-            this.elem_table_panel.Controls.Add(this.button54);
-            this.elem_table_panel.Controls.Add(this.button53);
-            this.elem_table_panel.Controls.Add(this.button52);
-            this.elem_table_panel.Controls.Add(this.button51);
-            this.elem_table_panel.Controls.Add(this.button50);
-            this.elem_table_panel.Controls.Add(this.button49);
-            this.elem_table_panel.Controls.Add(this.button48);
-            this.elem_table_panel.Controls.Add(this.button47);
-            this.elem_table_panel.Controls.Add(this.button46);
+            this.elem_table_panel.Controls.Add(this.btnYttrium);
+            this.elem_table_panel.Controls.Add(this.btnTennessine);
+            this.elem_table_panel.Controls.Add(this.btnLivermorium);
+            this.elem_table_panel.Controls.Add(this.btnMoscovium);
+            this.elem_table_panel.Controls.Add(this.btnFlerovium);
+            this.elem_table_panel.Controls.Add(this.btnNihonium);
+            this.elem_table_panel.Controls.Add(this.btnCopernicium);
+            this.elem_table_panel.Controls.Add(this.btnRoentgenium);
+            this.elem_table_panel.Controls.Add(this.btnDarmstadtium);
+            this.elem_table_panel.Controls.Add(this.btnMeitnerium);
+            this.elem_table_panel.Controls.Add(this.btnHassium);
+            this.elem_table_panel.Controls.Add(this.btnBohrium);
+            this.elem_table_panel.Controls.Add(this.btnSeaborgium);
+            this.elem_table_panel.Controls.Add(this.btnDubnium);
+            this.elem_table_panel.Controls.Add(this.btnRutherfordium);
             this.elem_table_panel.Controls.Add(this.button45);
-            this.elem_table_panel.Controls.Add(this.button44);
-            this.elem_table_panel.Controls.Add(this.button43);
-            this.elem_table_panel.Controls.Add(this.button42);
-            this.elem_table_panel.Controls.Add(this.button41);
-            this.elem_table_panel.Controls.Add(this.button40);
-            this.elem_table_panel.Controls.Add(this.button39);
-            this.elem_table_panel.Controls.Add(this.button38);
-            this.elem_table_panel.Controls.Add(this.button37);
-            this.elem_table_panel.Controls.Add(this.button36);
-            this.elem_table_panel.Controls.Add(this.button35);
-            this.elem_table_panel.Controls.Add(this.button34);
-            this.elem_table_panel.Controls.Add(this.button33);
-            this.elem_table_panel.Controls.Add(this.button32);
-            this.elem_table_panel.Controls.Add(this.button31);
-            this.elem_table_panel.Controls.Add(this.button30);
-            this.elem_table_panel.Controls.Add(this.button29);
-            this.elem_table_panel.Controls.Add(this.button28);
-            this.elem_table_panel.Controls.Add(this.button27);
-            this.elem_table_panel.Controls.Add(this.button26);
-            this.elem_table_panel.Controls.Add(this.button25);
-            this.elem_table_panel.Controls.Add(this.button24);
-            this.elem_table_panel.Controls.Add(this.button23);
-            this.elem_table_panel.Controls.Add(this.button22);
-            this.elem_table_panel.Controls.Add(this.button21);
-            this.elem_table_panel.Controls.Add(this.button20);
-            this.elem_table_panel.Controls.Add(this.button19);
-            this.elem_table_panel.Controls.Add(this.button18);
-            this.elem_table_panel.Controls.Add(this.button17);
-            this.elem_table_panel.Controls.Add(this.button16);
-            this.elem_table_panel.Controls.Add(this.button15);
-            this.elem_table_panel.Controls.Add(this.button14);
-            this.elem_table_panel.Controls.Add(this.button13);
-            this.elem_table_panel.Controls.Add(this.button12);
-            this.elem_table_panel.Controls.Add(this.button11);
-            this.elem_table_panel.Controls.Add(this.button10);
-            this.elem_table_panel.Controls.Add(this.button9);
-            this.elem_table_panel.Controls.Add(this.button8);
-            this.elem_table_panel.Controls.Add(this.button7);
-            this.elem_table_panel.Controls.Add(this.button6);
-            this.elem_table_panel.Controls.Add(this.button5);
-            this.elem_table_panel.Controls.Add(this.button4);
-            this.elem_table_panel.Controls.Add(this.button3);
-            this.elem_table_panel.Controls.Add(this.button2);
-            this.elem_table_panel.Controls.Add(this.button1);
-            this.elem_table_panel.Controls.Add(this.elem_btn);
+            this.elem_table_panel.Controls.Add(this.btnOganesson);
+            this.elem_table_panel.Controls.Add(this.btnRadon);
+            this.elem_table_panel.Controls.Add(this.btnXenon);
+            this.elem_table_panel.Controls.Add(this.btnKrypton);
+            this.elem_table_panel.Controls.Add(this.btnBromine);
+            this.elem_table_panel.Controls.Add(this.btnSelenium);
+            this.elem_table_panel.Controls.Add(this.btnArsenic);
+            this.elem_table_panel.Controls.Add(this.btnGermanium);
+            this.elem_table_panel.Controls.Add(this.btnChlorine);
+            this.elem_table_panel.Controls.Add(this.btnSulfur);
+            this.elem_table_panel.Controls.Add(this.btnPhosphorus);
+            this.elem_table_panel.Controls.Add(this.btnSilicon);
+            this.elem_table_panel.Controls.Add(this.btnArgon);
+            this.elem_table_panel.Controls.Add(this.btnHelium);
+            this.elem_table_panel.Controls.Add(this.btnNeon);
+            this.elem_table_panel.Controls.Add(this.btnFluorine);
+            this.elem_table_panel.Controls.Add(this.btnOxygen);
+            this.elem_table_panel.Controls.Add(this.btnNitrogen);
+            this.elem_table_panel.Controls.Add(this.btnCarbon);
+            this.elem_table_panel.Controls.Add(this.btnBoron);
+            this.elem_table_panel.Controls.Add(this.btnAluminum);
+            this.elem_table_panel.Controls.Add(this.btnGallium);
+            this.elem_table_panel.Controls.Add(this.btnZinc);
+            this.elem_table_panel.Controls.Add(this.btnCopper);
+            this.elem_table_panel.Controls.Add(this.btnNickel);
+            this.elem_table_panel.Controls.Add(this.btnCobalt);
+            this.elem_table_panel.Controls.Add(this.btnIron);
+            this.elem_table_panel.Controls.Add(this.btnManganese);
+            this.elem_table_panel.Controls.Add(this.btnChromium);
+            this.elem_table_panel.Controls.Add(this.btnVanadium);
+            this.elem_table_panel.Controls.Add(this.btnTitanium);
+            this.elem_table_panel.Controls.Add(this.btnScandium);
+            this.elem_table_panel.Controls.Add(this.btnRadium);
+            this.elem_table_panel.Controls.Add(this.btnBarium);
+            this.elem_table_panel.Controls.Add(this.btnStrontium);
+            this.elem_table_panel.Controls.Add(this.btnCalcium);
+            this.elem_table_panel.Controls.Add(this.btnMagnesium);
+            this.elem_table_panel.Controls.Add(this.btnBeryllium);
+            this.elem_table_panel.Controls.Add(this.btnFrancium);
+            this.elem_table_panel.Controls.Add(this.btnCaesium);
+            this.elem_table_panel.Controls.Add(this.btnRubidium);
+            this.elem_table_panel.Controls.Add(this.btnPotassium);
+            this.elem_table_panel.Controls.Add(this.btnSodium);
+            this.elem_table_panel.Controls.Add(this.btnLithium);
+            this.elem_table_panel.Controls.Add(this.btnHydrogen);
             this.elem_table_panel.Controls.Add(this.result_panel);
             this.elem_table_panel.Controls.Add(this.element_choice_label);
             this.elem_table_panel.Controls.Add(this.result_label_panel);
-            this.elem_table_panel.Location = new System.Drawing.Point(0, 86);
+            this.elem_table_panel.Location = new System.Drawing.Point(0, 70);
+            this.elem_table_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.elem_table_panel.Name = "elem_table_panel";
-            this.elem_table_panel.Size = new System.Drawing.Size(1090, 512);
+            this.elem_table_panel.Size = new System.Drawing.Size(818, 416);
             this.elem_table_panel.TabIndex = 2;
             // 
-            // element_choice_label
-            // 
-            this.element_choice_label.AutoSize = true;
-            this.element_choice_label.Font = new System.Drawing.Font("Bahnschrift Light", 10.8F);
-            this.element_choice_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.element_choice_label.Location = new System.Drawing.Point(493, 14);
-            this.element_choice_label.Name = "element_choice_label";
-            this.element_choice_label.Size = new System.Drawing.Size(156, 23);
-            this.element_choice_label.TabIndex = 5;
-            this.element_choice_label.Text = "Pick one element";
-            this.element_choice_label.Click += new System.EventHandler(this.compound_choice_label_Click);
-            // 
-            // result_panel
-            // 
-            this.result_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
-            this.result_panel.Location = new System.Drawing.Point(1, 399);
-            this.result_panel.Name = "result_panel";
-            this.result_panel.Size = new System.Drawing.Size(1089, 112);
-            this.result_panel.TabIndex = 6;
-            this.result_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.result_panel_Paint);
-            // 
-            // elem_btn
-            // 
-            this.elem_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.elem_btn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.elem_btn.FlatAppearance.BorderSize = 0;
-            this.elem_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.elem_btn.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.elem_btn.ForeColor = System.Drawing.Color.White;
-            this.elem_btn.Location = new System.Drawing.Point(57, 25);
-            this.elem_btn.Name = "elem_btn";
-            this.elem_btn.Size = new System.Drawing.Size(49, 39);
-            this.elem_btn.TabIndex = 10;
-            this.elem_btn.Text = "Ca";
-            this.elem_btn.UseVisualStyleBackColor = false;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(57, 70);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(49, 39);
-            this.button1.TabIndex = 11;
-            this.button1.Text = "Ca";
-            this.button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(57, 115);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(49, 39);
-            this.button2.TabIndex = 12;
-            this.button2.Text = "Ca";
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(57, 160);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(49, 39);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Ca";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(57, 205);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(49, 39);
-            this.button4.TabIndex = 14;
-            this.button4.Text = "Ca";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(57, 250);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(49, 39);
-            this.button5.TabIndex = 15;
-            this.button5.Text = "Ca";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(57, 294);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(49, 39);
-            this.button6.TabIndex = 16;
-            this.button6.Text = "Ca";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(112, 70);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(49, 39);
-            this.button7.TabIndex = 17;
-            this.button7.Text = "Ca";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
-            // button8
-            // 
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(112, 115);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(49, 39);
-            this.button8.TabIndex = 18;
-            this.button8.Text = "Ca";
-            this.button8.UseVisualStyleBackColor = false;
-            // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(112, 160);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(49, 39);
-            this.button9.TabIndex = 19;
-            this.button9.Text = "Ca";
-            this.button9.UseVisualStyleBackColor = false;
-            // 
-            // button10
-            // 
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button10.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button10.ForeColor = System.Drawing.Color.White;
-            this.button10.Location = new System.Drawing.Point(112, 205);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(49, 39);
-            this.button10.TabIndex = 20;
-            this.button10.Text = "Ca";
-            this.button10.UseVisualStyleBackColor = false;
-            // 
-            // button11
-            // 
-            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button11.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button11.ForeColor = System.Drawing.Color.White;
-            this.button11.Location = new System.Drawing.Point(112, 250);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(49, 39);
-            this.button11.TabIndex = 21;
-            this.button11.Text = "Ca";
-            this.button11.UseVisualStyleBackColor = false;
-            // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(112, 294);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(49, 39);
-            this.button12.TabIndex = 22;
-            this.button12.Text = "Ca";
-            this.button12.UseVisualStyleBackColor = false;
-            // 
-            // button13
-            // 
-            this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button13.ForeColor = System.Drawing.Color.White;
-            this.button13.Location = new System.Drawing.Point(167, 160);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(49, 39);
-            this.button13.TabIndex = 23;
-            this.button13.Text = "Ca";
-            this.button13.UseVisualStyleBackColor = false;
-            // 
-            // button14
-            // 
-            this.button14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button14.ForeColor = System.Drawing.Color.White;
-            this.button14.Location = new System.Drawing.Point(222, 160);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(49, 39);
-            this.button14.TabIndex = 24;
-            this.button14.Text = "Ca";
-            this.button14.UseVisualStyleBackColor = false;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(277, 160);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(49, 39);
-            this.button15.TabIndex = 25;
-            this.button15.Text = "Ca";
-            this.button15.UseVisualStyleBackColor = false;
-            // 
-            // button16
-            // 
-            this.button16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button16.ForeColor = System.Drawing.Color.White;
-            this.button16.Location = new System.Drawing.Point(332, 160);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(49, 39);
-            this.button16.TabIndex = 26;
-            this.button16.Text = "Ca";
-            this.button16.UseVisualStyleBackColor = false;
-            // 
-            // button17
-            // 
-            this.button17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(387, 160);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(49, 39);
-            this.button17.TabIndex = 27;
-            this.button17.Text = "Ca";
-            this.button17.UseVisualStyleBackColor = false;
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(442, 160);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(49, 39);
-            this.button18.TabIndex = 28;
-            this.button18.Text = "Ca";
-            this.button18.UseVisualStyleBackColor = false;
-            // 
-            // button19
-            // 
-            this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button19.ForeColor = System.Drawing.Color.White;
-            this.button19.Location = new System.Drawing.Point(497, 160);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(49, 39);
-            this.button19.TabIndex = 29;
-            this.button19.Text = "Ca";
-            this.button19.UseVisualStyleBackColor = false;
-            // 
-            // button20
-            // 
-            this.button20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button20.ForeColor = System.Drawing.Color.White;
-            this.button20.Location = new System.Drawing.Point(552, 160);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(49, 39);
-            this.button20.TabIndex = 30;
-            this.button20.Text = "Ca";
-            this.button20.UseVisualStyleBackColor = false;
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(607, 160);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(49, 39);
-            this.button21.TabIndex = 31;
-            this.button21.Text = "Ca";
-            this.button21.UseVisualStyleBackColor = false;
-            // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button22.ForeColor = System.Drawing.Color.White;
-            this.button22.Location = new System.Drawing.Point(662, 160);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(49, 39);
-            this.button22.TabIndex = 32;
-            this.button22.Text = "Ca";
-            this.button22.UseVisualStyleBackColor = false;
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button23.ForeColor = System.Drawing.Color.White;
-            this.button23.Location = new System.Drawing.Point(717, 160);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(49, 39);
-            this.button23.TabIndex = 33;
-            this.button23.Text = "Ca";
-            this.button23.UseVisualStyleBackColor = false;
-            // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button24.ForeColor = System.Drawing.Color.White;
-            this.button24.Location = new System.Drawing.Point(717, 115);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(49, 39);
-            this.button24.TabIndex = 34;
-            this.button24.Text = "Ca";
-            this.button24.UseVisualStyleBackColor = false;
-            // 
-            // button25
-            // 
-            this.button25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button25.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button25.FlatAppearance.BorderSize = 0;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button25.ForeColor = System.Drawing.Color.White;
-            this.button25.Location = new System.Drawing.Point(718, 70);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(49, 39);
-            this.button25.TabIndex = 35;
-            this.button25.Text = "Ca";
-            this.button25.UseVisualStyleBackColor = false;
-            // 
-            // button26
-            // 
-            this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button26.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button26.ForeColor = System.Drawing.Color.White;
-            this.button26.Location = new System.Drawing.Point(773, 70);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(49, 39);
-            this.button26.TabIndex = 36;
-            this.button26.Text = "Ca";
-            this.button26.UseVisualStyleBackColor = false;
-            // 
-            // button27
-            // 
-            this.button27.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button27.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button27.FlatAppearance.BorderSize = 0;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button27.ForeColor = System.Drawing.Color.White;
-            this.button27.Location = new System.Drawing.Point(828, 70);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(49, 39);
-            this.button27.TabIndex = 37;
-            this.button27.Text = "Ca";
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button28.ForeColor = System.Drawing.Color.White;
-            this.button28.Location = new System.Drawing.Point(883, 70);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(49, 39);
-            this.button28.TabIndex = 38;
-            this.button28.Text = "Ca";
-            this.button28.UseVisualStyleBackColor = false;
-            // 
-            // button29
-            // 
-            this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button29.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button29.FlatAppearance.BorderSize = 0;
-            this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button29.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button29.ForeColor = System.Drawing.Color.White;
-            this.button29.Location = new System.Drawing.Point(938, 70);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(49, 39);
-            this.button29.TabIndex = 39;
-            this.button29.Text = "Ca";
-            this.button29.UseVisualStyleBackColor = false;
-            // 
-            // button30
-            // 
-            this.button30.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button30.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button30.FlatAppearance.BorderSize = 0;
-            this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button30.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button30.ForeColor = System.Drawing.Color.White;
-            this.button30.Location = new System.Drawing.Point(993, 70);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(49, 39);
-            this.button30.TabIndex = 40;
-            this.button30.Text = "Ca";
-            this.button30.UseVisualStyleBackColor = false;
-            // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button31.FlatAppearance.BorderSize = 0;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button31.ForeColor = System.Drawing.Color.White;
-            this.button31.Location = new System.Drawing.Point(993, 25);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(49, 39);
-            this.button31.TabIndex = 41;
-            this.button31.Text = "Ca";
-            this.button31.UseVisualStyleBackColor = false;
-            // 
-            // button32
-            // 
-            this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button32.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button32.FlatAppearance.BorderSize = 0;
-            this.button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button32.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button32.ForeColor = System.Drawing.Color.White;
-            this.button32.Location = new System.Drawing.Point(993, 115);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(49, 39);
-            this.button32.TabIndex = 42;
-            this.button32.Text = "Ca";
-            this.button32.UseVisualStyleBackColor = false;
-            // 
-            // button33
-            // 
-            this.button33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button33.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button33.FlatAppearance.BorderSize = 0;
-            this.button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button33.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button33.ForeColor = System.Drawing.Color.White;
-            this.button33.Location = new System.Drawing.Point(773, 115);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(49, 39);
-            this.button33.TabIndex = 43;
-            this.button33.Text = "Ca";
-            this.button33.UseVisualStyleBackColor = false;
-            // 
-            // button34
-            // 
-            this.button34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button34.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button34.FlatAppearance.BorderSize = 0;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button34.ForeColor = System.Drawing.Color.White;
-            this.button34.Location = new System.Drawing.Point(828, 115);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(49, 39);
-            this.button34.TabIndex = 44;
-            this.button34.Text = "Ca";
-            this.button34.UseVisualStyleBackColor = false;
-            // 
-            // button35
-            // 
-            this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button35.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button35.FlatAppearance.BorderSize = 0;
-            this.button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button35.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button35.ForeColor = System.Drawing.Color.White;
-            this.button35.Location = new System.Drawing.Point(883, 115);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(49, 39);
-            this.button35.TabIndex = 45;
-            this.button35.Text = "Ca";
-            this.button35.UseVisualStyleBackColor = false;
-            // 
-            // button36
-            // 
-            this.button36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button36.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button36.FlatAppearance.BorderSize = 0;
-            this.button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button36.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button36.ForeColor = System.Drawing.Color.White;
-            this.button36.Location = new System.Drawing.Point(938, 115);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(49, 39);
-            this.button36.TabIndex = 46;
-            this.button36.Text = "Ca";
-            this.button36.UseVisualStyleBackColor = false;
-            // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button37.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button37.FlatAppearance.BorderSize = 0;
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button37.ForeColor = System.Drawing.Color.White;
-            this.button37.Location = new System.Drawing.Point(773, 160);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(49, 39);
-            this.button37.TabIndex = 47;
-            this.button37.Text = "Ca";
-            this.button37.UseVisualStyleBackColor = false;
-            // 
-            // button38
-            // 
-            this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button38.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button38.FlatAppearance.BorderSize = 0;
-            this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button38.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button38.ForeColor = System.Drawing.Color.White;
-            this.button38.Location = new System.Drawing.Point(828, 160);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(49, 39);
-            this.button38.TabIndex = 48;
-            this.button38.Text = "Ca";
-            this.button38.UseVisualStyleBackColor = false;
-            // 
-            // button39
-            // 
-            this.button39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button39.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button39.FlatAppearance.BorderSize = 0;
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button39.ForeColor = System.Drawing.Color.White;
-            this.button39.Location = new System.Drawing.Point(883, 160);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(49, 39);
-            this.button39.TabIndex = 49;
-            this.button39.Text = "Ca";
-            this.button39.UseVisualStyleBackColor = false;
-            // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button40.FlatAppearance.BorderSize = 0;
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button40.ForeColor = System.Drawing.Color.White;
-            this.button40.Location = new System.Drawing.Point(938, 160);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(49, 39);
-            this.button40.TabIndex = 50;
-            this.button40.Text = "Ca";
-            this.button40.UseVisualStyleBackColor = false;
-            // 
-            // button41
-            // 
-            this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button41.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button41.FlatAppearance.BorderSize = 0;
-            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button41.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button41.ForeColor = System.Drawing.Color.White;
-            this.button41.Location = new System.Drawing.Point(993, 160);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(49, 39);
-            this.button41.TabIndex = 51;
-            this.button41.Text = "Ca";
-            this.button41.UseVisualStyleBackColor = false;
-            // 
-            // button42
-            // 
-            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button42.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button42.FlatAppearance.BorderSize = 0;
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button42.ForeColor = System.Drawing.Color.White;
-            this.button42.Location = new System.Drawing.Point(993, 205);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(49, 39);
-            this.button42.TabIndex = 52;
-            this.button42.Text = "Ca";
-            this.button42.UseVisualStyleBackColor = false;
-            // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button43.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button43.FlatAppearance.BorderSize = 0;
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button43.ForeColor = System.Drawing.Color.White;
-            this.button43.Location = new System.Drawing.Point(993, 249);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(49, 39);
-            this.button43.TabIndex = 53;
-            this.button43.Text = "Ca";
-            this.button43.UseVisualStyleBackColor = false;
-            // 
-            // button44
-            // 
-            this.button44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button44.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button44.FlatAppearance.BorderSize = 0;
-            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button44.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button44.ForeColor = System.Drawing.Color.White;
-            this.button44.Location = new System.Drawing.Point(993, 294);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(49, 39);
-            this.button44.TabIndex = 54;
-            this.button44.Text = "Ca";
-            this.button44.UseVisualStyleBackColor = false;
-            // 
-            // button45
-            // 
-            this.button45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button45.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button45.FlatAppearance.BorderSize = 0;
-            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button45.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button45.ForeColor = System.Drawing.Color.White;
-            this.button45.Location = new System.Drawing.Point(167, 294);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(49, 39);
-            this.button45.TabIndex = 55;
-            this.button45.Text = "Ca";
-            this.button45.UseVisualStyleBackColor = false;
-            // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button46.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button46.FlatAppearance.BorderSize = 0;
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button46.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button46.ForeColor = System.Drawing.Color.White;
-            this.button46.Location = new System.Drawing.Point(222, 294);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(49, 39);
-            this.button46.TabIndex = 56;
-            this.button46.Text = "Ca";
-            this.button46.UseVisualStyleBackColor = false;
-            // 
-            // button47
-            // 
-            this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button47.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button47.FlatAppearance.BorderSize = 0;
-            this.button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button47.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button47.ForeColor = System.Drawing.Color.White;
-            this.button47.Location = new System.Drawing.Point(277, 294);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(49, 39);
-            this.button47.TabIndex = 57;
-            this.button47.Text = "Ca";
-            this.button47.UseVisualStyleBackColor = false;
-            // 
-            // button48
-            // 
-            this.button48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button48.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button48.FlatAppearance.BorderSize = 0;
-            this.button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button48.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button48.ForeColor = System.Drawing.Color.White;
-            this.button48.Location = new System.Drawing.Point(332, 294);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(49, 39);
-            this.button48.TabIndex = 58;
-            this.button48.Text = "Ca";
-            this.button48.UseVisualStyleBackColor = false;
-            // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button49.FlatAppearance.BorderSize = 0;
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button49.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button49.ForeColor = System.Drawing.Color.White;
-            this.button49.Location = new System.Drawing.Point(387, 294);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(49, 39);
-            this.button49.TabIndex = 59;
-            this.button49.Text = "Ca";
-            this.button49.UseVisualStyleBackColor = false;
-            // 
-            // button50
-            // 
-            this.button50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button50.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button50.FlatAppearance.BorderSize = 0;
-            this.button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button50.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button50.ForeColor = System.Drawing.Color.White;
-            this.button50.Location = new System.Drawing.Point(442, 294);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(49, 39);
-            this.button50.TabIndex = 60;
-            this.button50.Text = "Ca";
-            this.button50.UseVisualStyleBackColor = false;
-            // 
-            // button51
-            // 
-            this.button51.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button51.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button51.FlatAppearance.BorderSize = 0;
-            this.button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button51.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button51.ForeColor = System.Drawing.Color.White;
-            this.button51.Location = new System.Drawing.Point(497, 294);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(49, 39);
-            this.button51.TabIndex = 61;
-            this.button51.Text = "Ca";
-            this.button51.UseVisualStyleBackColor = false;
-            // 
-            // button52
-            // 
-            this.button52.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button52.FlatAppearance.BorderSize = 0;
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button52.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button52.ForeColor = System.Drawing.Color.White;
-            this.button52.Location = new System.Drawing.Point(552, 294);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(49, 39);
-            this.button52.TabIndex = 62;
-            this.button52.Text = "Ca";
-            this.button52.UseVisualStyleBackColor = false;
-            // 
-            // button53
-            // 
-            this.button53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button53.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button53.FlatAppearance.BorderSize = 0;
-            this.button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button53.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button53.ForeColor = System.Drawing.Color.White;
-            this.button53.Location = new System.Drawing.Point(607, 294);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(49, 39);
-            this.button53.TabIndex = 63;
-            this.button53.Text = "Ca";
-            this.button53.UseVisualStyleBackColor = false;
-            // 
-            // button54
-            // 
-            this.button54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button54.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button54.FlatAppearance.BorderSize = 0;
-            this.button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button54.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button54.ForeColor = System.Drawing.Color.White;
-            this.button54.Location = new System.Drawing.Point(662, 294);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(49, 39);
-            this.button54.TabIndex = 64;
-            this.button54.Text = "Ca";
-            this.button54.UseVisualStyleBackColor = false;
-            // 
-            // button55
-            // 
-            this.button55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button55.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button55.FlatAppearance.BorderSize = 0;
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button55.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button55.ForeColor = System.Drawing.Color.White;
-            this.button55.Location = new System.Drawing.Point(717, 294);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(49, 39);
-            this.button55.TabIndex = 65;
-            this.button55.Text = "Ca";
-            this.button55.UseVisualStyleBackColor = false;
-            // 
-            // button56
-            // 
-            this.button56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button56.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button56.FlatAppearance.BorderSize = 0;
-            this.button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button56.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button56.ForeColor = System.Drawing.Color.White;
-            this.button56.Location = new System.Drawing.Point(773, 294);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(49, 39);
-            this.button56.TabIndex = 66;
-            this.button56.Text = "Ca";
-            this.button56.UseVisualStyleBackColor = false;
-            // 
-            // button57
-            // 
-            this.button57.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button57.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button57.FlatAppearance.BorderSize = 0;
-            this.button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button57.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button57.ForeColor = System.Drawing.Color.White;
-            this.button57.Location = new System.Drawing.Point(828, 294);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(49, 39);
-            this.button57.TabIndex = 67;
-            this.button57.Text = "Ca";
-            this.button57.UseVisualStyleBackColor = false;
-            // 
-            // button58
-            // 
-            this.button58.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button58.FlatAppearance.BorderSize = 0;
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button58.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button58.ForeColor = System.Drawing.Color.White;
-            this.button58.Location = new System.Drawing.Point(883, 294);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(49, 39);
-            this.button58.TabIndex = 68;
-            this.button58.Text = "Ca";
-            this.button58.UseVisualStyleBackColor = false;
-            // 
-            // button59
-            // 
-            this.button59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button59.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button59.FlatAppearance.BorderSize = 0;
-            this.button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button59.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button59.ForeColor = System.Drawing.Color.White;
-            this.button59.Location = new System.Drawing.Point(938, 294);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(49, 39);
-            this.button59.TabIndex = 69;
-            this.button59.Text = "Ca";
-            this.button59.UseVisualStyleBackColor = false;
-            // 
-            // button60
-            // 
-            this.button60.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button60.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button60.FlatAppearance.BorderSize = 0;
-            this.button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button60.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button60.ForeColor = System.Drawing.Color.White;
-            this.button60.Location = new System.Drawing.Point(167, 205);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(49, 39);
-            this.button60.TabIndex = 70;
-            this.button60.Text = "Ca";
-            this.button60.UseVisualStyleBackColor = false;
+            // btnAstatine
+            // 
+            this.btnAstatine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnAstatine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAstatine.FlatAppearance.BorderSize = 0;
+            this.btnAstatine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAstatine.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnAstatine.ForeColor = System.Drawing.Color.White;
+            this.btnAstatine.Location = new System.Drawing.Point(704, 202);
+            this.btnAstatine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAstatine.Name = "btnAstatine";
+            this.btnAstatine.Size = new System.Drawing.Size(37, 32);
+            this.btnAstatine.TabIndex = 99;
+            this.btnAstatine.Text = "At";
+            this.btnAstatine.UseVisualStyleBackColor = false;
+            // 
+            // btnPolonium
+            // 
+            this.btnPolonium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnPolonium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPolonium.FlatAppearance.BorderSize = 0;
+            this.btnPolonium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPolonium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnPolonium.ForeColor = System.Drawing.Color.White;
+            this.btnPolonium.Location = new System.Drawing.Point(662, 202);
+            this.btnPolonium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPolonium.Name = "btnPolonium";
+            this.btnPolonium.Size = new System.Drawing.Size(37, 32);
+            this.btnPolonium.TabIndex = 98;
+            this.btnPolonium.Text = "Po";
+            this.btnPolonium.UseVisualStyleBackColor = false;
+            // 
+            // btnBismuth
+            // 
+            this.btnBismuth.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnBismuth.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBismuth.FlatAppearance.BorderSize = 0;
+            this.btnBismuth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBismuth.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnBismuth.ForeColor = System.Drawing.Color.White;
+            this.btnBismuth.Location = new System.Drawing.Point(621, 202);
+            this.btnBismuth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBismuth.Name = "btnBismuth";
+            this.btnBismuth.Size = new System.Drawing.Size(37, 32);
+            this.btnBismuth.TabIndex = 97;
+            this.btnBismuth.Text = "Bi";
+            this.btnBismuth.UseVisualStyleBackColor = false;
+            // 
+            // btnLead
+            // 
+            this.btnLead.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnLead.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLead.FlatAppearance.BorderSize = 0;
+            this.btnLead.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLead.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnLead.ForeColor = System.Drawing.Color.White;
+            this.btnLead.Location = new System.Drawing.Point(580, 202);
+            this.btnLead.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLead.Name = "btnLead";
+            this.btnLead.Size = new System.Drawing.Size(37, 32);
+            this.btnLead.TabIndex = 96;
+            this.btnLead.Text = "Pb";
+            this.btnLead.UseVisualStyleBackColor = false;
+            // 
+            // btnThallium
+            // 
+            this.btnThallium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnThallium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnThallium.FlatAppearance.BorderSize = 0;
+            this.btnThallium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnThallium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnThallium.ForeColor = System.Drawing.Color.White;
+            this.btnThallium.Location = new System.Drawing.Point(538, 203);
+            this.btnThallium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThallium.Name = "btnThallium";
+            this.btnThallium.Size = new System.Drawing.Size(37, 32);
+            this.btnThallium.TabIndex = 95;
+            this.btnThallium.Text = "Tl";
+            this.btnThallium.UseVisualStyleBackColor = false;
+            // 
+            // btnMercury
+            // 
+            this.btnMercury.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnMercury.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMercury.FlatAppearance.BorderSize = 0;
+            this.btnMercury.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMercury.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnMercury.ForeColor = System.Drawing.Color.White;
+            this.btnMercury.Location = new System.Drawing.Point(496, 203);
+            this.btnMercury.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMercury.Name = "btnMercury";
+            this.btnMercury.Size = new System.Drawing.Size(37, 32);
+            this.btnMercury.TabIndex = 94;
+            this.btnMercury.Text = "Hg";
+            this.btnMercury.UseVisualStyleBackColor = false;
+            // 
+            // btnGold
+            // 
+            this.btnGold.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnGold.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGold.FlatAppearance.BorderSize = 0;
+            this.btnGold.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGold.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnGold.ForeColor = System.Drawing.Color.White;
+            this.btnGold.Location = new System.Drawing.Point(455, 203);
+            this.btnGold.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGold.Name = "btnGold";
+            this.btnGold.Size = new System.Drawing.Size(37, 32);
+            this.btnGold.TabIndex = 93;
+            this.btnGold.Text = "Au";
+            this.btnGold.UseVisualStyleBackColor = false;
+            // 
+            // btnPlatinum
+            // 
+            this.btnPlatinum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnPlatinum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPlatinum.FlatAppearance.BorderSize = 0;
+            this.btnPlatinum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPlatinum.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnPlatinum.ForeColor = System.Drawing.Color.White;
+            this.btnPlatinum.Location = new System.Drawing.Point(414, 202);
+            this.btnPlatinum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPlatinum.Name = "btnPlatinum";
+            this.btnPlatinum.Size = new System.Drawing.Size(37, 32);
+            this.btnPlatinum.TabIndex = 92;
+            this.btnPlatinum.Text = "Pt";
+            this.btnPlatinum.UseVisualStyleBackColor = false;
+            // 
+            // btnIridium
+            // 
+            this.btnIridium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnIridium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIridium.FlatAppearance.BorderSize = 0;
+            this.btnIridium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIridium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnIridium.ForeColor = System.Drawing.Color.White;
+            this.btnIridium.Location = new System.Drawing.Point(373, 202);
+            this.btnIridium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIridium.Name = "btnIridium";
+            this.btnIridium.Size = new System.Drawing.Size(37, 32);
+            this.btnIridium.TabIndex = 91;
+            this.btnIridium.Text = "Ir";
+            this.btnIridium.UseVisualStyleBackColor = false;
+            // 
+            // btnOsmium
+            // 
+            this.btnOsmium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnOsmium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOsmium.FlatAppearance.BorderSize = 0;
+            this.btnOsmium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOsmium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnOsmium.ForeColor = System.Drawing.Color.White;
+            this.btnOsmium.Location = new System.Drawing.Point(332, 203);
+            this.btnOsmium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOsmium.Name = "btnOsmium";
+            this.btnOsmium.Size = new System.Drawing.Size(37, 32);
+            this.btnOsmium.TabIndex = 90;
+            this.btnOsmium.Text = "Os";
+            this.btnOsmium.UseVisualStyleBackColor = false;
+            // 
+            // btnRhenium
+            // 
+            this.btnRhenium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRhenium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRhenium.FlatAppearance.BorderSize = 0;
+            this.btnRhenium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRhenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRhenium.ForeColor = System.Drawing.Color.White;
+            this.btnRhenium.Location = new System.Drawing.Point(290, 202);
+            this.btnRhenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRhenium.Name = "btnRhenium";
+            this.btnRhenium.Size = new System.Drawing.Size(37, 32);
+            this.btnRhenium.TabIndex = 89;
+            this.btnRhenium.Text = "Re";
+            this.btnRhenium.UseVisualStyleBackColor = false;
+            // 
+            // btnTungsten
+            // 
+            this.btnTungsten.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnTungsten.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTungsten.FlatAppearance.BorderSize = 0;
+            this.btnTungsten.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTungsten.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnTungsten.ForeColor = System.Drawing.Color.White;
+            this.btnTungsten.Location = new System.Drawing.Point(249, 202);
+            this.btnTungsten.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTungsten.Name = "btnTungsten";
+            this.btnTungsten.Size = new System.Drawing.Size(37, 32);
+            this.btnTungsten.TabIndex = 88;
+            this.btnTungsten.Text = "W";
+            this.btnTungsten.UseVisualStyleBackColor = false;
+            // 
+            // btnTantalum
+            // 
+            this.btnTantalum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnTantalum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTantalum.FlatAppearance.BorderSize = 0;
+            this.btnTantalum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTantalum.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnTantalum.ForeColor = System.Drawing.Color.White;
+            this.btnTantalum.Location = new System.Drawing.Point(208, 202);
+            this.btnTantalum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTantalum.Name = "btnTantalum";
+            this.btnTantalum.Size = new System.Drawing.Size(37, 32);
+            this.btnTantalum.TabIndex = 87;
+            this.btnTantalum.Text = "Ta";
+            this.btnTantalum.UseVisualStyleBackColor = false;
+            // 
+            // btnHafnium
+            // 
+            this.btnHafnium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnHafnium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHafnium.FlatAppearance.BorderSize = 0;
+            this.btnHafnium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHafnium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnHafnium.ForeColor = System.Drawing.Color.White;
+            this.btnHafnium.Location = new System.Drawing.Point(166, 202);
+            this.btnHafnium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHafnium.Name = "btnHafnium";
+            this.btnHafnium.Size = new System.Drawing.Size(37, 32);
+            this.btnHafnium.TabIndex = 86;
+            this.btnHafnium.Text = "Hf";
+            this.btnHafnium.UseVisualStyleBackColor = false;
+            // 
+            // btnIodine
+            // 
+            this.btnIodine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnIodine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIodine.FlatAppearance.BorderSize = 0;
+            this.btnIodine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIodine.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnIodine.ForeColor = System.Drawing.Color.White;
+            this.btnIodine.Location = new System.Drawing.Point(704, 167);
+            this.btnIodine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIodine.Name = "btnIodine";
+            this.btnIodine.Size = new System.Drawing.Size(37, 32);
+            this.btnIodine.TabIndex = 85;
+            this.btnIodine.Text = "I";
+            this.btnIodine.UseVisualStyleBackColor = false;
+            // 
+            // btnTellurium
+            // 
+            this.btnTellurium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnTellurium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTellurium.FlatAppearance.BorderSize = 0;
+            this.btnTellurium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTellurium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnTellurium.ForeColor = System.Drawing.Color.White;
+            this.btnTellurium.Location = new System.Drawing.Point(662, 167);
+            this.btnTellurium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTellurium.Name = "btnTellurium";
+            this.btnTellurium.Size = new System.Drawing.Size(37, 32);
+            this.btnTellurium.TabIndex = 84;
+            this.btnTellurium.Text = "Te";
+            this.btnTellurium.UseVisualStyleBackColor = false;
+            // 
+            // btnAntimony
+            // 
+            this.btnAntimony.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnAntimony.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAntimony.FlatAppearance.BorderSize = 0;
+            this.btnAntimony.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAntimony.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnAntimony.ForeColor = System.Drawing.Color.White;
+            this.btnAntimony.Location = new System.Drawing.Point(621, 167);
+            this.btnAntimony.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAntimony.Name = "btnAntimony";
+            this.btnAntimony.Size = new System.Drawing.Size(37, 32);
+            this.btnAntimony.TabIndex = 83;
+            this.btnAntimony.Text = "Sb";
+            this.btnAntimony.UseVisualStyleBackColor = false;
+            // 
+            // btnTin
+            // 
+            this.btnTin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnTin.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTin.FlatAppearance.BorderSize = 0;
+            this.btnTin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTin.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnTin.ForeColor = System.Drawing.Color.White;
+            this.btnTin.Location = new System.Drawing.Point(580, 167);
+            this.btnTin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTin.Name = "btnTin";
+            this.btnTin.Size = new System.Drawing.Size(37, 32);
+            this.btnTin.TabIndex = 82;
+            this.btnTin.Text = "Sn";
+            this.btnTin.UseVisualStyleBackColor = false;
+            // 
+            // btnIndium
+            // 
+            this.btnIndium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnIndium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIndium.FlatAppearance.BorderSize = 0;
+            this.btnIndium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIndium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnIndium.ForeColor = System.Drawing.Color.White;
+            this.btnIndium.Location = new System.Drawing.Point(538, 167);
+            this.btnIndium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIndium.Name = "btnIndium";
+            this.btnIndium.Size = new System.Drawing.Size(37, 32);
+            this.btnIndium.TabIndex = 81;
+            this.btnIndium.Text = "In";
+            this.btnIndium.UseVisualStyleBackColor = false;
+            // 
+            // btnCadmium
+            // 
+            this.btnCadmium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnCadmium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCadmium.FlatAppearance.BorderSize = 0;
+            this.btnCadmium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCadmium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnCadmium.ForeColor = System.Drawing.Color.White;
+            this.btnCadmium.Location = new System.Drawing.Point(496, 167);
+            this.btnCadmium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCadmium.Name = "btnCadmium";
+            this.btnCadmium.Size = new System.Drawing.Size(37, 32);
+            this.btnCadmium.TabIndex = 80;
+            this.btnCadmium.Text = "Cd";
+            this.btnCadmium.UseVisualStyleBackColor = false;
+            // 
+            // btnSilver
+            // 
+            this.btnSilver.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnSilver.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSilver.FlatAppearance.BorderSize = 0;
+            this.btnSilver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSilver.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnSilver.ForeColor = System.Drawing.Color.White;
+            this.btnSilver.Location = new System.Drawing.Point(455, 167);
+            this.btnSilver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSilver.Name = "btnSilver";
+            this.btnSilver.Size = new System.Drawing.Size(37, 32);
+            this.btnSilver.TabIndex = 79;
+            this.btnSilver.Text = "Ag";
+            this.btnSilver.UseVisualStyleBackColor = false;
+            // 
+            // btnPalladium
+            // 
+            this.btnPalladium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnPalladium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPalladium.FlatAppearance.BorderSize = 0;
+            this.btnPalladium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPalladium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnPalladium.ForeColor = System.Drawing.Color.White;
+            this.btnPalladium.Location = new System.Drawing.Point(414, 167);
+            this.btnPalladium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPalladium.Name = "btnPalladium";
+            this.btnPalladium.Size = new System.Drawing.Size(37, 32);
+            this.btnPalladium.TabIndex = 78;
+            this.btnPalladium.Text = "Pd";
+            this.btnPalladium.UseVisualStyleBackColor = false;
+            // 
+            // btnRhodium
+            // 
+            this.btnRhodium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRhodium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRhodium.FlatAppearance.BorderSize = 0;
+            this.btnRhodium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRhodium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRhodium.ForeColor = System.Drawing.Color.White;
+            this.btnRhodium.Location = new System.Drawing.Point(373, 167);
+            this.btnRhodium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRhodium.Name = "btnRhodium";
+            this.btnRhodium.Size = new System.Drawing.Size(37, 32);
+            this.btnRhodium.TabIndex = 77;
+            this.btnRhodium.Text = "Rh";
+            this.btnRhodium.UseVisualStyleBackColor = false;
+            // 
+            // btnRuthenium
+            // 
+            this.btnRuthenium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRuthenium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRuthenium.FlatAppearance.BorderSize = 0;
+            this.btnRuthenium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRuthenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRuthenium.ForeColor = System.Drawing.Color.White;
+            this.btnRuthenium.Location = new System.Drawing.Point(332, 167);
+            this.btnRuthenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRuthenium.Name = "btnRuthenium";
+            this.btnRuthenium.Size = new System.Drawing.Size(37, 32);
+            this.btnRuthenium.TabIndex = 76;
+            this.btnRuthenium.Text = "Ru";
+            this.btnRuthenium.UseVisualStyleBackColor = false;
+            // 
+            // btnTechnetium
+            // 
+            this.btnTechnetium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnTechnetium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTechnetium.FlatAppearance.BorderSize = 0;
+            this.btnTechnetium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTechnetium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnTechnetium.ForeColor = System.Drawing.Color.White;
+            this.btnTechnetium.Location = new System.Drawing.Point(290, 167);
+            this.btnTechnetium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTechnetium.Name = "btnTechnetium";
+            this.btnTechnetium.Size = new System.Drawing.Size(37, 32);
+            this.btnTechnetium.TabIndex = 75;
+            this.btnTechnetium.Text = "Tc";
+            this.btnTechnetium.UseVisualStyleBackColor = false;
+            // 
+            // btnMolybdenum
+            // 
+            this.btnMolybdenum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnMolybdenum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMolybdenum.FlatAppearance.BorderSize = 0;
+            this.btnMolybdenum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMolybdenum.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnMolybdenum.ForeColor = System.Drawing.Color.White;
+            this.btnMolybdenum.Location = new System.Drawing.Point(249, 167);
+            this.btnMolybdenum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMolybdenum.Name = "btnMolybdenum";
+            this.btnMolybdenum.Size = new System.Drawing.Size(37, 32);
+            this.btnMolybdenum.TabIndex = 74;
+            this.btnMolybdenum.Text = "Mo";
+            this.btnMolybdenum.UseVisualStyleBackColor = false;
+            // 
+            // btnNiobium
+            // 
+            this.btnNiobium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnNiobium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNiobium.FlatAppearance.BorderSize = 0;
+            this.btnNiobium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNiobium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnNiobium.ForeColor = System.Drawing.Color.White;
+            this.btnNiobium.Location = new System.Drawing.Point(208, 167);
+            this.btnNiobium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNiobium.Name = "btnNiobium";
+            this.btnNiobium.Size = new System.Drawing.Size(37, 32);
+            this.btnNiobium.TabIndex = 73;
+            this.btnNiobium.Text = "Nb";
+            this.btnNiobium.UseVisualStyleBackColor = false;
+            // 
+            // btnZirconium
+            // 
+            this.btnZirconium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnZirconium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnZirconium.FlatAppearance.BorderSize = 0;
+            this.btnZirconium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnZirconium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnZirconium.ForeColor = System.Drawing.Color.White;
+            this.btnZirconium.Location = new System.Drawing.Point(166, 167);
+            this.btnZirconium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnZirconium.Name = "btnZirconium";
+            this.btnZirconium.Size = new System.Drawing.Size(37, 32);
+            this.btnZirconium.TabIndex = 72;
+            this.btnZirconium.Text = "Zr";
+            this.btnZirconium.UseVisualStyleBackColor = false;
             // 
             // button61
             // 
@@ -1264,441 +784,1022 @@
             this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button61.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.button61.ForeColor = System.Drawing.Color.White;
-            this.button61.Location = new System.Drawing.Point(167, 249);
+            this.button61.Location = new System.Drawing.Point(125, 202);
+            this.button61.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(49, 39);
+            this.button61.Size = new System.Drawing.Size(37, 32);
             this.button61.TabIndex = 71;
             this.button61.Text = "Ca";
             this.button61.UseVisualStyleBackColor = false;
             // 
-            // button62
+            // btnYttrium
             // 
-            this.button62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button62.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button62.FlatAppearance.BorderSize = 0;
-            this.button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button62.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button62.ForeColor = System.Drawing.Color.White;
-            this.button62.Location = new System.Drawing.Point(222, 205);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(49, 39);
-            this.button62.TabIndex = 72;
-            this.button62.Text = "Ca";
-            this.button62.UseVisualStyleBackColor = false;
+            this.btnYttrium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnYttrium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnYttrium.FlatAppearance.BorderSize = 0;
+            this.btnYttrium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnYttrium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnYttrium.ForeColor = System.Drawing.Color.White;
+            this.btnYttrium.Location = new System.Drawing.Point(125, 167);
+            this.btnYttrium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnYttrium.Name = "btnYttrium";
+            this.btnYttrium.Size = new System.Drawing.Size(37, 32);
+            this.btnYttrium.TabIndex = 70;
+            this.btnYttrium.Text = "Y";
+            this.btnYttrium.UseVisualStyleBackColor = false;
             // 
-            // button63
+            // btnTennessine
             // 
-            this.button63.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button63.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button63.FlatAppearance.BorderSize = 0;
-            this.button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button63.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button63.ForeColor = System.Drawing.Color.White;
-            this.button63.Location = new System.Drawing.Point(277, 205);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(49, 39);
-            this.button63.TabIndex = 73;
-            this.button63.Text = "Ca";
-            this.button63.UseVisualStyleBackColor = false;
+            this.btnTennessine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnTennessine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTennessine.FlatAppearance.BorderSize = 0;
+            this.btnTennessine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTennessine.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnTennessine.ForeColor = System.Drawing.Color.White;
+            this.btnTennessine.Location = new System.Drawing.Point(704, 239);
+            this.btnTennessine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTennessine.Name = "btnTennessine";
+            this.btnTennessine.Size = new System.Drawing.Size(37, 32);
+            this.btnTennessine.TabIndex = 69;
+            this.btnTennessine.Text = "Ts";
+            this.btnTennessine.UseVisualStyleBackColor = false;
             // 
-            // button64
+            // btnLivermorium
             // 
-            this.button64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button64.FlatAppearance.BorderSize = 0;
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button64.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button64.ForeColor = System.Drawing.Color.White;
-            this.button64.Location = new System.Drawing.Point(332, 205);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(49, 39);
-            this.button64.TabIndex = 74;
-            this.button64.Text = "Ca";
-            this.button64.UseVisualStyleBackColor = false;
+            this.btnLivermorium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnLivermorium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLivermorium.FlatAppearance.BorderSize = 0;
+            this.btnLivermorium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLivermorium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnLivermorium.ForeColor = System.Drawing.Color.White;
+            this.btnLivermorium.Location = new System.Drawing.Point(662, 239);
+            this.btnLivermorium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLivermorium.Name = "btnLivermorium";
+            this.btnLivermorium.Size = new System.Drawing.Size(37, 32);
+            this.btnLivermorium.TabIndex = 68;
+            this.btnLivermorium.Text = "Lv";
+            this.btnLivermorium.UseVisualStyleBackColor = false;
             // 
-            // button65
+            // btnMoscovium
             // 
-            this.button65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button65.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button65.FlatAppearance.BorderSize = 0;
-            this.button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button65.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button65.ForeColor = System.Drawing.Color.White;
-            this.button65.Location = new System.Drawing.Point(387, 205);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(49, 39);
-            this.button65.TabIndex = 75;
-            this.button65.Text = "Ca";
-            this.button65.UseVisualStyleBackColor = false;
+            this.btnMoscovium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnMoscovium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMoscovium.FlatAppearance.BorderSize = 0;
+            this.btnMoscovium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMoscovium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnMoscovium.ForeColor = System.Drawing.Color.White;
+            this.btnMoscovium.Location = new System.Drawing.Point(621, 239);
+            this.btnMoscovium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMoscovium.Name = "btnMoscovium";
+            this.btnMoscovium.Size = new System.Drawing.Size(37, 32);
+            this.btnMoscovium.TabIndex = 67;
+            this.btnMoscovium.Text = "Mc";
+            this.btnMoscovium.UseVisualStyleBackColor = false;
             // 
-            // button66
+            // btnFlerovium
             // 
-            this.button66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button66.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button66.FlatAppearance.BorderSize = 0;
-            this.button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button66.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button66.ForeColor = System.Drawing.Color.White;
-            this.button66.Location = new System.Drawing.Point(442, 205);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(49, 39);
-            this.button66.TabIndex = 76;
-            this.button66.Text = "Ca";
-            this.button66.UseVisualStyleBackColor = false;
+            this.btnFlerovium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnFlerovium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFlerovium.FlatAppearance.BorderSize = 0;
+            this.btnFlerovium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFlerovium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnFlerovium.ForeColor = System.Drawing.Color.White;
+            this.btnFlerovium.Location = new System.Drawing.Point(580, 239);
+            this.btnFlerovium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFlerovium.Name = "btnFlerovium";
+            this.btnFlerovium.Size = new System.Drawing.Size(37, 32);
+            this.btnFlerovium.TabIndex = 66;
+            this.btnFlerovium.Text = "Fl";
+            this.btnFlerovium.UseVisualStyleBackColor = false;
             // 
-            // button67
+            // btnNihonium
             // 
-            this.button67.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button67.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button67.FlatAppearance.BorderSize = 0;
-            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button67.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button67.ForeColor = System.Drawing.Color.White;
-            this.button67.Location = new System.Drawing.Point(497, 205);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(49, 39);
-            this.button67.TabIndex = 77;
-            this.button67.Text = "Ca";
-            this.button67.UseVisualStyleBackColor = false;
+            this.btnNihonium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnNihonium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNihonium.FlatAppearance.BorderSize = 0;
+            this.btnNihonium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNihonium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnNihonium.ForeColor = System.Drawing.Color.White;
+            this.btnNihonium.Location = new System.Drawing.Point(538, 239);
+            this.btnNihonium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNihonium.Name = "btnNihonium";
+            this.btnNihonium.Size = new System.Drawing.Size(37, 32);
+            this.btnNihonium.TabIndex = 65;
+            this.btnNihonium.Text = "Nh";
+            this.btnNihonium.UseVisualStyleBackColor = false;
             // 
-            // button68
+            // btnCopernicium
             // 
-            this.button68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button68.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button68.FlatAppearance.BorderSize = 0;
-            this.button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button68.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button68.ForeColor = System.Drawing.Color.White;
-            this.button68.Location = new System.Drawing.Point(552, 205);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(49, 39);
-            this.button68.TabIndex = 78;
-            this.button68.Text = "Ca";
-            this.button68.UseVisualStyleBackColor = false;
+            this.btnCopernicium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnCopernicium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCopernicium.FlatAppearance.BorderSize = 0;
+            this.btnCopernicium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCopernicium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnCopernicium.ForeColor = System.Drawing.Color.White;
+            this.btnCopernicium.Location = new System.Drawing.Point(496, 239);
+            this.btnCopernicium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCopernicium.Name = "btnCopernicium";
+            this.btnCopernicium.Size = new System.Drawing.Size(37, 32);
+            this.btnCopernicium.TabIndex = 64;
+            this.btnCopernicium.Text = "Cn";
+            this.btnCopernicium.UseVisualStyleBackColor = false;
             // 
-            // button69
+            // btnRoentgenium
             // 
-            this.button69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button69.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button69.FlatAppearance.BorderSize = 0;
-            this.button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button69.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button69.ForeColor = System.Drawing.Color.White;
-            this.button69.Location = new System.Drawing.Point(607, 205);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(49, 39);
-            this.button69.TabIndex = 79;
-            this.button69.Text = "Ca";
-            this.button69.UseVisualStyleBackColor = false;
+            this.btnRoentgenium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRoentgenium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRoentgenium.FlatAppearance.BorderSize = 0;
+            this.btnRoentgenium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRoentgenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRoentgenium.ForeColor = System.Drawing.Color.White;
+            this.btnRoentgenium.Location = new System.Drawing.Point(455, 239);
+            this.btnRoentgenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRoentgenium.Name = "btnRoentgenium";
+            this.btnRoentgenium.Size = new System.Drawing.Size(37, 32);
+            this.btnRoentgenium.TabIndex = 63;
+            this.btnRoentgenium.Text = "Rg";
+            this.btnRoentgenium.UseVisualStyleBackColor = false;
             // 
-            // button70
+            // btnDarmstadtium
             // 
-            this.button70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button70.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button70.FlatAppearance.BorderSize = 0;
-            this.button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button70.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button70.ForeColor = System.Drawing.Color.White;
-            this.button70.Location = new System.Drawing.Point(662, 205);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(49, 39);
-            this.button70.TabIndex = 80;
-            this.button70.Text = "Ca";
-            this.button70.UseVisualStyleBackColor = false;
+            this.btnDarmstadtium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnDarmstadtium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDarmstadtium.FlatAppearance.BorderSize = 0;
+            this.btnDarmstadtium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDarmstadtium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnDarmstadtium.ForeColor = System.Drawing.Color.White;
+            this.btnDarmstadtium.Location = new System.Drawing.Point(414, 239);
+            this.btnDarmstadtium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDarmstadtium.Name = "btnDarmstadtium";
+            this.btnDarmstadtium.Size = new System.Drawing.Size(37, 32);
+            this.btnDarmstadtium.TabIndex = 62;
+            this.btnDarmstadtium.Text = "Ds";
+            this.btnDarmstadtium.UseVisualStyleBackColor = false;
             // 
-            // button71
+            // btnMeitnerium
             // 
-            this.button71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button71.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button71.FlatAppearance.BorderSize = 0;
-            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button71.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button71.ForeColor = System.Drawing.Color.White;
-            this.button71.Location = new System.Drawing.Point(718, 205);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(49, 39);
-            this.button71.TabIndex = 81;
-            this.button71.Text = "Ca";
-            this.button71.UseVisualStyleBackColor = false;
+            this.btnMeitnerium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnMeitnerium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMeitnerium.FlatAppearance.BorderSize = 0;
+            this.btnMeitnerium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMeitnerium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnMeitnerium.ForeColor = System.Drawing.Color.White;
+            this.btnMeitnerium.Location = new System.Drawing.Point(373, 239);
+            this.btnMeitnerium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMeitnerium.Name = "btnMeitnerium";
+            this.btnMeitnerium.Size = new System.Drawing.Size(37, 32);
+            this.btnMeitnerium.TabIndex = 61;
+            this.btnMeitnerium.Text = "Mt";
+            this.btnMeitnerium.UseVisualStyleBackColor = false;
             // 
-            // button72
+            // btnHassium
             // 
-            this.button72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button72.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button72.FlatAppearance.BorderSize = 0;
-            this.button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button72.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button72.ForeColor = System.Drawing.Color.White;
-            this.button72.Location = new System.Drawing.Point(773, 205);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(49, 39);
-            this.button72.TabIndex = 82;
-            this.button72.Text = "Ca";
-            this.button72.UseVisualStyleBackColor = false;
+            this.btnHassium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnHassium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHassium.FlatAppearance.BorderSize = 0;
+            this.btnHassium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHassium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnHassium.ForeColor = System.Drawing.Color.White;
+            this.btnHassium.Location = new System.Drawing.Point(332, 239);
+            this.btnHassium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHassium.Name = "btnHassium";
+            this.btnHassium.Size = new System.Drawing.Size(37, 32);
+            this.btnHassium.TabIndex = 60;
+            this.btnHassium.Text = "Hs";
+            this.btnHassium.UseVisualStyleBackColor = false;
             // 
-            // button73
+            // btnBohrium
             // 
-            this.button73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button73.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button73.FlatAppearance.BorderSize = 0;
-            this.button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button73.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button73.ForeColor = System.Drawing.Color.White;
-            this.button73.Location = new System.Drawing.Point(828, 205);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(49, 39);
-            this.button73.TabIndex = 83;
-            this.button73.Text = "Ca";
-            this.button73.UseVisualStyleBackColor = false;
+            this.btnBohrium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnBohrium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBohrium.FlatAppearance.BorderSize = 0;
+            this.btnBohrium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBohrium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnBohrium.ForeColor = System.Drawing.Color.White;
+            this.btnBohrium.Location = new System.Drawing.Point(290, 239);
+            this.btnBohrium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBohrium.Name = "btnBohrium";
+            this.btnBohrium.Size = new System.Drawing.Size(37, 32);
+            this.btnBohrium.TabIndex = 59;
+            this.btnBohrium.Text = "Bh";
+            this.btnBohrium.UseVisualStyleBackColor = false;
             // 
-            // button74
+            // btnSeaborgium
             // 
-            this.button74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button74.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button74.FlatAppearance.BorderSize = 0;
-            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button74.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button74.ForeColor = System.Drawing.Color.White;
-            this.button74.Location = new System.Drawing.Point(883, 205);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(49, 39);
-            this.button74.TabIndex = 84;
-            this.button74.Text = "Ca";
-            this.button74.UseVisualStyleBackColor = false;
+            this.btnSeaborgium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnSeaborgium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSeaborgium.FlatAppearance.BorderSize = 0;
+            this.btnSeaborgium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSeaborgium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnSeaborgium.ForeColor = System.Drawing.Color.White;
+            this.btnSeaborgium.Location = new System.Drawing.Point(249, 239);
+            this.btnSeaborgium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSeaborgium.Name = "btnSeaborgium";
+            this.btnSeaborgium.Size = new System.Drawing.Size(37, 32);
+            this.btnSeaborgium.TabIndex = 58;
+            this.btnSeaborgium.Text = "Sg";
+            this.btnSeaborgium.UseVisualStyleBackColor = false;
             // 
-            // button75
+            // btnDubnium
             // 
-            this.button75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button75.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button75.FlatAppearance.BorderSize = 0;
-            this.button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button75.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button75.ForeColor = System.Drawing.Color.White;
-            this.button75.Location = new System.Drawing.Point(938, 205);
-            this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(49, 39);
-            this.button75.TabIndex = 85;
-            this.button75.Text = "Ca";
-            this.button75.UseVisualStyleBackColor = false;
+            this.btnDubnium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnDubnium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDubnium.FlatAppearance.BorderSize = 0;
+            this.btnDubnium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDubnium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnDubnium.ForeColor = System.Drawing.Color.White;
+            this.btnDubnium.Location = new System.Drawing.Point(208, 239);
+            this.btnDubnium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDubnium.Name = "btnDubnium";
+            this.btnDubnium.Size = new System.Drawing.Size(37, 32);
+            this.btnDubnium.TabIndex = 57;
+            this.btnDubnium.Text = "Db";
+            this.btnDubnium.UseVisualStyleBackColor = false;
             // 
-            // button76
+            // btnRutherfordium
             // 
-            this.button76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button76.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button76.FlatAppearance.BorderSize = 0;
-            this.button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button76.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button76.ForeColor = System.Drawing.Color.White;
-            this.button76.Location = new System.Drawing.Point(222, 249);
-            this.button76.Name = "button76";
-            this.button76.Size = new System.Drawing.Size(49, 39);
-            this.button76.TabIndex = 86;
-            this.button76.Text = "Ca";
-            this.button76.UseVisualStyleBackColor = false;
+            this.btnRutherfordium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRutherfordium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRutherfordium.FlatAppearance.BorderSize = 0;
+            this.btnRutherfordium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRutherfordium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRutherfordium.ForeColor = System.Drawing.Color.White;
+            this.btnRutherfordium.Location = new System.Drawing.Point(166, 239);
+            this.btnRutherfordium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRutherfordium.Name = "btnRutherfordium";
+            this.btnRutherfordium.Size = new System.Drawing.Size(37, 32);
+            this.btnRutherfordium.TabIndex = 56;
+            this.btnRutherfordium.Text = "Rf";
+            this.btnRutherfordium.UseVisualStyleBackColor = false;
             // 
-            // button77
+            // button45
             // 
-            this.button77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button77.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button77.FlatAppearance.BorderSize = 0;
-            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button77.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button77.ForeColor = System.Drawing.Color.White;
-            this.button77.Location = new System.Drawing.Point(277, 249);
-            this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(49, 39);
-            this.button77.TabIndex = 87;
-            this.button77.Text = "Ca";
-            this.button77.UseVisualStyleBackColor = false;
+            this.button45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.button45.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button45.FlatAppearance.BorderSize = 0;
+            this.button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button45.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.button45.ForeColor = System.Drawing.Color.White;
+            this.button45.Location = new System.Drawing.Point(125, 239);
+            this.button45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button45.Name = "button45";
+            this.button45.Size = new System.Drawing.Size(37, 32);
+            this.button45.TabIndex = 55;
+            this.button45.Text = "Ca";
+            this.button45.UseVisualStyleBackColor = false;
             // 
-            // button78
+            // btnOganesson
             // 
-            this.button78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button78.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button78.FlatAppearance.BorderSize = 0;
-            this.button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button78.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button78.ForeColor = System.Drawing.Color.White;
-            this.button78.Location = new System.Drawing.Point(332, 249);
-            this.button78.Name = "button78";
-            this.button78.Size = new System.Drawing.Size(49, 39);
-            this.button78.TabIndex = 88;
-            this.button78.Text = "Ca";
-            this.button78.UseVisualStyleBackColor = false;
+            this.btnOganesson.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnOganesson.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOganesson.FlatAppearance.BorderSize = 0;
+            this.btnOganesson.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOganesson.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnOganesson.ForeColor = System.Drawing.Color.White;
+            this.btnOganesson.Location = new System.Drawing.Point(745, 239);
+            this.btnOganesson.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOganesson.Name = "btnOganesson";
+            this.btnOganesson.Size = new System.Drawing.Size(37, 32);
+            this.btnOganesson.TabIndex = 54;
+            this.btnOganesson.Text = "Og";
+            this.btnOganesson.UseVisualStyleBackColor = false;
             // 
-            // button79
+            // btnRadon
             // 
-            this.button79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button79.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button79.FlatAppearance.BorderSize = 0;
-            this.button79.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button79.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button79.ForeColor = System.Drawing.Color.White;
-            this.button79.Location = new System.Drawing.Point(387, 249);
-            this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(49, 39);
-            this.button79.TabIndex = 89;
-            this.button79.Text = "Ca";
-            this.button79.UseVisualStyleBackColor = false;
+            this.btnRadon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRadon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRadon.FlatAppearance.BorderSize = 0;
+            this.btnRadon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRadon.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRadon.ForeColor = System.Drawing.Color.White;
+            this.btnRadon.Location = new System.Drawing.Point(745, 202);
+            this.btnRadon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRadon.Name = "btnRadon";
+            this.btnRadon.Size = new System.Drawing.Size(37, 32);
+            this.btnRadon.TabIndex = 53;
+            this.btnRadon.Text = "Rn";
+            this.btnRadon.UseVisualStyleBackColor = false;
             // 
-            // button80
+            // btnXenon
             // 
-            this.button80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button80.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button80.FlatAppearance.BorderSize = 0;
-            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button80.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button80.ForeColor = System.Drawing.Color.White;
-            this.button80.Location = new System.Drawing.Point(442, 250);
-            this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(49, 39);
-            this.button80.TabIndex = 90;
-            this.button80.Text = "Ca";
-            this.button80.UseVisualStyleBackColor = false;
+            this.btnXenon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnXenon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnXenon.FlatAppearance.BorderSize = 0;
+            this.btnXenon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXenon.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnXenon.ForeColor = System.Drawing.Color.White;
+            this.btnXenon.Location = new System.Drawing.Point(745, 167);
+            this.btnXenon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXenon.Name = "btnXenon";
+            this.btnXenon.Size = new System.Drawing.Size(37, 32);
+            this.btnXenon.TabIndex = 52;
+            this.btnXenon.Text = "Xe";
+            this.btnXenon.UseVisualStyleBackColor = false;
             // 
-            // button81
+            // btnKrypton
             // 
-            this.button81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button81.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button81.FlatAppearance.BorderSize = 0;
-            this.button81.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button81.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button81.ForeColor = System.Drawing.Color.White;
-            this.button81.Location = new System.Drawing.Point(497, 249);
-            this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(49, 39);
-            this.button81.TabIndex = 91;
-            this.button81.Text = "Ca";
-            this.button81.UseVisualStyleBackColor = false;
+            this.btnKrypton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnKrypton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnKrypton.FlatAppearance.BorderSize = 0;
+            this.btnKrypton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnKrypton.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnKrypton.ForeColor = System.Drawing.Color.White;
+            this.btnKrypton.Location = new System.Drawing.Point(745, 130);
+            this.btnKrypton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnKrypton.Name = "btnKrypton";
+            this.btnKrypton.Size = new System.Drawing.Size(37, 32);
+            this.btnKrypton.TabIndex = 51;
+            this.btnKrypton.Text = "Kr";
+            this.btnKrypton.UseVisualStyleBackColor = false;
             // 
-            // button82
+            // btnBromine
             // 
-            this.button82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button82.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button82.FlatAppearance.BorderSize = 0;
-            this.button82.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button82.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button82.ForeColor = System.Drawing.Color.White;
-            this.button82.Location = new System.Drawing.Point(552, 249);
-            this.button82.Name = "button82";
-            this.button82.Size = new System.Drawing.Size(49, 39);
-            this.button82.TabIndex = 92;
-            this.button82.Text = "Ca";
-            this.button82.UseVisualStyleBackColor = false;
+            this.btnBromine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnBromine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBromine.FlatAppearance.BorderSize = 0;
+            this.btnBromine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBromine.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnBromine.ForeColor = System.Drawing.Color.White;
+            this.btnBromine.Location = new System.Drawing.Point(704, 130);
+            this.btnBromine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBromine.Name = "btnBromine";
+            this.btnBromine.Size = new System.Drawing.Size(37, 32);
+            this.btnBromine.TabIndex = 50;
+            this.btnBromine.Text = "Br";
+            this.btnBromine.UseVisualStyleBackColor = false;
             // 
-            // button83
+            // btnSelenium
             // 
-            this.button83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button83.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button83.FlatAppearance.BorderSize = 0;
-            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button83.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button83.ForeColor = System.Drawing.Color.White;
-            this.button83.Location = new System.Drawing.Point(607, 250);
-            this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(49, 39);
-            this.button83.TabIndex = 93;
-            this.button83.Text = "Ca";
-            this.button83.UseVisualStyleBackColor = false;
+            this.btnSelenium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnSelenium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSelenium.FlatAppearance.BorderSize = 0;
+            this.btnSelenium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSelenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnSelenium.ForeColor = System.Drawing.Color.White;
+            this.btnSelenium.Location = new System.Drawing.Point(662, 130);
+            this.btnSelenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSelenium.Name = "btnSelenium";
+            this.btnSelenium.Size = new System.Drawing.Size(37, 32);
+            this.btnSelenium.TabIndex = 49;
+            this.btnSelenium.Text = "Se";
+            this.btnSelenium.UseVisualStyleBackColor = false;
             // 
-            // button84
+            // btnArsenic
             // 
-            this.button84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button84.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button84.FlatAppearance.BorderSize = 0;
-            this.button84.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button84.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button84.ForeColor = System.Drawing.Color.White;
-            this.button84.Location = new System.Drawing.Point(662, 250);
-            this.button84.Name = "button84";
-            this.button84.Size = new System.Drawing.Size(49, 39);
-            this.button84.TabIndex = 94;
-            this.button84.Text = "Ca";
-            this.button84.UseVisualStyleBackColor = false;
+            this.btnArsenic.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnArsenic.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArsenic.FlatAppearance.BorderSize = 0;
+            this.btnArsenic.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArsenic.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnArsenic.ForeColor = System.Drawing.Color.White;
+            this.btnArsenic.Location = new System.Drawing.Point(621, 130);
+            this.btnArsenic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnArsenic.Name = "btnArsenic";
+            this.btnArsenic.Size = new System.Drawing.Size(37, 32);
+            this.btnArsenic.TabIndex = 48;
+            this.btnArsenic.Text = "As";
+            this.btnArsenic.UseVisualStyleBackColor = false;
             // 
-            // button85
+            // btnGermanium
             // 
-            this.button85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button85.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button85.FlatAppearance.BorderSize = 0;
-            this.button85.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button85.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button85.ForeColor = System.Drawing.Color.White;
-            this.button85.Location = new System.Drawing.Point(717, 250);
-            this.button85.Name = "button85";
-            this.button85.Size = new System.Drawing.Size(49, 39);
-            this.button85.TabIndex = 95;
-            this.button85.Text = "Ca";
-            this.button85.UseVisualStyleBackColor = false;
+            this.btnGermanium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnGermanium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGermanium.FlatAppearance.BorderSize = 0;
+            this.btnGermanium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGermanium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnGermanium.ForeColor = System.Drawing.Color.White;
+            this.btnGermanium.Location = new System.Drawing.Point(580, 130);
+            this.btnGermanium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGermanium.Name = "btnGermanium";
+            this.btnGermanium.Size = new System.Drawing.Size(37, 32);
+            this.btnGermanium.TabIndex = 47;
+            this.btnGermanium.Text = "Ge";
+            this.btnGermanium.UseVisualStyleBackColor = false;
             // 
-            // button86
+            // btnChlorine
             // 
-            this.button86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button86.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button86.FlatAppearance.BorderSize = 0;
-            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button86.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button86.ForeColor = System.Drawing.Color.White;
-            this.button86.Location = new System.Drawing.Point(773, 249);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(49, 39);
-            this.button86.TabIndex = 96;
-            this.button86.Text = "Ca";
-            this.button86.UseVisualStyleBackColor = false;
+            this.btnChlorine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnChlorine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnChlorine.FlatAppearance.BorderSize = 0;
+            this.btnChlorine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChlorine.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnChlorine.ForeColor = System.Drawing.Color.White;
+            this.btnChlorine.Location = new System.Drawing.Point(704, 93);
+            this.btnChlorine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChlorine.Name = "btnChlorine";
+            this.btnChlorine.Size = new System.Drawing.Size(37, 32);
+            this.btnChlorine.TabIndex = 46;
+            this.btnChlorine.Text = "Cl";
+            this.btnChlorine.UseVisualStyleBackColor = false;
             // 
-            // button87
+            // btnSulfur
             // 
-            this.button87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button87.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button87.FlatAppearance.BorderSize = 0;
-            this.button87.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button87.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button87.ForeColor = System.Drawing.Color.White;
-            this.button87.Location = new System.Drawing.Point(828, 249);
-            this.button87.Name = "button87";
-            this.button87.Size = new System.Drawing.Size(49, 39);
-            this.button87.TabIndex = 97;
-            this.button87.Text = "Ca";
-            this.button87.UseVisualStyleBackColor = false;
+            this.btnSulfur.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnSulfur.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSulfur.FlatAppearance.BorderSize = 0;
+            this.btnSulfur.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSulfur.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnSulfur.ForeColor = System.Drawing.Color.White;
+            this.btnSulfur.Location = new System.Drawing.Point(662, 93);
+            this.btnSulfur.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSulfur.Name = "btnSulfur";
+            this.btnSulfur.Size = new System.Drawing.Size(37, 32);
+            this.btnSulfur.TabIndex = 45;
+            this.btnSulfur.Text = "S";
+            this.btnSulfur.UseVisualStyleBackColor = false;
             // 
-            // button88
+            // btnPhosphorus
             // 
-            this.button88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button88.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button88.FlatAppearance.BorderSize = 0;
-            this.button88.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button88.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button88.ForeColor = System.Drawing.Color.White;
-            this.button88.Location = new System.Drawing.Point(883, 249);
-            this.button88.Name = "button88";
-            this.button88.Size = new System.Drawing.Size(49, 39);
-            this.button88.TabIndex = 98;
-            this.button88.Text = "Ca";
-            this.button88.UseVisualStyleBackColor = false;
+            this.btnPhosphorus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnPhosphorus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPhosphorus.FlatAppearance.BorderSize = 0;
+            this.btnPhosphorus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPhosphorus.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnPhosphorus.ForeColor = System.Drawing.Color.White;
+            this.btnPhosphorus.Location = new System.Drawing.Point(621, 93);
+            this.btnPhosphorus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPhosphorus.Name = "btnPhosphorus";
+            this.btnPhosphorus.Size = new System.Drawing.Size(37, 32);
+            this.btnPhosphorus.TabIndex = 44;
+            this.btnPhosphorus.Text = "P";
+            this.btnPhosphorus.UseVisualStyleBackColor = false;
             // 
-            // button89
+            // btnSilicon
             // 
-            this.button89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.button89.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button89.FlatAppearance.BorderSize = 0;
-            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button89.Font = new System.Drawing.Font("Bahnschrift", 10F);
-            this.button89.ForeColor = System.Drawing.Color.White;
-            this.button89.Location = new System.Drawing.Point(938, 249);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(49, 39);
-            this.button89.TabIndex = 99;
-            this.button89.Text = "Ca";
-            this.button89.UseVisualStyleBackColor = false;
+            this.btnSilicon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnSilicon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSilicon.FlatAppearance.BorderSize = 0;
+            this.btnSilicon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSilicon.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnSilicon.ForeColor = System.Drawing.Color.White;
+            this.btnSilicon.Location = new System.Drawing.Point(580, 93);
+            this.btnSilicon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSilicon.Name = "btnSilicon";
+            this.btnSilicon.Size = new System.Drawing.Size(37, 32);
+            this.btnSilicon.TabIndex = 43;
+            this.btnSilicon.Text = "Si";
+            this.btnSilicon.UseVisualStyleBackColor = false;
+            // 
+            // btnArgon
+            // 
+            this.btnArgon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnArgon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnArgon.FlatAppearance.BorderSize = 0;
+            this.btnArgon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnArgon.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnArgon.ForeColor = System.Drawing.Color.White;
+            this.btnArgon.Location = new System.Drawing.Point(745, 93);
+            this.btnArgon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnArgon.Name = "btnArgon";
+            this.btnArgon.Size = new System.Drawing.Size(37, 32);
+            this.btnArgon.TabIndex = 42;
+            this.btnArgon.Text = "Ar";
+            this.btnArgon.UseVisualStyleBackColor = false;
+            // 
+            // btnHelium
+            // 
+            this.btnHelium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnHelium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHelium.FlatAppearance.BorderSize = 0;
+            this.btnHelium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHelium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnHelium.ForeColor = System.Drawing.Color.White;
+            this.btnHelium.Location = new System.Drawing.Point(745, 20);
+            this.btnHelium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHelium.Name = "btnHelium";
+            this.btnHelium.Size = new System.Drawing.Size(37, 32);
+            this.btnHelium.TabIndex = 41;
+            this.btnHelium.Text = "He";
+            this.btnHelium.UseVisualStyleBackColor = false;
+            // 
+            // btnNeon
+            // 
+            this.btnNeon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnNeon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNeon.FlatAppearance.BorderSize = 0;
+            this.btnNeon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNeon.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnNeon.ForeColor = System.Drawing.Color.White;
+            this.btnNeon.Location = new System.Drawing.Point(745, 57);
+            this.btnNeon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNeon.Name = "btnNeon";
+            this.btnNeon.Size = new System.Drawing.Size(37, 32);
+            this.btnNeon.TabIndex = 40;
+            this.btnNeon.Text = "Ne";
+            this.btnNeon.UseVisualStyleBackColor = false;
+            // 
+            // btnFluorine
+            // 
+            this.btnFluorine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnFluorine.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFluorine.FlatAppearance.BorderSize = 0;
+            this.btnFluorine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFluorine.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnFluorine.ForeColor = System.Drawing.Color.White;
+            this.btnFluorine.Location = new System.Drawing.Point(704, 57);
+            this.btnFluorine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFluorine.Name = "btnFluorine";
+            this.btnFluorine.Size = new System.Drawing.Size(37, 32);
+            this.btnFluorine.TabIndex = 39;
+            this.btnFluorine.Text = "F";
+            this.btnFluorine.UseVisualStyleBackColor = false;
+            // 
+            // btnOxygen
+            // 
+            this.btnOxygen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnOxygen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnOxygen.FlatAppearance.BorderSize = 0;
+            this.btnOxygen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOxygen.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnOxygen.ForeColor = System.Drawing.Color.White;
+            this.btnOxygen.Location = new System.Drawing.Point(662, 57);
+            this.btnOxygen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOxygen.Name = "btnOxygen";
+            this.btnOxygen.Size = new System.Drawing.Size(37, 32);
+            this.btnOxygen.TabIndex = 38;
+            this.btnOxygen.Text = "O";
+            this.btnOxygen.UseVisualStyleBackColor = false;
+            // 
+            // btnNitrogen
+            // 
+            this.btnNitrogen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnNitrogen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNitrogen.FlatAppearance.BorderSize = 0;
+            this.btnNitrogen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNitrogen.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnNitrogen.ForeColor = System.Drawing.Color.White;
+            this.btnNitrogen.Location = new System.Drawing.Point(621, 57);
+            this.btnNitrogen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNitrogen.Name = "btnNitrogen";
+            this.btnNitrogen.Size = new System.Drawing.Size(37, 32);
+            this.btnNitrogen.TabIndex = 37;
+            this.btnNitrogen.Text = "N";
+            this.btnNitrogen.UseVisualStyleBackColor = false;
+            // 
+            // btnCarbon
+            // 
+            this.btnCarbon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnCarbon.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCarbon.FlatAppearance.BorderSize = 0;
+            this.btnCarbon.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCarbon.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnCarbon.ForeColor = System.Drawing.Color.White;
+            this.btnCarbon.Location = new System.Drawing.Point(580, 57);
+            this.btnCarbon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCarbon.Name = "btnCarbon";
+            this.btnCarbon.Size = new System.Drawing.Size(37, 32);
+            this.btnCarbon.TabIndex = 36;
+            this.btnCarbon.Text = "C";
+            this.btnCarbon.UseVisualStyleBackColor = false;
+            // 
+            // btnBoron
+            // 
+            this.btnBoron.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnBoron.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBoron.FlatAppearance.BorderSize = 0;
+            this.btnBoron.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBoron.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnBoron.ForeColor = System.Drawing.Color.White;
+            this.btnBoron.Location = new System.Drawing.Point(538, 57);
+            this.btnBoron.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBoron.Name = "btnBoron";
+            this.btnBoron.Size = new System.Drawing.Size(37, 32);
+            this.btnBoron.TabIndex = 35;
+            this.btnBoron.Text = "B";
+            this.btnBoron.UseVisualStyleBackColor = false;
+            // 
+            // btnAluminum
+            // 
+            this.btnAluminum.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnAluminum.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAluminum.FlatAppearance.BorderSize = 0;
+            this.btnAluminum.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAluminum.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnAluminum.ForeColor = System.Drawing.Color.White;
+            this.btnAluminum.Location = new System.Drawing.Point(538, 93);
+            this.btnAluminum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAluminum.Name = "btnAluminum";
+            this.btnAluminum.Size = new System.Drawing.Size(37, 32);
+            this.btnAluminum.TabIndex = 34;
+            this.btnAluminum.Text = "Al";
+            this.btnAluminum.UseVisualStyleBackColor = false;
+            // 
+            // btnGallium
+            // 
+            this.btnGallium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnGallium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnGallium.FlatAppearance.BorderSize = 0;
+            this.btnGallium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGallium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnGallium.ForeColor = System.Drawing.Color.White;
+            this.btnGallium.Location = new System.Drawing.Point(538, 130);
+            this.btnGallium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGallium.Name = "btnGallium";
+            this.btnGallium.Size = new System.Drawing.Size(37, 32);
+            this.btnGallium.TabIndex = 33;
+            this.btnGallium.Text = "Ga";
+            this.btnGallium.UseVisualStyleBackColor = false;
+            // 
+            // btnZinc
+            // 
+            this.btnZinc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnZinc.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnZinc.FlatAppearance.BorderSize = 0;
+            this.btnZinc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnZinc.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnZinc.ForeColor = System.Drawing.Color.White;
+            this.btnZinc.Location = new System.Drawing.Point(496, 130);
+            this.btnZinc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnZinc.Name = "btnZinc";
+            this.btnZinc.Size = new System.Drawing.Size(37, 32);
+            this.btnZinc.TabIndex = 32;
+            this.btnZinc.Text = "Zn";
+            this.btnZinc.UseVisualStyleBackColor = false;
+            // 
+            // btnCopper
+            // 
+            this.btnCopper.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnCopper.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCopper.FlatAppearance.BorderSize = 0;
+            this.btnCopper.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCopper.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnCopper.ForeColor = System.Drawing.Color.White;
+            this.btnCopper.Location = new System.Drawing.Point(455, 130);
+            this.btnCopper.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCopper.Name = "btnCopper";
+            this.btnCopper.Size = new System.Drawing.Size(37, 32);
+            this.btnCopper.TabIndex = 31;
+            this.btnCopper.Text = "Cu";
+            this.btnCopper.UseVisualStyleBackColor = false;
+            // 
+            // btnNickel
+            // 
+            this.btnNickel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnNickel.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNickel.FlatAppearance.BorderSize = 0;
+            this.btnNickel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNickel.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnNickel.ForeColor = System.Drawing.Color.White;
+            this.btnNickel.Location = new System.Drawing.Point(414, 130);
+            this.btnNickel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNickel.Name = "btnNickel";
+            this.btnNickel.Size = new System.Drawing.Size(37, 32);
+            this.btnNickel.TabIndex = 30;
+            this.btnNickel.Text = "Ni";
+            this.btnNickel.UseVisualStyleBackColor = false;
+            // 
+            // btnCobalt
+            // 
+            this.btnCobalt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnCobalt.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCobalt.FlatAppearance.BorderSize = 0;
+            this.btnCobalt.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCobalt.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnCobalt.ForeColor = System.Drawing.Color.White;
+            this.btnCobalt.Location = new System.Drawing.Point(373, 130);
+            this.btnCobalt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCobalt.Name = "btnCobalt";
+            this.btnCobalt.Size = new System.Drawing.Size(37, 32);
+            this.btnCobalt.TabIndex = 29;
+            this.btnCobalt.Text = "Co";
+            this.btnCobalt.UseVisualStyleBackColor = false;
+            // 
+            // btnIron
+            // 
+            this.btnIron.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnIron.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIron.FlatAppearance.BorderSize = 0;
+            this.btnIron.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIron.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnIron.ForeColor = System.Drawing.Color.White;
+            this.btnIron.Location = new System.Drawing.Point(332, 130);
+            this.btnIron.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIron.Name = "btnIron";
+            this.btnIron.Size = new System.Drawing.Size(37, 32);
+            this.btnIron.TabIndex = 28;
+            this.btnIron.Text = "Fe";
+            this.btnIron.UseVisualStyleBackColor = false;
+            // 
+            // btnManganese
+            // 
+            this.btnManganese.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnManganese.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnManganese.FlatAppearance.BorderSize = 0;
+            this.btnManganese.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnManganese.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnManganese.ForeColor = System.Drawing.Color.White;
+            this.btnManganese.Location = new System.Drawing.Point(290, 130);
+            this.btnManganese.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnManganese.Name = "btnManganese";
+            this.btnManganese.Size = new System.Drawing.Size(37, 32);
+            this.btnManganese.TabIndex = 27;
+            this.btnManganese.Text = "Mn";
+            this.btnManganese.UseVisualStyleBackColor = false;
+            // 
+            // btnChromium
+            // 
+            this.btnChromium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnChromium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnChromium.FlatAppearance.BorderSize = 0;
+            this.btnChromium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnChromium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnChromium.ForeColor = System.Drawing.Color.White;
+            this.btnChromium.Location = new System.Drawing.Point(249, 130);
+            this.btnChromium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChromium.Name = "btnChromium";
+            this.btnChromium.Size = new System.Drawing.Size(37, 32);
+            this.btnChromium.TabIndex = 26;
+            this.btnChromium.Text = "Cr";
+            this.btnChromium.UseVisualStyleBackColor = false;
+            // 
+            // btnVanadium
+            // 
+            this.btnVanadium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnVanadium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnVanadium.FlatAppearance.BorderSize = 0;
+            this.btnVanadium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnVanadium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnVanadium.ForeColor = System.Drawing.Color.White;
+            this.btnVanadium.Location = new System.Drawing.Point(208, 130);
+            this.btnVanadium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVanadium.Name = "btnVanadium";
+            this.btnVanadium.Size = new System.Drawing.Size(37, 32);
+            this.btnVanadium.TabIndex = 25;
+            this.btnVanadium.Text = "V";
+            this.btnVanadium.UseVisualStyleBackColor = false;
+            // 
+            // btnTitanium
+            // 
+            this.btnTitanium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnTitanium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnTitanium.FlatAppearance.BorderSize = 0;
+            this.btnTitanium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTitanium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnTitanium.ForeColor = System.Drawing.Color.White;
+            this.btnTitanium.Location = new System.Drawing.Point(166, 130);
+            this.btnTitanium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTitanium.Name = "btnTitanium";
+            this.btnTitanium.Size = new System.Drawing.Size(37, 32);
+            this.btnTitanium.TabIndex = 24;
+            this.btnTitanium.Text = "Ti";
+            this.btnTitanium.UseVisualStyleBackColor = false;
+            // 
+            // btnScandium
+            // 
+            this.btnScandium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnScandium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnScandium.FlatAppearance.BorderSize = 0;
+            this.btnScandium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnScandium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnScandium.ForeColor = System.Drawing.Color.White;
+            this.btnScandium.Location = new System.Drawing.Point(125, 130);
+            this.btnScandium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnScandium.Name = "btnScandium";
+            this.btnScandium.Size = new System.Drawing.Size(37, 32);
+            this.btnScandium.TabIndex = 23;
+            this.btnScandium.Text = "Sc";
+            this.btnScandium.UseVisualStyleBackColor = false;
+            // 
+            // btnRadium
+            // 
+            this.btnRadium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRadium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRadium.FlatAppearance.BorderSize = 0;
+            this.btnRadium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRadium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRadium.ForeColor = System.Drawing.Color.White;
+            this.btnRadium.Location = new System.Drawing.Point(84, 239);
+            this.btnRadium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRadium.Name = "btnRadium";
+            this.btnRadium.Size = new System.Drawing.Size(37, 32);
+            this.btnRadium.TabIndex = 22;
+            this.btnRadium.Text = "Ra";
+            this.btnRadium.UseVisualStyleBackColor = false;
+            // 
+            // btnBarium
+            // 
+            this.btnBarium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnBarium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBarium.FlatAppearance.BorderSize = 0;
+            this.btnBarium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBarium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnBarium.ForeColor = System.Drawing.Color.White;
+            this.btnBarium.Location = new System.Drawing.Point(84, 203);
+            this.btnBarium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBarium.Name = "btnBarium";
+            this.btnBarium.Size = new System.Drawing.Size(37, 32);
+            this.btnBarium.TabIndex = 21;
+            this.btnBarium.Text = "Ba";
+            this.btnBarium.UseVisualStyleBackColor = false;
+            // 
+            // btnStrontium
+            // 
+            this.btnStrontium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnStrontium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStrontium.FlatAppearance.BorderSize = 0;
+            this.btnStrontium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnStrontium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnStrontium.ForeColor = System.Drawing.Color.White;
+            this.btnStrontium.Location = new System.Drawing.Point(84, 167);
+            this.btnStrontium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnStrontium.Name = "btnStrontium";
+            this.btnStrontium.Size = new System.Drawing.Size(37, 32);
+            this.btnStrontium.TabIndex = 20;
+            this.btnStrontium.Text = "Sr";
+            this.btnStrontium.UseVisualStyleBackColor = false;
+            // 
+            // btnCalcium
+            // 
+            this.btnCalcium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnCalcium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCalcium.FlatAppearance.BorderSize = 0;
+            this.btnCalcium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCalcium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnCalcium.ForeColor = System.Drawing.Color.White;
+            this.btnCalcium.Location = new System.Drawing.Point(84, 130);
+            this.btnCalcium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCalcium.Name = "btnCalcium";
+            this.btnCalcium.Size = new System.Drawing.Size(37, 32);
+            this.btnCalcium.TabIndex = 19;
+            this.btnCalcium.Text = "Ca";
+            this.btnCalcium.UseVisualStyleBackColor = false;
+            // 
+            // btnMagnesium
+            // 
+            this.btnMagnesium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnMagnesium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMagnesium.FlatAppearance.BorderSize = 0;
+            this.btnMagnesium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMagnesium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnMagnesium.ForeColor = System.Drawing.Color.White;
+            this.btnMagnesium.Location = new System.Drawing.Point(84, 93);
+            this.btnMagnesium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMagnesium.Name = "btnMagnesium";
+            this.btnMagnesium.Size = new System.Drawing.Size(37, 32);
+            this.btnMagnesium.TabIndex = 18;
+            this.btnMagnesium.Text = "Mg";
+            this.btnMagnesium.UseVisualStyleBackColor = false;
+            // 
+            // btnBeryllium
+            // 
+            this.btnBeryllium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnBeryllium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnBeryllium.FlatAppearance.BorderSize = 0;
+            this.btnBeryllium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBeryllium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnBeryllium.ForeColor = System.Drawing.Color.White;
+            this.btnBeryllium.Location = new System.Drawing.Point(84, 57);
+            this.btnBeryllium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBeryllium.Name = "btnBeryllium";
+            this.btnBeryllium.Size = new System.Drawing.Size(37, 32);
+            this.btnBeryllium.TabIndex = 17;
+            this.btnBeryllium.Text = "Be";
+            this.btnBeryllium.UseVisualStyleBackColor = false;
+            // 
+            // btnFrancium
+            // 
+            this.btnFrancium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnFrancium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnFrancium.FlatAppearance.BorderSize = 0;
+            this.btnFrancium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnFrancium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnFrancium.ForeColor = System.Drawing.Color.White;
+            this.btnFrancium.Location = new System.Drawing.Point(43, 239);
+            this.btnFrancium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFrancium.Name = "btnFrancium";
+            this.btnFrancium.Size = new System.Drawing.Size(37, 32);
+            this.btnFrancium.TabIndex = 16;
+            this.btnFrancium.Text = "Fr";
+            this.btnFrancium.UseVisualStyleBackColor = false;
+            // 
+            // btnCaesium
+            // 
+            this.btnCaesium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnCaesium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCaesium.FlatAppearance.BorderSize = 0;
+            this.btnCaesium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCaesium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnCaesium.ForeColor = System.Drawing.Color.White;
+            this.btnCaesium.Location = new System.Drawing.Point(43, 203);
+            this.btnCaesium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCaesium.Name = "btnCaesium";
+            this.btnCaesium.Size = new System.Drawing.Size(37, 32);
+            this.btnCaesium.TabIndex = 15;
+            this.btnCaesium.Text = "Cs";
+            this.btnCaesium.UseVisualStyleBackColor = false;
+            // 
+            // btnRubidium
+            // 
+            this.btnRubidium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnRubidium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRubidium.FlatAppearance.BorderSize = 0;
+            this.btnRubidium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRubidium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnRubidium.ForeColor = System.Drawing.Color.White;
+            this.btnRubidium.Location = new System.Drawing.Point(43, 167);
+            this.btnRubidium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRubidium.Name = "btnRubidium";
+            this.btnRubidium.Size = new System.Drawing.Size(37, 32);
+            this.btnRubidium.TabIndex = 14;
+            this.btnRubidium.Text = "Rb";
+            this.btnRubidium.UseVisualStyleBackColor = false;
+            // 
+            // btnPotassium
+            // 
+            this.btnPotassium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnPotassium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnPotassium.FlatAppearance.BorderSize = 0;
+            this.btnPotassium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPotassium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnPotassium.ForeColor = System.Drawing.Color.White;
+            this.btnPotassium.Location = new System.Drawing.Point(43, 130);
+            this.btnPotassium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPotassium.Name = "btnPotassium";
+            this.btnPotassium.Size = new System.Drawing.Size(37, 32);
+            this.btnPotassium.TabIndex = 13;
+            this.btnPotassium.Text = "K";
+            this.btnPotassium.UseVisualStyleBackColor = false;
+            // 
+            // btnSodium
+            // 
+            this.btnSodium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnSodium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSodium.FlatAppearance.BorderSize = 0;
+            this.btnSodium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSodium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnSodium.ForeColor = System.Drawing.Color.White;
+            this.btnSodium.Location = new System.Drawing.Point(43, 93);
+            this.btnSodium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSodium.Name = "btnSodium";
+            this.btnSodium.Size = new System.Drawing.Size(37, 32);
+            this.btnSodium.TabIndex = 12;
+            this.btnSodium.Text = "Na";
+            this.btnSodium.UseVisualStyleBackColor = false;
+            // 
+            // btnLithium
+            // 
+            this.btnLithium.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnLithium.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLithium.FlatAppearance.BorderSize = 0;
+            this.btnLithium.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLithium.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnLithium.ForeColor = System.Drawing.Color.White;
+            this.btnLithium.Location = new System.Drawing.Point(43, 57);
+            this.btnLithium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLithium.Name = "btnLithium";
+            this.btnLithium.Size = new System.Drawing.Size(37, 32);
+            this.btnLithium.TabIndex = 11;
+            this.btnLithium.Text = "Li";
+            this.btnLithium.UseVisualStyleBackColor = false;
+            // 
+            // btnHydrogen
+            // 
+            this.btnHydrogen.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.btnHydrogen.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnHydrogen.FlatAppearance.BorderSize = 0;
+            this.btnHydrogen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHydrogen.Font = new System.Drawing.Font("Bahnschrift", 10F);
+            this.btnHydrogen.ForeColor = System.Drawing.Color.White;
+            this.btnHydrogen.Location = new System.Drawing.Point(43, 20);
+            this.btnHydrogen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHydrogen.Name = "btnHydrogen";
+            this.btnHydrogen.Size = new System.Drawing.Size(37, 32);
+            this.btnHydrogen.TabIndex = 10;
+            this.btnHydrogen.Text = "H";
+            this.btnHydrogen.UseVisualStyleBackColor = false;
+            // 
+            // result_panel
+            // 
+            this.result_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.result_panel.Location = new System.Drawing.Point(1, 324);
+            this.result_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.result_panel.Name = "result_panel";
+            this.result_panel.Size = new System.Drawing.Size(817, 91);
+            this.result_panel.TabIndex = 6;
+            this.result_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.result_panel_Paint);
+            // 
+            // element_choice_label
+            // 
+            this.element_choice_label.AutoSize = true;
+            this.element_choice_label.Font = new System.Drawing.Font("Bahnschrift Light", 10.8F);
+            this.element_choice_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.element_choice_label.Location = new System.Drawing.Point(370, 11);
+            this.element_choice_label.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.element_choice_label.Name = "element_choice_label";
+            this.element_choice_label.Size = new System.Drawing.Size(122, 18);
+            this.element_choice_label.TabIndex = 5;
+            this.element_choice_label.Text = "Pick one element";
+            this.element_choice_label.Click += new System.EventHandler(this.compound_choice_label_Click);
             // 
             // ElectronConfigScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
-            this.ClientSize = new System.Drawing.Size(1089, 592);
+            this.ClientSize = new System.Drawing.Size(817, 481);
             this.Controls.Add(this.elem_table_panel);
             this.Controls.Add(this.navigation_panal);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ElectronConfigScreen";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
@@ -1727,95 +1828,95 @@
         private System.Windows.Forms.Panel elem_table_panel;
         private System.Windows.Forms.Label element_choice_label;
         private System.Windows.Forms.Panel result_panel;
-        private System.Windows.Forms.Button elem_btn;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button89;
-        private System.Windows.Forms.Button button88;
-        private System.Windows.Forms.Button button87;
-        private System.Windows.Forms.Button button86;
-        private System.Windows.Forms.Button button85;
-        private System.Windows.Forms.Button button84;
-        private System.Windows.Forms.Button button83;
-        private System.Windows.Forms.Button button82;
-        private System.Windows.Forms.Button button81;
-        private System.Windows.Forms.Button button80;
-        private System.Windows.Forms.Button button79;
-        private System.Windows.Forms.Button button78;
-        private System.Windows.Forms.Button button77;
-        private System.Windows.Forms.Button button76;
-        private System.Windows.Forms.Button button75;
-        private System.Windows.Forms.Button button74;
-        private System.Windows.Forms.Button button73;
-        private System.Windows.Forms.Button button72;
-        private System.Windows.Forms.Button button71;
-        private System.Windows.Forms.Button button70;
-        private System.Windows.Forms.Button button69;
-        private System.Windows.Forms.Button button68;
-        private System.Windows.Forms.Button button67;
-        private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button65;
-        private System.Windows.Forms.Button button64;
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button62;
+        private System.Windows.Forms.Button btnHydrogen;
+        private System.Windows.Forms.Button btnBeryllium;
+        private System.Windows.Forms.Button btnFrancium;
+        private System.Windows.Forms.Button btnCaesium;
+        private System.Windows.Forms.Button btnRubidium;
+        private System.Windows.Forms.Button btnPotassium;
+        private System.Windows.Forms.Button btnSodium;
+        private System.Windows.Forms.Button btnLithium;
+        private System.Windows.Forms.Button btnFluorine;
+        private System.Windows.Forms.Button btnOxygen;
+        private System.Windows.Forms.Button btnNitrogen;
+        private System.Windows.Forms.Button btnCarbon;
+        private System.Windows.Forms.Button btnBoron;
+        private System.Windows.Forms.Button btnAluminum;
+        private System.Windows.Forms.Button btnGallium;
+        private System.Windows.Forms.Button btnZinc;
+        private System.Windows.Forms.Button btnCopper;
+        private System.Windows.Forms.Button btnNickel;
+        private System.Windows.Forms.Button btnCobalt;
+        private System.Windows.Forms.Button btnIron;
+        private System.Windows.Forms.Button btnManganese;
+        private System.Windows.Forms.Button btnChromium;
+        private System.Windows.Forms.Button btnVanadium;
+        private System.Windows.Forms.Button btnTitanium;
+        private System.Windows.Forms.Button btnScandium;
+        private System.Windows.Forms.Button btnRadium;
+        private System.Windows.Forms.Button btnBarium;
+        private System.Windows.Forms.Button btnStrontium;
+        private System.Windows.Forms.Button btnCalcium;
+        private System.Windows.Forms.Button btnMagnesium;
+        private System.Windows.Forms.Button btnAstatine;
+        private System.Windows.Forms.Button btnPolonium;
+        private System.Windows.Forms.Button btnBismuth;
+        private System.Windows.Forms.Button btnLead;
+        private System.Windows.Forms.Button btnThallium;
+        private System.Windows.Forms.Button btnMercury;
+        private System.Windows.Forms.Button btnGold;
+        private System.Windows.Forms.Button btnPlatinum;
+        private System.Windows.Forms.Button btnIridium;
+        private System.Windows.Forms.Button btnOsmium;
+        private System.Windows.Forms.Button btnRhenium;
+        private System.Windows.Forms.Button btnTungsten;
+        private System.Windows.Forms.Button btnTantalum;
+        private System.Windows.Forms.Button btnHafnium;
+        private System.Windows.Forms.Button btnIodine;
+        private System.Windows.Forms.Button btnTellurium;
+        private System.Windows.Forms.Button btnAntimony;
+        private System.Windows.Forms.Button btnTin;
+        private System.Windows.Forms.Button btnIndium;
+        private System.Windows.Forms.Button btnCadmium;
+        private System.Windows.Forms.Button btnSilver;
+        private System.Windows.Forms.Button btnPalladium;
+        private System.Windows.Forms.Button btnRhodium;
+        private System.Windows.Forms.Button btnRuthenium;
+        private System.Windows.Forms.Button btnTechnetium;
+        private System.Windows.Forms.Button btnMolybdenum;
+        private System.Windows.Forms.Button btnNiobium;
+        private System.Windows.Forms.Button btnZirconium;
         private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.Button button60;
-        private System.Windows.Forms.Button button59;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button46;
+        private System.Windows.Forms.Button btnYttrium;
+        private System.Windows.Forms.Button btnTennessine;
+        private System.Windows.Forms.Button btnLivermorium;
+        private System.Windows.Forms.Button btnMoscovium;
+        private System.Windows.Forms.Button btnFlerovium;
+        private System.Windows.Forms.Button btnNihonium;
+        private System.Windows.Forms.Button btnCopernicium;
+        private System.Windows.Forms.Button btnRoentgenium;
+        private System.Windows.Forms.Button btnDarmstadtium;
+        private System.Windows.Forms.Button btnMeitnerium;
+        private System.Windows.Forms.Button btnHassium;
+        private System.Windows.Forms.Button btnBohrium;
+        private System.Windows.Forms.Button btnSeaborgium;
+        private System.Windows.Forms.Button btnDubnium;
+        private System.Windows.Forms.Button btnRutherfordium;
         private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button30;
+        private System.Windows.Forms.Button btnOganesson;
+        private System.Windows.Forms.Button btnRadon;
+        private System.Windows.Forms.Button btnXenon;
+        private System.Windows.Forms.Button btnKrypton;
+        private System.Windows.Forms.Button btnBromine;
+        private System.Windows.Forms.Button btnSelenium;
+        private System.Windows.Forms.Button btnArsenic;
+        private System.Windows.Forms.Button btnGermanium;
+        private System.Windows.Forms.Button btnChlorine;
+        private System.Windows.Forms.Button btnSulfur;
+        private System.Windows.Forms.Button btnPhosphorus;
+        private System.Windows.Forms.Button btnSilicon;
+        private System.Windows.Forms.Button btnArgon;
+        private System.Windows.Forms.Button btnHelium;
+        private System.Windows.Forms.Button btnNeon;
     }
 }
