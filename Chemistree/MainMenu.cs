@@ -46,8 +46,8 @@ namespace Chemistree_GUI_V1
         {
             this.Hide();
             IoCompoundScreen s2 = new IoCompoundScreen();
-            s2.ShowDialog();
-            this.Close();
+            s2.Show();
+            //this.Close();
         }
 
         private void exit_btn_Click(object sender, EventArgs e)
@@ -60,8 +60,8 @@ namespace Chemistree_GUI_V1
         {
             this.Hide();
             ElectronConfigScreen s3 = new ElectronConfigScreen();
-            s3.ShowDialog();
-            this.Close();
+            s3.Show();
+            //this.Close();
         }
     }
 }

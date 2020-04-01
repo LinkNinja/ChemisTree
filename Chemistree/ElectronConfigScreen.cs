@@ -31,8 +31,8 @@ namespace Chemistree_GUI_V1
         {
             this.Hide();
             MainMenu s1 = new MainMenu();
-            s1.ShowDialog();
-            this.Close();
+            s1.Show();
+            //this.Close();
         }
 
         private void result_panel_Paint(object sender, PaintEventArgs e)
