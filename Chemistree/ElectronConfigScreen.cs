@@ -12,9 +12,13 @@ namespace Chemistree_GUI_V1
 {
     public partial class ElectronConfigScreen : Form
     {
+        private DBConnection conn;
+
         public ElectronConfigScreen()
         {
             InitializeComponent();
+            conn = new DBConnection();
+            conn.ConnectToDB();
         }
 
         private void navigation_panal_Paint(object sender, PaintEventArgs e)
@@ -48,6 +52,14 @@ namespace Chemistree_GUI_V1
         private void nav_exit_btn_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btn_query(object sender, EventArgs e)
+        {
+            Button s = (System.Windows.Forms.Button)sender;
+
+            conn.queryDB(s.Text);
+             
         }
     }
 }

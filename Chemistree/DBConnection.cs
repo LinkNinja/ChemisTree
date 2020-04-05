@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 
 using System.Data;
 
-namespace ChemisTree
+namespace Chemistree_GUI_V1
 {
     class DBConnection
     {
@@ -100,6 +100,11 @@ namespace ChemisTree
                 // Handle exception
             }
             return dt;
+        }
+
+        public void queryDB(string abbr)
+        {
+
         }
     }
 
