@@ -142,7 +142,7 @@
             this.navigation_panal.Controls.Add(this.label1);
             this.navigation_panal.Controls.Add(this.AppTitle);
             this.navigation_panal.Location = new System.Drawing.Point(0, -1);
-            this.navigation_panal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.navigation_panal.Margin = new System.Windows.Forms.Padding(2);
             this.navigation_panal.Name = "navigation_panal";
             this.navigation_panal.Size = new System.Drawing.Size(818, 72);
             this.navigation_panal.TabIndex = 1;
@@ -156,7 +156,7 @@
             this.nav_exit_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.nav_exit_btn.ForeColor = System.Drawing.Color.White;
             this.nav_exit_btn.Location = new System.Drawing.Point(738, 15);
-            this.nav_exit_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nav_exit_btn.Margin = new System.Windows.Forms.Padding(2);
             this.nav_exit_btn.Name = "nav_exit_btn";
             this.nav_exit_btn.Size = new System.Drawing.Size(64, 43);
             this.nav_exit_btn.TabIndex = 5;
@@ -171,7 +171,7 @@
             this.nav_menu_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.nav_menu_btn.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F);
             this.nav_menu_btn.Location = new System.Drawing.Point(665, 16);
-            this.nav_menu_btn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nav_menu_btn.Margin = new System.Windows.Forms.Padding(2);
             this.nav_menu_btn.Name = "nav_menu_btn";
             this.nav_menu_btn.Size = new System.Drawing.Size(64, 43);
             this.nav_menu_btn.TabIndex = 4;
@@ -209,7 +209,7 @@
             this.result_label_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(67)))), ((int)(((byte)(67)))), ((int)(((byte)(67)))));
             this.result_label_panel.Controls.Add(this.result_label);
             this.result_label_panel.Location = new System.Drawing.Point(0, 292);
-            this.result_label_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.result_label_panel.Margin = new System.Windows.Forms.Padding(2);
             this.result_label_panel.Name = "result_label_panel";
             this.result_label_panel.Size = new System.Drawing.Size(818, 32);
             this.result_label_panel.TabIndex = 2;
@@ -323,7 +323,7 @@
             this.elem_table_panel.Controls.Add(this.element_choice_label);
             this.elem_table_panel.Controls.Add(this.result_label_panel);
             this.elem_table_panel.Location = new System.Drawing.Point(0, 70);
-            this.elem_table_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.elem_table_panel.Margin = new System.Windows.Forms.Padding(2);
             this.elem_table_panel.Name = "elem_table_panel";
             this.elem_table_panel.Size = new System.Drawing.Size(818, 416);
             this.elem_table_panel.TabIndex = 2;
@@ -337,7 +337,7 @@
             this.btnAstatine.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnAstatine.ForeColor = System.Drawing.Color.White;
             this.btnAstatine.Location = new System.Drawing.Point(704, 202);
-            this.btnAstatine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAstatine.Margin = new System.Windows.Forms.Padding(2);
             this.btnAstatine.Name = "btnAstatine";
             this.btnAstatine.Size = new System.Drawing.Size(37, 32);
             this.btnAstatine.TabIndex = 99;
@@ -353,7 +353,7 @@
             this.btnPolonium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnPolonium.ForeColor = System.Drawing.Color.White;
             this.btnPolonium.Location = new System.Drawing.Point(662, 202);
-            this.btnPolonium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPolonium.Margin = new System.Windows.Forms.Padding(2);
             this.btnPolonium.Name = "btnPolonium";
             this.btnPolonium.Size = new System.Drawing.Size(37, 32);
             this.btnPolonium.TabIndex = 98;
@@ -369,7 +369,7 @@
             this.btnBismuth.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnBismuth.ForeColor = System.Drawing.Color.White;
             this.btnBismuth.Location = new System.Drawing.Point(621, 202);
-            this.btnBismuth.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBismuth.Margin = new System.Windows.Forms.Padding(2);
             this.btnBismuth.Name = "btnBismuth";
             this.btnBismuth.Size = new System.Drawing.Size(37, 32);
             this.btnBismuth.TabIndex = 97;
@@ -385,7 +385,7 @@
             this.btnLead.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnLead.ForeColor = System.Drawing.Color.White;
             this.btnLead.Location = new System.Drawing.Point(580, 202);
-            this.btnLead.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLead.Margin = new System.Windows.Forms.Padding(2);
             this.btnLead.Name = "btnLead";
             this.btnLead.Size = new System.Drawing.Size(37, 32);
             this.btnLead.TabIndex = 96;
@@ -401,7 +401,7 @@
             this.btnThallium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnThallium.ForeColor = System.Drawing.Color.White;
             this.btnThallium.Location = new System.Drawing.Point(538, 203);
-            this.btnThallium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnThallium.Margin = new System.Windows.Forms.Padding(2);
             this.btnThallium.Name = "btnThallium";
             this.btnThallium.Size = new System.Drawing.Size(37, 32);
             this.btnThallium.TabIndex = 95;
@@ -417,7 +417,7 @@
             this.btnMercury.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnMercury.ForeColor = System.Drawing.Color.White;
             this.btnMercury.Location = new System.Drawing.Point(496, 203);
-            this.btnMercury.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMercury.Margin = new System.Windows.Forms.Padding(2);
             this.btnMercury.Name = "btnMercury";
             this.btnMercury.Size = new System.Drawing.Size(37, 32);
             this.btnMercury.TabIndex = 94;
@@ -433,7 +433,7 @@
             this.btnGold.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnGold.ForeColor = System.Drawing.Color.White;
             this.btnGold.Location = new System.Drawing.Point(455, 203);
-            this.btnGold.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGold.Margin = new System.Windows.Forms.Padding(2);
             this.btnGold.Name = "btnGold";
             this.btnGold.Size = new System.Drawing.Size(37, 32);
             this.btnGold.TabIndex = 93;
@@ -449,7 +449,7 @@
             this.btnPlatinum.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnPlatinum.ForeColor = System.Drawing.Color.White;
             this.btnPlatinum.Location = new System.Drawing.Point(414, 202);
-            this.btnPlatinum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPlatinum.Margin = new System.Windows.Forms.Padding(2);
             this.btnPlatinum.Name = "btnPlatinum";
             this.btnPlatinum.Size = new System.Drawing.Size(37, 32);
             this.btnPlatinum.TabIndex = 92;
@@ -465,7 +465,7 @@
             this.btnIridium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnIridium.ForeColor = System.Drawing.Color.White;
             this.btnIridium.Location = new System.Drawing.Point(373, 202);
-            this.btnIridium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIridium.Margin = new System.Windows.Forms.Padding(2);
             this.btnIridium.Name = "btnIridium";
             this.btnIridium.Size = new System.Drawing.Size(37, 32);
             this.btnIridium.TabIndex = 91;
@@ -481,7 +481,7 @@
             this.btnOsmium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnOsmium.ForeColor = System.Drawing.Color.White;
             this.btnOsmium.Location = new System.Drawing.Point(332, 203);
-            this.btnOsmium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOsmium.Margin = new System.Windows.Forms.Padding(2);
             this.btnOsmium.Name = "btnOsmium";
             this.btnOsmium.Size = new System.Drawing.Size(37, 32);
             this.btnOsmium.TabIndex = 90;
@@ -497,7 +497,7 @@
             this.btnRhenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRhenium.ForeColor = System.Drawing.Color.White;
             this.btnRhenium.Location = new System.Drawing.Point(290, 202);
-            this.btnRhenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRhenium.Margin = new System.Windows.Forms.Padding(2);
             this.btnRhenium.Name = "btnRhenium";
             this.btnRhenium.Size = new System.Drawing.Size(37, 32);
             this.btnRhenium.TabIndex = 89;
@@ -513,7 +513,7 @@
             this.btnTungsten.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnTungsten.ForeColor = System.Drawing.Color.White;
             this.btnTungsten.Location = new System.Drawing.Point(249, 202);
-            this.btnTungsten.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTungsten.Margin = new System.Windows.Forms.Padding(2);
             this.btnTungsten.Name = "btnTungsten";
             this.btnTungsten.Size = new System.Drawing.Size(37, 32);
             this.btnTungsten.TabIndex = 88;
@@ -529,7 +529,7 @@
             this.btnTantalum.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnTantalum.ForeColor = System.Drawing.Color.White;
             this.btnTantalum.Location = new System.Drawing.Point(208, 202);
-            this.btnTantalum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTantalum.Margin = new System.Windows.Forms.Padding(2);
             this.btnTantalum.Name = "btnTantalum";
             this.btnTantalum.Size = new System.Drawing.Size(37, 32);
             this.btnTantalum.TabIndex = 87;
@@ -545,7 +545,7 @@
             this.btnHafnium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnHafnium.ForeColor = System.Drawing.Color.White;
             this.btnHafnium.Location = new System.Drawing.Point(166, 202);
-            this.btnHafnium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHafnium.Margin = new System.Windows.Forms.Padding(2);
             this.btnHafnium.Name = "btnHafnium";
             this.btnHafnium.Size = new System.Drawing.Size(37, 32);
             this.btnHafnium.TabIndex = 86;
@@ -561,7 +561,7 @@
             this.btnIodine.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnIodine.ForeColor = System.Drawing.Color.White;
             this.btnIodine.Location = new System.Drawing.Point(704, 167);
-            this.btnIodine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIodine.Margin = new System.Windows.Forms.Padding(2);
             this.btnIodine.Name = "btnIodine";
             this.btnIodine.Size = new System.Drawing.Size(37, 32);
             this.btnIodine.TabIndex = 85;
@@ -577,7 +577,7 @@
             this.btnTellurium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnTellurium.ForeColor = System.Drawing.Color.White;
             this.btnTellurium.Location = new System.Drawing.Point(662, 167);
-            this.btnTellurium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTellurium.Margin = new System.Windows.Forms.Padding(2);
             this.btnTellurium.Name = "btnTellurium";
             this.btnTellurium.Size = new System.Drawing.Size(37, 32);
             this.btnTellurium.TabIndex = 84;
@@ -593,7 +593,7 @@
             this.btnAntimony.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnAntimony.ForeColor = System.Drawing.Color.White;
             this.btnAntimony.Location = new System.Drawing.Point(621, 167);
-            this.btnAntimony.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAntimony.Margin = new System.Windows.Forms.Padding(2);
             this.btnAntimony.Name = "btnAntimony";
             this.btnAntimony.Size = new System.Drawing.Size(37, 32);
             this.btnAntimony.TabIndex = 83;
@@ -609,7 +609,7 @@
             this.btnTin.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnTin.ForeColor = System.Drawing.Color.White;
             this.btnTin.Location = new System.Drawing.Point(580, 167);
-            this.btnTin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTin.Margin = new System.Windows.Forms.Padding(2);
             this.btnTin.Name = "btnTin";
             this.btnTin.Size = new System.Drawing.Size(37, 32);
             this.btnTin.TabIndex = 82;
@@ -625,7 +625,7 @@
             this.btnIndium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnIndium.ForeColor = System.Drawing.Color.White;
             this.btnIndium.Location = new System.Drawing.Point(538, 167);
-            this.btnIndium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIndium.Margin = new System.Windows.Forms.Padding(2);
             this.btnIndium.Name = "btnIndium";
             this.btnIndium.Size = new System.Drawing.Size(37, 32);
             this.btnIndium.TabIndex = 81;
@@ -641,7 +641,7 @@
             this.btnCadmium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnCadmium.ForeColor = System.Drawing.Color.White;
             this.btnCadmium.Location = new System.Drawing.Point(496, 167);
-            this.btnCadmium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCadmium.Margin = new System.Windows.Forms.Padding(2);
             this.btnCadmium.Name = "btnCadmium";
             this.btnCadmium.Size = new System.Drawing.Size(37, 32);
             this.btnCadmium.TabIndex = 80;
@@ -657,7 +657,7 @@
             this.btnSilver.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnSilver.ForeColor = System.Drawing.Color.White;
             this.btnSilver.Location = new System.Drawing.Point(455, 167);
-            this.btnSilver.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSilver.Margin = new System.Windows.Forms.Padding(2);
             this.btnSilver.Name = "btnSilver";
             this.btnSilver.Size = new System.Drawing.Size(37, 32);
             this.btnSilver.TabIndex = 79;
@@ -673,7 +673,7 @@
             this.btnPalladium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnPalladium.ForeColor = System.Drawing.Color.White;
             this.btnPalladium.Location = new System.Drawing.Point(414, 167);
-            this.btnPalladium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPalladium.Margin = new System.Windows.Forms.Padding(2);
             this.btnPalladium.Name = "btnPalladium";
             this.btnPalladium.Size = new System.Drawing.Size(37, 32);
             this.btnPalladium.TabIndex = 78;
@@ -689,7 +689,7 @@
             this.btnRhodium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRhodium.ForeColor = System.Drawing.Color.White;
             this.btnRhodium.Location = new System.Drawing.Point(373, 167);
-            this.btnRhodium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRhodium.Margin = new System.Windows.Forms.Padding(2);
             this.btnRhodium.Name = "btnRhodium";
             this.btnRhodium.Size = new System.Drawing.Size(37, 32);
             this.btnRhodium.TabIndex = 77;
@@ -705,7 +705,7 @@
             this.btnRuthenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRuthenium.ForeColor = System.Drawing.Color.White;
             this.btnRuthenium.Location = new System.Drawing.Point(332, 167);
-            this.btnRuthenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRuthenium.Margin = new System.Windows.Forms.Padding(2);
             this.btnRuthenium.Name = "btnRuthenium";
             this.btnRuthenium.Size = new System.Drawing.Size(37, 32);
             this.btnRuthenium.TabIndex = 76;
@@ -721,7 +721,7 @@
             this.btnTechnetium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnTechnetium.ForeColor = System.Drawing.Color.White;
             this.btnTechnetium.Location = new System.Drawing.Point(290, 167);
-            this.btnTechnetium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTechnetium.Margin = new System.Windows.Forms.Padding(2);
             this.btnTechnetium.Name = "btnTechnetium";
             this.btnTechnetium.Size = new System.Drawing.Size(37, 32);
             this.btnTechnetium.TabIndex = 75;
@@ -737,7 +737,7 @@
             this.btnMolybdenum.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnMolybdenum.ForeColor = System.Drawing.Color.White;
             this.btnMolybdenum.Location = new System.Drawing.Point(249, 167);
-            this.btnMolybdenum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMolybdenum.Margin = new System.Windows.Forms.Padding(2);
             this.btnMolybdenum.Name = "btnMolybdenum";
             this.btnMolybdenum.Size = new System.Drawing.Size(37, 32);
             this.btnMolybdenum.TabIndex = 74;
@@ -753,7 +753,7 @@
             this.btnNiobium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnNiobium.ForeColor = System.Drawing.Color.White;
             this.btnNiobium.Location = new System.Drawing.Point(208, 167);
-            this.btnNiobium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNiobium.Margin = new System.Windows.Forms.Padding(2);
             this.btnNiobium.Name = "btnNiobium";
             this.btnNiobium.Size = new System.Drawing.Size(37, 32);
             this.btnNiobium.TabIndex = 73;
@@ -769,7 +769,7 @@
             this.btnZirconium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnZirconium.ForeColor = System.Drawing.Color.White;
             this.btnZirconium.Location = new System.Drawing.Point(166, 167);
-            this.btnZirconium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnZirconium.Margin = new System.Windows.Forms.Padding(2);
             this.btnZirconium.Name = "btnZirconium";
             this.btnZirconium.Size = new System.Drawing.Size(37, 32);
             this.btnZirconium.TabIndex = 72;
@@ -785,7 +785,7 @@
             this.button61.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.button61.ForeColor = System.Drawing.Color.White;
             this.button61.Location = new System.Drawing.Point(125, 202);
-            this.button61.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button61.Margin = new System.Windows.Forms.Padding(2);
             this.button61.Name = "button61";
             this.button61.Size = new System.Drawing.Size(37, 32);
             this.button61.TabIndex = 71;
@@ -801,7 +801,7 @@
             this.btnYttrium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnYttrium.ForeColor = System.Drawing.Color.White;
             this.btnYttrium.Location = new System.Drawing.Point(125, 167);
-            this.btnYttrium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnYttrium.Margin = new System.Windows.Forms.Padding(2);
             this.btnYttrium.Name = "btnYttrium";
             this.btnYttrium.Size = new System.Drawing.Size(37, 32);
             this.btnYttrium.TabIndex = 70;
@@ -817,7 +817,7 @@
             this.btnTennessine.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnTennessine.ForeColor = System.Drawing.Color.White;
             this.btnTennessine.Location = new System.Drawing.Point(704, 239);
-            this.btnTennessine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTennessine.Margin = new System.Windows.Forms.Padding(2);
             this.btnTennessine.Name = "btnTennessine";
             this.btnTennessine.Size = new System.Drawing.Size(37, 32);
             this.btnTennessine.TabIndex = 69;
@@ -833,7 +833,7 @@
             this.btnLivermorium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnLivermorium.ForeColor = System.Drawing.Color.White;
             this.btnLivermorium.Location = new System.Drawing.Point(662, 239);
-            this.btnLivermorium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLivermorium.Margin = new System.Windows.Forms.Padding(2);
             this.btnLivermorium.Name = "btnLivermorium";
             this.btnLivermorium.Size = new System.Drawing.Size(37, 32);
             this.btnLivermorium.TabIndex = 68;
@@ -849,7 +849,7 @@
             this.btnMoscovium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnMoscovium.ForeColor = System.Drawing.Color.White;
             this.btnMoscovium.Location = new System.Drawing.Point(621, 239);
-            this.btnMoscovium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMoscovium.Margin = new System.Windows.Forms.Padding(2);
             this.btnMoscovium.Name = "btnMoscovium";
             this.btnMoscovium.Size = new System.Drawing.Size(37, 32);
             this.btnMoscovium.TabIndex = 67;
@@ -865,7 +865,7 @@
             this.btnFlerovium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnFlerovium.ForeColor = System.Drawing.Color.White;
             this.btnFlerovium.Location = new System.Drawing.Point(580, 239);
-            this.btnFlerovium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFlerovium.Margin = new System.Windows.Forms.Padding(2);
             this.btnFlerovium.Name = "btnFlerovium";
             this.btnFlerovium.Size = new System.Drawing.Size(37, 32);
             this.btnFlerovium.TabIndex = 66;
@@ -881,7 +881,7 @@
             this.btnNihonium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnNihonium.ForeColor = System.Drawing.Color.White;
             this.btnNihonium.Location = new System.Drawing.Point(538, 239);
-            this.btnNihonium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNihonium.Margin = new System.Windows.Forms.Padding(2);
             this.btnNihonium.Name = "btnNihonium";
             this.btnNihonium.Size = new System.Drawing.Size(37, 32);
             this.btnNihonium.TabIndex = 65;
@@ -897,7 +897,7 @@
             this.btnCopernicium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnCopernicium.ForeColor = System.Drawing.Color.White;
             this.btnCopernicium.Location = new System.Drawing.Point(496, 239);
-            this.btnCopernicium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCopernicium.Margin = new System.Windows.Forms.Padding(2);
             this.btnCopernicium.Name = "btnCopernicium";
             this.btnCopernicium.Size = new System.Drawing.Size(37, 32);
             this.btnCopernicium.TabIndex = 64;
@@ -913,7 +913,7 @@
             this.btnRoentgenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRoentgenium.ForeColor = System.Drawing.Color.White;
             this.btnRoentgenium.Location = new System.Drawing.Point(455, 239);
-            this.btnRoentgenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRoentgenium.Margin = new System.Windows.Forms.Padding(2);
             this.btnRoentgenium.Name = "btnRoentgenium";
             this.btnRoentgenium.Size = new System.Drawing.Size(37, 32);
             this.btnRoentgenium.TabIndex = 63;
@@ -929,7 +929,7 @@
             this.btnDarmstadtium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnDarmstadtium.ForeColor = System.Drawing.Color.White;
             this.btnDarmstadtium.Location = new System.Drawing.Point(414, 239);
-            this.btnDarmstadtium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDarmstadtium.Margin = new System.Windows.Forms.Padding(2);
             this.btnDarmstadtium.Name = "btnDarmstadtium";
             this.btnDarmstadtium.Size = new System.Drawing.Size(37, 32);
             this.btnDarmstadtium.TabIndex = 62;
@@ -945,7 +945,7 @@
             this.btnMeitnerium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnMeitnerium.ForeColor = System.Drawing.Color.White;
             this.btnMeitnerium.Location = new System.Drawing.Point(373, 239);
-            this.btnMeitnerium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMeitnerium.Margin = new System.Windows.Forms.Padding(2);
             this.btnMeitnerium.Name = "btnMeitnerium";
             this.btnMeitnerium.Size = new System.Drawing.Size(37, 32);
             this.btnMeitnerium.TabIndex = 61;
@@ -961,7 +961,7 @@
             this.btnHassium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnHassium.ForeColor = System.Drawing.Color.White;
             this.btnHassium.Location = new System.Drawing.Point(332, 239);
-            this.btnHassium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHassium.Margin = new System.Windows.Forms.Padding(2);
             this.btnHassium.Name = "btnHassium";
             this.btnHassium.Size = new System.Drawing.Size(37, 32);
             this.btnHassium.TabIndex = 60;
@@ -977,7 +977,7 @@
             this.btnBohrium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnBohrium.ForeColor = System.Drawing.Color.White;
             this.btnBohrium.Location = new System.Drawing.Point(290, 239);
-            this.btnBohrium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBohrium.Margin = new System.Windows.Forms.Padding(2);
             this.btnBohrium.Name = "btnBohrium";
             this.btnBohrium.Size = new System.Drawing.Size(37, 32);
             this.btnBohrium.TabIndex = 59;
@@ -993,7 +993,7 @@
             this.btnSeaborgium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnSeaborgium.ForeColor = System.Drawing.Color.White;
             this.btnSeaborgium.Location = new System.Drawing.Point(249, 239);
-            this.btnSeaborgium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSeaborgium.Margin = new System.Windows.Forms.Padding(2);
             this.btnSeaborgium.Name = "btnSeaborgium";
             this.btnSeaborgium.Size = new System.Drawing.Size(37, 32);
             this.btnSeaborgium.TabIndex = 58;
@@ -1009,7 +1009,7 @@
             this.btnDubnium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnDubnium.ForeColor = System.Drawing.Color.White;
             this.btnDubnium.Location = new System.Drawing.Point(208, 239);
-            this.btnDubnium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDubnium.Margin = new System.Windows.Forms.Padding(2);
             this.btnDubnium.Name = "btnDubnium";
             this.btnDubnium.Size = new System.Drawing.Size(37, 32);
             this.btnDubnium.TabIndex = 57;
@@ -1025,7 +1025,7 @@
             this.btnRutherfordium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRutherfordium.ForeColor = System.Drawing.Color.White;
             this.btnRutherfordium.Location = new System.Drawing.Point(166, 239);
-            this.btnRutherfordium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRutherfordium.Margin = new System.Windows.Forms.Padding(2);
             this.btnRutherfordium.Name = "btnRutherfordium";
             this.btnRutherfordium.Size = new System.Drawing.Size(37, 32);
             this.btnRutherfordium.TabIndex = 56;
@@ -1041,7 +1041,7 @@
             this.button45.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.button45.ForeColor = System.Drawing.Color.White;
             this.button45.Location = new System.Drawing.Point(125, 239);
-            this.button45.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button45.Margin = new System.Windows.Forms.Padding(2);
             this.button45.Name = "button45";
             this.button45.Size = new System.Drawing.Size(37, 32);
             this.button45.TabIndex = 55;
@@ -1057,7 +1057,7 @@
             this.btnOganesson.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnOganesson.ForeColor = System.Drawing.Color.White;
             this.btnOganesson.Location = new System.Drawing.Point(745, 239);
-            this.btnOganesson.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOganesson.Margin = new System.Windows.Forms.Padding(2);
             this.btnOganesson.Name = "btnOganesson";
             this.btnOganesson.Size = new System.Drawing.Size(37, 32);
             this.btnOganesson.TabIndex = 54;
@@ -1073,7 +1073,7 @@
             this.btnRadon.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRadon.ForeColor = System.Drawing.Color.White;
             this.btnRadon.Location = new System.Drawing.Point(745, 202);
-            this.btnRadon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRadon.Margin = new System.Windows.Forms.Padding(2);
             this.btnRadon.Name = "btnRadon";
             this.btnRadon.Size = new System.Drawing.Size(37, 32);
             this.btnRadon.TabIndex = 53;
@@ -1089,7 +1089,7 @@
             this.btnXenon.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnXenon.ForeColor = System.Drawing.Color.White;
             this.btnXenon.Location = new System.Drawing.Point(745, 167);
-            this.btnXenon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnXenon.Margin = new System.Windows.Forms.Padding(2);
             this.btnXenon.Name = "btnXenon";
             this.btnXenon.Size = new System.Drawing.Size(37, 32);
             this.btnXenon.TabIndex = 52;
@@ -1105,7 +1105,7 @@
             this.btnKrypton.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnKrypton.ForeColor = System.Drawing.Color.White;
             this.btnKrypton.Location = new System.Drawing.Point(745, 130);
-            this.btnKrypton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnKrypton.Margin = new System.Windows.Forms.Padding(2);
             this.btnKrypton.Name = "btnKrypton";
             this.btnKrypton.Size = new System.Drawing.Size(37, 32);
             this.btnKrypton.TabIndex = 51;
@@ -1121,7 +1121,7 @@
             this.btnBromine.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnBromine.ForeColor = System.Drawing.Color.White;
             this.btnBromine.Location = new System.Drawing.Point(704, 130);
-            this.btnBromine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBromine.Margin = new System.Windows.Forms.Padding(2);
             this.btnBromine.Name = "btnBromine";
             this.btnBromine.Size = new System.Drawing.Size(37, 32);
             this.btnBromine.TabIndex = 50;
@@ -1137,7 +1137,7 @@
             this.btnSelenium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnSelenium.ForeColor = System.Drawing.Color.White;
             this.btnSelenium.Location = new System.Drawing.Point(662, 130);
-            this.btnSelenium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSelenium.Margin = new System.Windows.Forms.Padding(2);
             this.btnSelenium.Name = "btnSelenium";
             this.btnSelenium.Size = new System.Drawing.Size(37, 32);
             this.btnSelenium.TabIndex = 49;
@@ -1153,7 +1153,7 @@
             this.btnArsenic.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnArsenic.ForeColor = System.Drawing.Color.White;
             this.btnArsenic.Location = new System.Drawing.Point(621, 130);
-            this.btnArsenic.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnArsenic.Margin = new System.Windows.Forms.Padding(2);
             this.btnArsenic.Name = "btnArsenic";
             this.btnArsenic.Size = new System.Drawing.Size(37, 32);
             this.btnArsenic.TabIndex = 48;
@@ -1169,7 +1169,7 @@
             this.btnGermanium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnGermanium.ForeColor = System.Drawing.Color.White;
             this.btnGermanium.Location = new System.Drawing.Point(580, 130);
-            this.btnGermanium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGermanium.Margin = new System.Windows.Forms.Padding(2);
             this.btnGermanium.Name = "btnGermanium";
             this.btnGermanium.Size = new System.Drawing.Size(37, 32);
             this.btnGermanium.TabIndex = 47;
@@ -1185,7 +1185,7 @@
             this.btnChlorine.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnChlorine.ForeColor = System.Drawing.Color.White;
             this.btnChlorine.Location = new System.Drawing.Point(704, 93);
-            this.btnChlorine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChlorine.Margin = new System.Windows.Forms.Padding(2);
             this.btnChlorine.Name = "btnChlorine";
             this.btnChlorine.Size = new System.Drawing.Size(37, 32);
             this.btnChlorine.TabIndex = 46;
@@ -1201,7 +1201,7 @@
             this.btnSulfur.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnSulfur.ForeColor = System.Drawing.Color.White;
             this.btnSulfur.Location = new System.Drawing.Point(662, 93);
-            this.btnSulfur.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSulfur.Margin = new System.Windows.Forms.Padding(2);
             this.btnSulfur.Name = "btnSulfur";
             this.btnSulfur.Size = new System.Drawing.Size(37, 32);
             this.btnSulfur.TabIndex = 45;
@@ -1217,7 +1217,7 @@
             this.btnPhosphorus.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnPhosphorus.ForeColor = System.Drawing.Color.White;
             this.btnPhosphorus.Location = new System.Drawing.Point(621, 93);
-            this.btnPhosphorus.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPhosphorus.Margin = new System.Windows.Forms.Padding(2);
             this.btnPhosphorus.Name = "btnPhosphorus";
             this.btnPhosphorus.Size = new System.Drawing.Size(37, 32);
             this.btnPhosphorus.TabIndex = 44;
@@ -1233,7 +1233,7 @@
             this.btnSilicon.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnSilicon.ForeColor = System.Drawing.Color.White;
             this.btnSilicon.Location = new System.Drawing.Point(580, 93);
-            this.btnSilicon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSilicon.Margin = new System.Windows.Forms.Padding(2);
             this.btnSilicon.Name = "btnSilicon";
             this.btnSilicon.Size = new System.Drawing.Size(37, 32);
             this.btnSilicon.TabIndex = 43;
@@ -1249,7 +1249,7 @@
             this.btnArgon.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnArgon.ForeColor = System.Drawing.Color.White;
             this.btnArgon.Location = new System.Drawing.Point(745, 93);
-            this.btnArgon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnArgon.Margin = new System.Windows.Forms.Padding(2);
             this.btnArgon.Name = "btnArgon";
             this.btnArgon.Size = new System.Drawing.Size(37, 32);
             this.btnArgon.TabIndex = 42;
@@ -1265,7 +1265,7 @@
             this.btnHelium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnHelium.ForeColor = System.Drawing.Color.White;
             this.btnHelium.Location = new System.Drawing.Point(745, 20);
-            this.btnHelium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHelium.Margin = new System.Windows.Forms.Padding(2);
             this.btnHelium.Name = "btnHelium";
             this.btnHelium.Size = new System.Drawing.Size(37, 32);
             this.btnHelium.TabIndex = 41;
@@ -1281,7 +1281,7 @@
             this.btnNeon.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnNeon.ForeColor = System.Drawing.Color.White;
             this.btnNeon.Location = new System.Drawing.Point(745, 57);
-            this.btnNeon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNeon.Margin = new System.Windows.Forms.Padding(2);
             this.btnNeon.Name = "btnNeon";
             this.btnNeon.Size = new System.Drawing.Size(37, 32);
             this.btnNeon.TabIndex = 40;
@@ -1297,7 +1297,7 @@
             this.btnFluorine.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnFluorine.ForeColor = System.Drawing.Color.White;
             this.btnFluorine.Location = new System.Drawing.Point(704, 57);
-            this.btnFluorine.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFluorine.Margin = new System.Windows.Forms.Padding(2);
             this.btnFluorine.Name = "btnFluorine";
             this.btnFluorine.Size = new System.Drawing.Size(37, 32);
             this.btnFluorine.TabIndex = 39;
@@ -1313,7 +1313,7 @@
             this.btnOxygen.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnOxygen.ForeColor = System.Drawing.Color.White;
             this.btnOxygen.Location = new System.Drawing.Point(662, 57);
-            this.btnOxygen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnOxygen.Margin = new System.Windows.Forms.Padding(2);
             this.btnOxygen.Name = "btnOxygen";
             this.btnOxygen.Size = new System.Drawing.Size(37, 32);
             this.btnOxygen.TabIndex = 38;
@@ -1329,7 +1329,7 @@
             this.btnNitrogen.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnNitrogen.ForeColor = System.Drawing.Color.White;
             this.btnNitrogen.Location = new System.Drawing.Point(621, 57);
-            this.btnNitrogen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNitrogen.Margin = new System.Windows.Forms.Padding(2);
             this.btnNitrogen.Name = "btnNitrogen";
             this.btnNitrogen.Size = new System.Drawing.Size(37, 32);
             this.btnNitrogen.TabIndex = 37;
@@ -1345,7 +1345,7 @@
             this.btnCarbon.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnCarbon.ForeColor = System.Drawing.Color.White;
             this.btnCarbon.Location = new System.Drawing.Point(580, 57);
-            this.btnCarbon.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCarbon.Margin = new System.Windows.Forms.Padding(2);
             this.btnCarbon.Name = "btnCarbon";
             this.btnCarbon.Size = new System.Drawing.Size(37, 32);
             this.btnCarbon.TabIndex = 36;
@@ -1361,7 +1361,7 @@
             this.btnBoron.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnBoron.ForeColor = System.Drawing.Color.White;
             this.btnBoron.Location = new System.Drawing.Point(538, 57);
-            this.btnBoron.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBoron.Margin = new System.Windows.Forms.Padding(2);
             this.btnBoron.Name = "btnBoron";
             this.btnBoron.Size = new System.Drawing.Size(37, 32);
             this.btnBoron.TabIndex = 35;
@@ -1377,7 +1377,7 @@
             this.btnAluminum.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnAluminum.ForeColor = System.Drawing.Color.White;
             this.btnAluminum.Location = new System.Drawing.Point(538, 93);
-            this.btnAluminum.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAluminum.Margin = new System.Windows.Forms.Padding(2);
             this.btnAluminum.Name = "btnAluminum";
             this.btnAluminum.Size = new System.Drawing.Size(37, 32);
             this.btnAluminum.TabIndex = 34;
@@ -1393,7 +1393,7 @@
             this.btnGallium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnGallium.ForeColor = System.Drawing.Color.White;
             this.btnGallium.Location = new System.Drawing.Point(538, 130);
-            this.btnGallium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnGallium.Margin = new System.Windows.Forms.Padding(2);
             this.btnGallium.Name = "btnGallium";
             this.btnGallium.Size = new System.Drawing.Size(37, 32);
             this.btnGallium.TabIndex = 33;
@@ -1409,7 +1409,7 @@
             this.btnZinc.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnZinc.ForeColor = System.Drawing.Color.White;
             this.btnZinc.Location = new System.Drawing.Point(496, 130);
-            this.btnZinc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnZinc.Margin = new System.Windows.Forms.Padding(2);
             this.btnZinc.Name = "btnZinc";
             this.btnZinc.Size = new System.Drawing.Size(37, 32);
             this.btnZinc.TabIndex = 32;
@@ -1425,7 +1425,7 @@
             this.btnCopper.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnCopper.ForeColor = System.Drawing.Color.White;
             this.btnCopper.Location = new System.Drawing.Point(455, 130);
-            this.btnCopper.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCopper.Margin = new System.Windows.Forms.Padding(2);
             this.btnCopper.Name = "btnCopper";
             this.btnCopper.Size = new System.Drawing.Size(37, 32);
             this.btnCopper.TabIndex = 31;
@@ -1441,7 +1441,7 @@
             this.btnNickel.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnNickel.ForeColor = System.Drawing.Color.White;
             this.btnNickel.Location = new System.Drawing.Point(414, 130);
-            this.btnNickel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnNickel.Margin = new System.Windows.Forms.Padding(2);
             this.btnNickel.Name = "btnNickel";
             this.btnNickel.Size = new System.Drawing.Size(37, 32);
             this.btnNickel.TabIndex = 30;
@@ -1457,7 +1457,7 @@
             this.btnCobalt.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnCobalt.ForeColor = System.Drawing.Color.White;
             this.btnCobalt.Location = new System.Drawing.Point(373, 130);
-            this.btnCobalt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCobalt.Margin = new System.Windows.Forms.Padding(2);
             this.btnCobalt.Name = "btnCobalt";
             this.btnCobalt.Size = new System.Drawing.Size(37, 32);
             this.btnCobalt.TabIndex = 29;
@@ -1473,7 +1473,7 @@
             this.btnIron.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnIron.ForeColor = System.Drawing.Color.White;
             this.btnIron.Location = new System.Drawing.Point(332, 130);
-            this.btnIron.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnIron.Margin = new System.Windows.Forms.Padding(2);
             this.btnIron.Name = "btnIron";
             this.btnIron.Size = new System.Drawing.Size(37, 32);
             this.btnIron.TabIndex = 28;
@@ -1489,7 +1489,7 @@
             this.btnManganese.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnManganese.ForeColor = System.Drawing.Color.White;
             this.btnManganese.Location = new System.Drawing.Point(290, 130);
-            this.btnManganese.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnManganese.Margin = new System.Windows.Forms.Padding(2);
             this.btnManganese.Name = "btnManganese";
             this.btnManganese.Size = new System.Drawing.Size(37, 32);
             this.btnManganese.TabIndex = 27;
@@ -1505,7 +1505,7 @@
             this.btnChromium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnChromium.ForeColor = System.Drawing.Color.White;
             this.btnChromium.Location = new System.Drawing.Point(249, 130);
-            this.btnChromium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnChromium.Margin = new System.Windows.Forms.Padding(2);
             this.btnChromium.Name = "btnChromium";
             this.btnChromium.Size = new System.Drawing.Size(37, 32);
             this.btnChromium.TabIndex = 26;
@@ -1521,7 +1521,7 @@
             this.btnVanadium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnVanadium.ForeColor = System.Drawing.Color.White;
             this.btnVanadium.Location = new System.Drawing.Point(208, 130);
-            this.btnVanadium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnVanadium.Margin = new System.Windows.Forms.Padding(2);
             this.btnVanadium.Name = "btnVanadium";
             this.btnVanadium.Size = new System.Drawing.Size(37, 32);
             this.btnVanadium.TabIndex = 25;
@@ -1537,7 +1537,7 @@
             this.btnTitanium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnTitanium.ForeColor = System.Drawing.Color.White;
             this.btnTitanium.Location = new System.Drawing.Point(166, 130);
-            this.btnTitanium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnTitanium.Margin = new System.Windows.Forms.Padding(2);
             this.btnTitanium.Name = "btnTitanium";
             this.btnTitanium.Size = new System.Drawing.Size(37, 32);
             this.btnTitanium.TabIndex = 24;
@@ -1553,7 +1553,7 @@
             this.btnScandium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnScandium.ForeColor = System.Drawing.Color.White;
             this.btnScandium.Location = new System.Drawing.Point(125, 130);
-            this.btnScandium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnScandium.Margin = new System.Windows.Forms.Padding(2);
             this.btnScandium.Name = "btnScandium";
             this.btnScandium.Size = new System.Drawing.Size(37, 32);
             this.btnScandium.TabIndex = 23;
@@ -1569,7 +1569,7 @@
             this.btnRadium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRadium.ForeColor = System.Drawing.Color.White;
             this.btnRadium.Location = new System.Drawing.Point(84, 239);
-            this.btnRadium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRadium.Margin = new System.Windows.Forms.Padding(2);
             this.btnRadium.Name = "btnRadium";
             this.btnRadium.Size = new System.Drawing.Size(37, 32);
             this.btnRadium.TabIndex = 22;
@@ -1585,7 +1585,7 @@
             this.btnBarium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnBarium.ForeColor = System.Drawing.Color.White;
             this.btnBarium.Location = new System.Drawing.Point(84, 203);
-            this.btnBarium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBarium.Margin = new System.Windows.Forms.Padding(2);
             this.btnBarium.Name = "btnBarium";
             this.btnBarium.Size = new System.Drawing.Size(37, 32);
             this.btnBarium.TabIndex = 21;
@@ -1601,7 +1601,7 @@
             this.btnStrontium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnStrontium.ForeColor = System.Drawing.Color.White;
             this.btnStrontium.Location = new System.Drawing.Point(84, 167);
-            this.btnStrontium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnStrontium.Margin = new System.Windows.Forms.Padding(2);
             this.btnStrontium.Name = "btnStrontium";
             this.btnStrontium.Size = new System.Drawing.Size(37, 32);
             this.btnStrontium.TabIndex = 20;
@@ -1617,7 +1617,7 @@
             this.btnCalcium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnCalcium.ForeColor = System.Drawing.Color.White;
             this.btnCalcium.Location = new System.Drawing.Point(84, 130);
-            this.btnCalcium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCalcium.Margin = new System.Windows.Forms.Padding(2);
             this.btnCalcium.Name = "btnCalcium";
             this.btnCalcium.Size = new System.Drawing.Size(37, 32);
             this.btnCalcium.TabIndex = 19;
@@ -1633,7 +1633,7 @@
             this.btnMagnesium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnMagnesium.ForeColor = System.Drawing.Color.White;
             this.btnMagnesium.Location = new System.Drawing.Point(84, 93);
-            this.btnMagnesium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnMagnesium.Margin = new System.Windows.Forms.Padding(2);
             this.btnMagnesium.Name = "btnMagnesium";
             this.btnMagnesium.Size = new System.Drawing.Size(37, 32);
             this.btnMagnesium.TabIndex = 18;
@@ -1649,12 +1649,13 @@
             this.btnBeryllium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnBeryllium.ForeColor = System.Drawing.Color.White;
             this.btnBeryllium.Location = new System.Drawing.Point(84, 57);
-            this.btnBeryllium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBeryllium.Margin = new System.Windows.Forms.Padding(2);
             this.btnBeryllium.Name = "btnBeryllium";
             this.btnBeryllium.Size = new System.Drawing.Size(37, 32);
             this.btnBeryllium.TabIndex = 17;
             this.btnBeryllium.Text = "Be";
             this.btnBeryllium.UseVisualStyleBackColor = false;
+            this.btnBeryllium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnFrancium
             // 
@@ -1665,7 +1666,7 @@
             this.btnFrancium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnFrancium.ForeColor = System.Drawing.Color.White;
             this.btnFrancium.Location = new System.Drawing.Point(43, 239);
-            this.btnFrancium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnFrancium.Margin = new System.Windows.Forms.Padding(2);
             this.btnFrancium.Name = "btnFrancium";
             this.btnFrancium.Size = new System.Drawing.Size(37, 32);
             this.btnFrancium.TabIndex = 16;
@@ -1681,7 +1682,7 @@
             this.btnCaesium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnCaesium.ForeColor = System.Drawing.Color.White;
             this.btnCaesium.Location = new System.Drawing.Point(43, 203);
-            this.btnCaesium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCaesium.Margin = new System.Windows.Forms.Padding(2);
             this.btnCaesium.Name = "btnCaesium";
             this.btnCaesium.Size = new System.Drawing.Size(37, 32);
             this.btnCaesium.TabIndex = 15;
@@ -1697,7 +1698,7 @@
             this.btnRubidium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnRubidium.ForeColor = System.Drawing.Color.White;
             this.btnRubidium.Location = new System.Drawing.Point(43, 167);
-            this.btnRubidium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRubidium.Margin = new System.Windows.Forms.Padding(2);
             this.btnRubidium.Name = "btnRubidium";
             this.btnRubidium.Size = new System.Drawing.Size(37, 32);
             this.btnRubidium.TabIndex = 14;
@@ -1713,7 +1714,7 @@
             this.btnPotassium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnPotassium.ForeColor = System.Drawing.Color.White;
             this.btnPotassium.Location = new System.Drawing.Point(43, 130);
-            this.btnPotassium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPotassium.Margin = new System.Windows.Forms.Padding(2);
             this.btnPotassium.Name = "btnPotassium";
             this.btnPotassium.Size = new System.Drawing.Size(37, 32);
             this.btnPotassium.TabIndex = 13;
@@ -1729,12 +1730,13 @@
             this.btnSodium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnSodium.ForeColor = System.Drawing.Color.White;
             this.btnSodium.Location = new System.Drawing.Point(43, 93);
-            this.btnSodium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSodium.Margin = new System.Windows.Forms.Padding(2);
             this.btnSodium.Name = "btnSodium";
             this.btnSodium.Size = new System.Drawing.Size(37, 32);
             this.btnSodium.TabIndex = 12;
             this.btnSodium.Text = "Na";
             this.btnSodium.UseVisualStyleBackColor = false;
+            this.btnSodium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnLithium
             // 
@@ -1745,12 +1747,13 @@
             this.btnLithium.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnLithium.ForeColor = System.Drawing.Color.White;
             this.btnLithium.Location = new System.Drawing.Point(43, 57);
-            this.btnLithium.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLithium.Margin = new System.Windows.Forms.Padding(2);
             this.btnLithium.Name = "btnLithium";
             this.btnLithium.Size = new System.Drawing.Size(37, 32);
             this.btnLithium.TabIndex = 11;
             this.btnLithium.Text = "Li";
             this.btnLithium.UseVisualStyleBackColor = false;
+            this.btnLithium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnHydrogen
             // 
@@ -1761,18 +1764,19 @@
             this.btnHydrogen.Font = new System.Drawing.Font("Bahnschrift", 10F);
             this.btnHydrogen.ForeColor = System.Drawing.Color.White;
             this.btnHydrogen.Location = new System.Drawing.Point(43, 20);
-            this.btnHydrogen.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnHydrogen.Margin = new System.Windows.Forms.Padding(2);
             this.btnHydrogen.Name = "btnHydrogen";
             this.btnHydrogen.Size = new System.Drawing.Size(37, 32);
             this.btnHydrogen.TabIndex = 10;
             this.btnHydrogen.Text = "H";
             this.btnHydrogen.UseVisualStyleBackColor = false;
+            this.btnHydrogen.Click += new System.EventHandler(this.btn_query);
             // 
             // result_panel
             // 
             this.result_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
             this.result_panel.Location = new System.Drawing.Point(1, 324);
-            this.result_panel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.result_panel.Margin = new System.Windows.Forms.Padding(2);
             this.result_panel.Name = "result_panel";
             this.result_panel.Size = new System.Drawing.Size(817, 91);
             this.result_panel.TabIndex = 6;
@@ -1799,7 +1803,7 @@
             this.ClientSize = new System.Drawing.Size(817, 481);
             this.Controls.Add(this.elem_table_panel);
             this.Controls.Add(this.navigation_panal);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ElectronConfigScreen";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;

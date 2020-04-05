@@ -102,11 +102,19 @@ namespace Chemistree_GUI_V1
             return dt;
         }
 
+        //This function will send a message to the database to request the information we want to query
         public void queryDB(string abbr)
         {
-
+            Console.WriteLine(abbr);
+            //Console.WriteLine("SELECT FROM ELEMENTS THE SPECIFIC ELEMENT THAT WAS SELECTED");
         }
     }
+
+
+
+
+
+
 
     class Element
     {

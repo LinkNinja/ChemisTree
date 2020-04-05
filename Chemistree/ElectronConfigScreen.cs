@@ -54,6 +54,9 @@ namespace Chemistree_GUI_V1
             this.Close();
         }
 
+
+        //a function that will be used to check the database for every element button on the table.
+
         private void btn_query(object sender, EventArgs e)
         {
             Button s = (System.Windows.Forms.Button)sender;
@@ -61,5 +64,7 @@ namespace Chemistree_GUI_V1
             conn.queryDB(s.Text);
              
         }
+
+ 
     }
 }
