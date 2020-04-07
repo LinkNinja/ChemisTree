@@ -187,9 +187,9 @@
             this.label1.Location = new System.Drawing.Point(316, 24);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(232, 23);
+            this.label1.Size = new System.Drawing.Size(125, 23);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Create an Ionic Compound";
+            this.label1.Text = "Repeated text";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // AppTitle
@@ -1271,6 +1271,7 @@
             this.btnHelium.TabIndex = 41;
             this.btnHelium.Text = "He";
             this.btnHelium.UseVisualStyleBackColor = false;
+            this.btnHelium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnNeon
             // 
@@ -1768,6 +1769,7 @@
             this.btnHydrogen.Name = "btnHydrogen";
             this.btnHydrogen.Size = new System.Drawing.Size(37, 32);
             this.btnHydrogen.TabIndex = 10;
+            this.btnHydrogen.Tag = "1";
             this.btnHydrogen.Text = "H";
             this.btnHydrogen.UseVisualStyleBackColor = false;
             this.btnHydrogen.Click += new System.EventHandler(this.btn_query);
