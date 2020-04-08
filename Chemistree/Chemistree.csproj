@@ -69,6 +69,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DBConnection.cs" />
+    <Compile Include="DBInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DBInput.Designer.cs">
+      <DependentUpon>DBInput.cs</DependentUpon>
+    </Compile>
     <Compile Include="ElectronConfigScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -98,6 +104,9 @@
     <Compile Include="RoundedPanel.cs">
       <SubType>Component</SubType>
     </Compile>
+    <EmbeddedResource Include="DBInput.resx">
+      <DependentUpon>DBInput.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ElectronConfigScreen.resx">
       <DependentUpon>ElectronConfigScreen.cs</DependentUpon>
     </EmbeddedResource>
