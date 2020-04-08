@@ -106,6 +106,21 @@ namespace Chemistree_GUI_V1
             return dt;
         }
 
+        public void SubmitDB(Element e)
+        {
+            FormattableString sql = $"INSERT INTO elements (`name`, `abbrevation`, `atomicNumber`, `periodicGroup`, `periodicPeriod`) VALUES ({e.name}, {e.abbr}, {e.atomicNumber}, {e.periodicGroup}, {e.periodicPeriod});";
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql.ToString(), conn);
+                int result = cmd.ExecuteNonQuery();
+                Console.WriteLine("Rows affected: {0}", result);
+            }
+            catch (Exception ex)
+            {
+                // Handle Exception
+            }
+        }
+
         //This function will send a message to the database to request the information we want to query
         public void queryDB(string abbr)
         {
