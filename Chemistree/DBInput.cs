@@ -12,14 +12,15 @@ namespace Chemistree_GUI_V1
 {
     public partial class DBInput : Form
     {
-        DBConnection conn;
+        private DBConnection conn;
         public DBInput()
         {
             InitializeComponent();
+            conn = new DBConnection();
             conn.ConnectToDB();
         }
 
-        public void ClickBtnSubmit()
+        public void ClickBtnSubmit(object sender, EventArgs args)
         {
             Element e = new Element();
             e.name = txtbxName.Text;
@@ -30,6 +31,19 @@ namespace Chemistree_GUI_V1
 
             conn.SubmitDB(e);
 
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnMenu_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu s1 = new MainMenu();
+            s1.ShowDialog();
+            this.Close();
         }
     }
 }
