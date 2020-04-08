@@ -36,16 +36,24 @@
             this.label1 = new System.Windows.Forms.Label();
             this.AppTitle = new System.Windows.Forms.Label();
             this.compount_panel = new System.Windows.Forms.Panel();
-            this.anions_panel = new Chemistree_GUI_V1.RoundedPanel();
-            this.create_compound_btn = new Chemistree_GUI_V1.RoundedButton();
-            this.cations_panel = new Chemistree_GUI_V1.RoundedPanel();
             this.compound_choice_label = new System.Windows.Forms.Label();
             this.result_panel = new System.Windows.Forms.Panel();
             this.reset_btn = new System.Windows.Forms.Button();
+            this.anions_panel = new Chemistree_GUI_V1.RoundedPanel();
+            this.anions_label = new System.Windows.Forms.Label();
+            this.ani_charge_input = new System.Windows.Forms.TextBox();
+            this.anion_input = new System.Windows.Forms.TextBox();
+            this.create_compound_btn = new Chemistree_GUI_V1.RoundedButton();
+            this.cations_panel = new Chemistree_GUI_V1.RoundedPanel();
+            this.cation_label = new System.Windows.Forms.Label();
+            this.cat_charge_input = new System.Windows.Forms.TextBox();
+            this.cation_input = new System.Windows.Forms.TextBox();
             this.navigation_panal.SuspendLayout();
             this.result_label_panel.SuspendLayout();
             this.compount_panel.SuspendLayout();
             this.result_panel.SuspendLayout();
+            this.anions_panel.SuspendLayout();
+            this.cations_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // navigation_panal
@@ -143,39 +151,9 @@
             this.compount_panel.Controls.Add(this.compound_choice_label);
             this.compount_panel.Location = new System.Drawing.Point(0, 86);
             this.compount_panel.Name = "compount_panel";
-            this.compount_panel.Size = new System.Drawing.Size(441, 529);
+            this.compount_panel.Size = new System.Drawing.Size(441, 452);
             this.compount_panel.TabIndex = 1;
             this.compount_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.compount_panel_Paint);
-            // 
-            // anions_panel
-            // 
-            this.anions_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.anions_panel.Location = new System.Drawing.Point(48, 222);
-            this.anions_panel.Name = "anions_panel";
-            this.anions_panel.Size = new System.Drawing.Size(331, 158);
-            this.anions_panel.TabIndex = 7;
-            // 
-            // create_compound_btn
-            // 
-            this.create_compound_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
-            this.create_compound_btn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.create_compound_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.create_compound_btn.Font = new System.Drawing.Font("Bahnschrift Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.create_compound_btn.Location = new System.Drawing.Point(48, 390);
-            this.create_compound_btn.Name = "create_compound_btn";
-            this.create_compound_btn.Size = new System.Drawing.Size(331, 42);
-            this.create_compound_btn.TabIndex = 8;
-            this.create_compound_btn.Text = "CREATE COMPOUND";
-            this.create_compound_btn.UseVisualStyleBackColor = false;
-            this.create_compound_btn.Click += new System.EventHandler(this.create_compound_btn_Click);
-            // 
-            // cations_panel
-            // 
-            this.cations_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
-            this.cations_panel.Location = new System.Drawing.Point(48, 49);
-            this.cations_panel.Name = "cations_panel";
-            this.cations_panel.Size = new System.Drawing.Size(331, 158);
-            this.cations_panel.TabIndex = 6;
             // 
             // compound_choice_label
             // 
@@ -194,7 +172,7 @@
             this.result_panel.Controls.Add(this.reset_btn);
             this.result_panel.Location = new System.Drawing.Point(440, 135);
             this.result_panel.Name = "result_panel";
-            this.result_panel.Size = new System.Drawing.Size(432, 406);
+            this.result_panel.Size = new System.Drawing.Size(432, 400);
             this.result_panel.TabIndex = 3;
             this.result_panel.Paint += new System.Windows.Forms.PaintEventHandler(this.result_panel_Paint);
             // 
@@ -210,6 +188,121 @@
             this.reset_btn.TabIndex = 6;
             this.reset_btn.Text = "TRY AGAIN";
             this.reset_btn.UseVisualStyleBackColor = false;
+            // 
+            // anions_panel
+            // 
+            this.anions_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.anions_panel.Controls.Add(this.anions_label);
+            this.anions_panel.Controls.Add(this.ani_charge_input);
+            this.anions_panel.Controls.Add(this.anion_input);
+            this.anions_panel.Location = new System.Drawing.Point(48, 222);
+            this.anions_panel.Name = "anions_panel";
+            this.anions_panel.Size = new System.Drawing.Size(331, 158);
+            this.anions_panel.TabIndex = 7;
+            // 
+            // anions_label
+            // 
+            this.anions_label.AutoSize = true;
+            this.anions_label.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.anions_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.anions_label.Location = new System.Drawing.Point(104, 19);
+            this.anions_label.Name = "anions_label";
+            this.anions_label.Size = new System.Drawing.Size(100, 29);
+            this.anions_label.TabIndex = 7;
+            this.anions_label.Text = "ANIONS";
+            // 
+            // ani_charge_input
+            // 
+            this.ani_charge_input.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.ani_charge_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ani_charge_input.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ani_charge_input.Font = new System.Drawing.Font("Bahnschrift", 12F);
+            this.ani_charge_input.ForeColor = System.Drawing.Color.White;
+            this.ani_charge_input.Location = new System.Drawing.Point(231, 59);
+            this.ani_charge_input.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.ani_charge_input.Multiline = true;
+            this.ani_charge_input.Name = "ani_charge_input";
+            this.ani_charge_input.Size = new System.Drawing.Size(50, 40);
+            this.ani_charge_input.TabIndex = 2;
+            // 
+            // anion_input
+            // 
+            this.anion_input.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.anion_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.anion_input.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.anion_input.Font = new System.Drawing.Font("Bahnschrift", 16F);
+            this.anion_input.ForeColor = System.Drawing.Color.White;
+            this.anion_input.Location = new System.Drawing.Point(61, 59);
+            this.anion_input.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.anion_input.Multiline = true;
+            this.anion_input.Name = "anion_input";
+            this.anion_input.Size = new System.Drawing.Size(160, 70);
+            this.anion_input.TabIndex = 2;
+            // 
+            // create_compound_btn
+            // 
+            this.create_compound_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(211)))), ((int)(((byte)(255)))), ((int)(((byte)(64)))));
+            this.create_compound_btn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.create_compound_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.create_compound_btn.Font = new System.Drawing.Font("Bahnschrift Light", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.create_compound_btn.Location = new System.Drawing.Point(48, 390);
+            this.create_compound_btn.Name = "create_compound_btn";
+            this.create_compound_btn.Size = new System.Drawing.Size(331, 42);
+            this.create_compound_btn.TabIndex = 8;
+            this.create_compound_btn.Text = "CREATE COMPOUND";
+            this.create_compound_btn.UseVisualStyleBackColor = false;
+            this.create_compound_btn.Click += new System.EventHandler(this.create_compound_btn_Click);
+            // 
+            // cations_panel
+            // 
+            this.cations_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(175)))), ((int)(((byte)(255)))));
+            this.cations_panel.Controls.Add(this.cation_label);
+            this.cations_panel.Controls.Add(this.cat_charge_input);
+            this.cations_panel.Controls.Add(this.cation_input);
+            this.cations_panel.Location = new System.Drawing.Point(48, 49);
+            this.cations_panel.Name = "cations_panel";
+            this.cations_panel.Size = new System.Drawing.Size(331, 158);
+            this.cations_panel.TabIndex = 6;
+            // 
+            // cation_label
+            // 
+            this.cation_label.AutoSize = true;
+            this.cation_label.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cation_label.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.cation_label.Location = new System.Drawing.Point(104, 16);
+            this.cation_label.Name = "cation_label";
+            this.cation_label.Size = new System.Drawing.Size(109, 29);
+            this.cation_label.TabIndex = 6;
+            this.cation_label.Text = "CATIONS";
+            // 
+            // cat_charge_input
+            // 
+            this.cat_charge_input.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.cat_charge_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cat_charge_input.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cat_charge_input.Font = new System.Drawing.Font("Bahnschrift", 12F);
+            this.cat_charge_input.ForeColor = System.Drawing.Color.White;
+            this.cat_charge_input.Location = new System.Drawing.Point(231, 60);
+            this.cat_charge_input.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.cat_charge_input.Multiline = true;
+            this.cat_charge_input.Name = "cat_charge_input";
+            this.cat_charge_input.Size = new System.Drawing.Size(50, 40);
+            this.cat_charge_input.TabIndex = 1;
+            // 
+            // cation_input
+            // 
+            this.cation_input.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
+            this.cation_input.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.cation_input.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cation_input.Font = new System.Drawing.Font("Bahnschrift", 16F);
+            this.cation_input.ForeColor = System.Drawing.Color.White;
+            this.cation_input.Location = new System.Drawing.Point(61, 60);
+            this.cation_input.Margin = new System.Windows.Forms.Padding(10, 20, 10, 10);
+            this.cation_input.Multiline = true;
+            this.cation_input.Name = "cation_input";
+            this.cation_input.Size = new System.Drawing.Size(160, 70);
+            this.cation_input.TabIndex = 0;
+            this.cation_input.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // IoCompoundScreen
             // 
@@ -230,6 +323,10 @@
             this.compount_panel.ResumeLayout(false);
             this.compount_panel.PerformLayout();
             this.result_panel.ResumeLayout(false);
+            this.anions_panel.ResumeLayout(false);
+            this.anions_panel.PerformLayout();
+            this.cations_panel.ResumeLayout(false);
+            this.cations_panel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -251,5 +348,11 @@
         private System.Windows.Forms.Button nav_exit_btn;
         private RoundedPanel anions_panel;
         private System.Windows.Forms.Button reset_btn;
+        private System.Windows.Forms.TextBox cation_input;
+        private System.Windows.Forms.TextBox cat_charge_input;
+        private System.Windows.Forms.TextBox anion_input;
+        private System.Windows.Forms.Label anions_label;
+        private System.Windows.Forms.TextBox ani_charge_input;
+        private System.Windows.Forms.Label cation_label;
     }
 }

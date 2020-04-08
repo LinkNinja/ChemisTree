@@ -62,7 +62,12 @@ namespace Chemistree_GUI_V1
 
         private void nav_exit_btn_Click_1(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
