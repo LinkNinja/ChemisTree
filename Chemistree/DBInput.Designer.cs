@@ -29,8 +29,10 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lblChemistree = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnMenu = new System.Windows.Forms.Button();
             this.lblDBInput = new System.Windows.Forms.Label();
+            this.lblChemistree = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
             this.lblAbbr = new System.Windows.Forms.Label();
             this.lblAtomicNumber = new System.Windows.Forms.Label();
@@ -41,8 +43,6 @@
             this.txtbxAtomicNumber = new System.Windows.Forms.TextBox();
             this.txtbxPeriodicGroup = new System.Windows.Forms.TextBox();
             this.txtbxPeriodicPeriod = new System.Windows.Forms.TextBox();
-            this.btnMenu = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -59,16 +59,33 @@
             this.panel1.Size = new System.Drawing.Size(626, 100);
             this.panel1.TabIndex = 0;
             // 
-            // lblChemistree
+            // btnExit
             // 
-            this.lblChemistree.AutoSize = true;
-            this.lblChemistree.Font = new System.Drawing.Font("Bahnschrift", 19.8F);
-            this.lblChemistree.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblChemistree.Location = new System.Drawing.Point(12, 32);
-            this.lblChemistree.Name = "lblChemistree";
-            this.lblChemistree.Size = new System.Drawing.Size(156, 33);
-            this.lblChemistree.TabIndex = 0;
-            this.lblChemistree.Text = "ChemisTree";
+            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.btnExit.FlatAppearance.BorderSize = 0;
+            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnExit.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnExit.Location = new System.Drawing.Point(511, 32);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(83, 39);
+            this.btnExit.TabIndex = 12;
+            this.btnExit.Text = "EXIT";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnMenu
+            // 
+            this.btnMenu.BackColor = System.Drawing.Color.White;
+            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMenu.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMenu.Location = new System.Drawing.Point(430, 32);
+            this.btnMenu.Name = "btnMenu";
+            this.btnMenu.Size = new System.Drawing.Size(75, 39);
+            this.btnMenu.TabIndex = 11;
+            this.btnMenu.Text = "MENU";
+            this.btnMenu.UseVisualStyleBackColor = false;
+            this.btnMenu.Click += new System.EventHandler(this.btnMenu_Click);
             // 
             // lblDBInput
             // 
@@ -80,6 +97,17 @@
             this.lblDBInput.Size = new System.Drawing.Size(136, 23);
             this.lblDBInput.TabIndex = 1;
             this.lblDBInput.Text = "Database Input";
+            // 
+            // lblChemistree
+            // 
+            this.lblChemistree.AutoSize = true;
+            this.lblChemistree.Font = new System.Drawing.Font("Bahnschrift", 19.8F);
+            this.lblChemistree.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblChemistree.Location = new System.Drawing.Point(12, 32);
+            this.lblChemistree.Name = "lblChemistree";
+            this.lblChemistree.Size = new System.Drawing.Size(156, 33);
+            this.lblChemistree.TabIndex = 0;
+            this.lblChemistree.Text = "ChemisTree";
             // 
             // lblName
             // 
@@ -171,32 +199,6 @@
             this.txtbxPeriodicPeriod.Size = new System.Drawing.Size(157, 20);
             this.txtbxPeriodicPeriod.TabIndex = 10;
             // 
-            // btnMenu
-            // 
-            this.btnMenu.BackColor = System.Drawing.Color.White;
-            this.btnMenu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMenu.Font = new System.Drawing.Font("Bahnschrift SemiLight", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMenu.Location = new System.Drawing.Point(430, 32);
-            this.btnMenu.Name = "btnMenu";
-            this.btnMenu.Size = new System.Drawing.Size(75, 39);
-            this.btnMenu.TabIndex = 11;
-            this.btnMenu.Text = "MENU";
-            this.btnMenu.UseVisualStyleBackColor = false;
-            // 
-            // btnExit
-            // 
-            this.btnExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.btnExit.FlatAppearance.BorderSize = 0;
-            this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnExit.Font = new System.Drawing.Font("Bahnschrift", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExit.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnExit.Location = new System.Drawing.Point(511, 32);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(83, 39);
-            this.btnExit.TabIndex = 12;
-            this.btnExit.Text = "EXIT";
-            this.btnExit.UseVisualStyleBackColor = false;
-            // 
             // btnSubmit
             // 
             this.btnSubmit.BackColor = System.Drawing.Color.White;
@@ -209,6 +211,7 @@
             this.btnSubmit.TabIndex = 13;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = false;
+            this.btnSubmit.Click += new System.EventHandler(this.ClickBtnSubmit);
             // 
             // DBInput
             // 

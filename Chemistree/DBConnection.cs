@@ -108,7 +108,8 @@ namespace Chemistree_GUI_V1
 
         public void SubmitDB(Element e)
         {
-            FormattableString sql = $"INSERT INTO elements (`name`, `abbrevation`, `atomicNumber`, `periodicGroup`, `periodicPeriod`) VALUES ({e.name}, {e.abbr}, {e.atomicNumber}, {e.periodicGroup}, {e.periodicPeriod});";
+            FormattableString sql = $"INSERT INTO elements (`name`, `abbreviation`, `atomicNumber`, `periodicGroup`, `periodicPeriod`) VALUES ('{e.name}', '{e.abbr}', '{e.atomicNumber}', '{e.periodicGroup}', '{e.periodicPeriod}');";
+            // Console.WriteLine(sql.ToString());
             try
             {
                 MySqlCommand cmd = new MySqlCommand(sql.ToString(), conn);
@@ -117,7 +118,8 @@ namespace Chemistree_GUI_V1
             }
             catch (Exception ex)
             {
-                // Handle Exception
+                // Better handle exception
+                // Console.WriteLine("{0}", ex);
             }
         }
 
