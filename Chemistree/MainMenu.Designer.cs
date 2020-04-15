@@ -56,7 +56,7 @@
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(278, 99);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(93, 112);
             this.pictureBox1.TabIndex = 4;
@@ -67,13 +67,13 @@
             this.btnInput.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnInput.FlatAppearance.BorderSize = 0;
             this.btnInput.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInput.Location = new System.Drawing.Point(205, 361);
+            this.btnInput.Location = new System.Drawing.Point(12, 396);
             this.btnInput.Name = "btnInput";
             this.btnInput.Size = new System.Drawing.Size(75, 23);
             this.btnInput.TabIndex = 8;
             this.btnInput.UseVisualStyleBackColor = false;
             this.btnInput.Click += new System.EventHandler(this.btnInput_Click);
-            //
+            // 
             // exit_btn
             // 
             this.exit_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
@@ -82,7 +82,7 @@
             this.exit_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit_btn.Font = new System.Drawing.Font("Bahnschrift SemiLight", 13.8F);
             this.exit_btn.ForeColor = System.Drawing.Color.White;
-            this.exit_btn.Location = new System.Drawing.Point(185, 306);
+            this.exit_btn.Location = new System.Drawing.Point(172, 348);
             this.exit_btn.Margin = new System.Windows.Forms.Padding(0);
             this.exit_btn.Name = "exit_btn";
             this.exit_btn.Size = new System.Drawing.Size(298, 36);
@@ -97,7 +97,7 @@
             this.roundedButton2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.roundedButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.roundedButton2.Font = new System.Drawing.Font("Bahnschrift Light", 12F);
-            this.roundedButton2.Location = new System.Drawing.Point(247, 326);
+            this.roundedButton2.Location = new System.Drawing.Point(124, 298);
             this.roundedButton2.Name = "roundedButton2";
             this.roundedButton2.Size = new System.Drawing.Size(398, 44);
             this.roundedButton2.TabIndex = 6;
@@ -111,7 +111,7 @@
             this.roundedButton1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.roundedButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.roundedButton1.Font = new System.Drawing.Font("Bahnschrift Light", 12F);
-            this.roundedButton1.Location = new System.Drawing.Point(247, 276);
+            this.roundedButton1.Location = new System.Drawing.Point(124, 248);
             this.roundedButton1.Name = "roundedButton1";
             this.roundedButton1.Size = new System.Drawing.Size(398, 44);
             this.roundedButton1.TabIndex = 5;
@@ -135,7 +135,7 @@
             this.Controls.Add(this.AppTitle);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChemisTree";

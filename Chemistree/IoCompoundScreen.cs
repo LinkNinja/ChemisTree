@@ -33,7 +33,6 @@ namespace Chemistree_GUI_V1
 
             return number;
         }
-
         public static string convertToSubscript(int n)
         {
             string subscript;
@@ -128,13 +127,10 @@ namespace Chemistree_GUI_V1
             chargeDifference = cCharge + aCharge;
 
             // Assigns a common factor based on the charge difference.
-            if (chargeDifference == 0)
-            {
+            if (chargeDifference == 0) {
                 commonFactor = cCharge;
 
-            }
-            else
-            {
+            } else {
                 commonFactor = Math.Abs(cCharge * aCharge);
             }
 
@@ -192,14 +188,40 @@ namespace Chemistree_GUI_V1
 
             // Cation properties
             string cationAbbr = cation_input.Text;
-            int cationChg = int.Parse(cationChg_txt.Text);
+            int cationChg;
             string cationName;
             int cationNum;
 
+            // Anion properties
             string anionAbbr = anion_input.Text;
-            int anionChg = int.Parse(anionChg_txt.Text);
+            int anionChg;
             string anionName;
             int anionNum;
+
+
+            if (!int.TryParse(cationChg_txt.Text, out cationChg)) {
+                if (cationChg_txt.Text == "") {
+                    cationChg = 1;
+
+                } else {
+                    errorMessage = "Error! This is not a valid charge.";
+                }
+
+            } 
+
+            if (!int.TryParse(anionChg_txt.Text, out anionChg)) {
+                if (anionChg_txt.Text == "") {
+                    anionChg = -1;
+
+                } else {
+                    errorMessage = "Error! This is not a valid charge.";
+                }
+
+            } else {
+                anionChg *= -1;
+            }
+
+
 
             // Functionality needed to look up the cation and anion in the database to validate it and see 
             // whether it exists or not, and was entered in the correct panel.
@@ -243,6 +265,17 @@ namespace Chemistree_GUI_V1
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void reset_btn_Click(object sender, EventArgs e)
+        {
+            ionicCompound_label.Text = "";
+            ionicName_label.Text = "";
+
+            cationChg_txt.Text = "";
+            cation_input.Text = "";
+            anionChg_txt.Text = "";
+            anion_input.Text = "";
         }
     }
 }
