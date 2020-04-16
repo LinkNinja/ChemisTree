@@ -67,17 +67,19 @@ namespace Chemistree_GUI_V1
       
         private void btn_query(object sender, EventArgs e)
         {
-            // 
             Button s = (System.Windows.Forms.Button)sender;
 
             //the button text is passed into the argument of queryDB();
-            conn.queryDB(s.Text);
-            //Element e = conn.queryDB();
-  
-
-            // Element e = conn.queryDB(s.text);
-            // resultLabel.text = "" + e.name + " " + e.abbr;
-             
+            (bool result, Element el) = conn.queryDB(s.Text);
+            if (result)
+            {
+                string output = $"{el.name} - Atomic Number: {el.atomicNumber} - Electron Configuration: {el.electronConfiguration}";
+                result_label.Text = output;
+            }
+            else
+            {
+                result_label.Text = "Error";
+            }
         }
 
  
