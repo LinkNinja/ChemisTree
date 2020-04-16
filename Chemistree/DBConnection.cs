@@ -33,23 +33,22 @@ namespace Chemistree_GUI_V1
 
         }
 
-        public string ConnectToDB()
+        public bool ConnectToDB()
         {
-            string retVal;
-            string connStr = "server=" + this.server + ";user=" + this.username + ";database=" + this.database + ";port=" + this.port + ";password=" + this.password + ";";
+            bool result = false;
+            string connStr = $"server={this.server};user={this.username};database={this.database};port={this.port};password={this.password};";
+            //string connStr = "server=" + this.server + ";user=" + this.username + ";database=" + this.database + ";port=" + this.port + ";password=" + this.password + ";";
             this.conn = new MySqlConnection(connStr);
-
             try
             {
                 conn.Open();
-                retVal = "Connected.";
+                result = true;
             }
             catch (Exception ex)
             {
-                retVal = "Not connected. Error.";
+                // Handle Exception
             }
-
-            return retVal;
+            return result;
         }
 
         public void CloseDB()
@@ -57,130 +56,88 @@ namespace Chemistree_GUI_V1
             this.conn.Close();
         }
 
-
-        public DataTable GetDBGrid()
+        public bool SubmitDB(Element e)
         {
-            DataTable dt = new DataTable();
-            string sql = "SELECT * FROM elements;";
-
-
-
-            try
-            {
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-                da.Fill(dt);
-            }
-            catch (Exception ex)
-            {
-                // Handle exception
-            }
-            return dt;
-        }
-
-        public void SubmitDB(Element e)
-        {
-            FormattableString sql = $"INSERT INTO elements (`name`, `abbreviation`, `atomicNumber`, `periodicGroup`, `periodicPeriod`) VALUES ('{e.name}', '{e.abbr}', '{e.atomicNumber}', '{e.periodicGroup}', '{e.periodicPeriod}');";
-            // Console.WriteLine(sql.ToString());
+            bool result = false;
+            FormattableString sql = $"INSERT INTO elements VALUES ('{e.abbr}', '{e.name}', '{e.atomicNumber}', '{e.periodicGroup}', '{e.periodicPeriod}', '{e.electronConfiguration}');";
             try
             {
                 MySqlCommand cmd = new MySqlCommand(sql.ToString(), conn);
-                int result = cmd.ExecuteNonQuery();
-                Console.WriteLine("Rows affected: {0}", result);
+                int rowsAffected = cmd.ExecuteNonQuery();
+                result = (rowsAffected > 0) ? true : false; 
             }
             catch (Exception ex)
             {
                 // Better handle exception
-                // Console.WriteLine("{0}", ex);
             }
+            return result;
         }
 
-        //This function will send a message to the database to request the information we want to query
-        public void queryDB(string abbr)
+        public (bool, Element) queryDB(string abbr)
         {
-            //Create element list using variable data.
-            List<Element> data = new List<Element>();
+            bool result = false;
             Element e = new Element();
-            // Debug message.
-            string msg = "";
             //query statement for database
-            string query = "SELECT * FROM elements Where abbreviation ='" + abbr + "'";
-
+            string query = $"SELECT * FROM elements WHERE abbreviation = '{abbr}';";
             //Working on how to use a procedure to query the database making it more secure.
             string sql = "ProcedureName";
-
-
             try
             {
-
                 MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
-
                 //Begin reading the database
-                while (reader.Read())
+                if (reader.HasRows)
                 {
-                    //By reading the table column name it prevents issues if more columns are added in the future.
-                    data.Add(new Element(reader["atomicNumber"].ToString(), reader["name"].ToString(), reader["abbreviation"].ToString(), reader["periodicGroup"].ToString(), reader["periodicPeriod"].ToString()));
-
-                    e.atomicNumber = reader["atomicNumber"].ToString();
-                    e.name = reader["name"].ToString();
-                    e.abbr = reader["abbreviation"].ToString();
-                    e.periodicGroup = reader["periodicGroup"].ToString();
-                    e.periodicPeriod = reader["periodicPeriod"].ToString();
-
-                    msg = "Successfully queried DB.";
-
+                    while (reader.Read())
+                    {
+                        //By reading the table column name it prevents issues if more columns are added in the future.
+                        e.abbr = reader["abbreviation"].ToString();
+                        e.name = reader["name"].ToString();
+                        e.atomicNumber = reader["atomicNumber"].ToString();
+                        e.periodicGroup = reader["periodicGroup"].ToString();
+                        e.periodicPeriod = reader["periodicPeriod"].ToString();
+                        e.electronConfiguration = reader["electronConfiguration"].ToString();
+                    }
+                    result = true;
                 }
                 // Close the database.
                 reader.Close();
-
-
             }
             catch (Exception ex)
             {
-                msg = "Error reading from DB.";
+                // Handle Exception
             }
-
-
-            //Testing if information was saved
-            Console.WriteLine(msg);
-            Console.WriteLine("This text excutued when element button is pressed");
-            Console.WriteLine("Passed through queryDB() method displays");
-            Console.WriteLine("Element Name: " + e.name);
-            Console.WriteLine("Atomic Number: " + e.atomicNumber);
-            Console.WriteLine("Abbreviation: " + e.abbr);
-            Console.WriteLine("Periodic Group: " + e.periodicGroup);
-            Console.WriteLine("Periodic Perioud: " + e.periodicPeriod);
-            Console.WriteLine();
-
-
+            return (result, e);
         }
     }
 
     class Element
     {
-        public string atomicNumber;
-        public string name;
         public string abbr;
+        public string name;
+        public string atomicNumber;
         public string periodicGroup;
         public string periodicPeriod;
+        public string electronConfiguration;
 
         public Element()
         {
-            this.atomicNumber = "";
-            this.name = "";
             this.abbr = "";
+            this.name = "";
+            this.atomicNumber = "";
             this.periodicGroup = "";
             this.periodicPeriod = "";
+            this.electronConfiguration = "";
         }
 
-        public Element(string atomicNumber, string name, string abbr, string periodicGroup, string periodicPeriod)
+        public Element(string abbr, string name, string atomicNumber, string periodicGroup, string periodicPeriod, string electronConfiguration)
         {
-            this.atomicNumber = atomicNumber;
-            this.name = name;
             this.abbr = abbr;
+            this.name = name;
+            this.atomicNumber = atomicNumber;
             this.periodicGroup = periodicGroup;
             this.periodicPeriod = periodicPeriod;
+            this.electronConfiguration = electronConfiguration;
         }
     }
 }
