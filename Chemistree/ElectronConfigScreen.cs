@@ -74,11 +74,11 @@ namespace Chemistree_GUI_V1
             if (result)
             {
                 string output = $"{el.name} - Atomic Number: {el.atomicNumber} - Electron Configuration: {el.electronConfiguration}";
-                result_label.Text = output;
+                lblOutput.Text = output;
             }
             else
             {
-                result_label.Text = "Error";
+                lblOutput.Text = "Error, that MFing bean ain't in the MFing table >:-|";
             }
         }
 

@@ -128,9 +128,11 @@
             this.btnHydrogen = new System.Windows.Forms.Button();
             this.result_panel = new System.Windows.Forms.Panel();
             this.element_choice_label = new System.Windows.Forms.Label();
+            this.lblOutput = new System.Windows.Forms.Label();
             this.navigation_panal.SuspendLayout();
             this.result_label_panel.SuspendLayout();
             this.elem_table_panel.SuspendLayout();
+            this.result_panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // navigation_panal
@@ -343,6 +345,7 @@
             this.btnAstatine.TabIndex = 99;
             this.btnAstatine.Text = "At";
             this.btnAstatine.UseVisualStyleBackColor = false;
+            this.btnAstatine.Click += new System.EventHandler(this.btn_query);
             // 
             // btnPolonium
             // 
@@ -359,6 +362,7 @@
             this.btnPolonium.TabIndex = 98;
             this.btnPolonium.Text = "Po";
             this.btnPolonium.UseVisualStyleBackColor = false;
+            this.btnPolonium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnBismuth
             // 
@@ -375,6 +379,7 @@
             this.btnBismuth.TabIndex = 97;
             this.btnBismuth.Text = "Bi";
             this.btnBismuth.UseVisualStyleBackColor = false;
+            this.btnBismuth.Click += new System.EventHandler(this.btn_query);
             // 
             // btnLead
             // 
@@ -391,6 +396,7 @@
             this.btnLead.TabIndex = 96;
             this.btnLead.Text = "Pb";
             this.btnLead.UseVisualStyleBackColor = false;
+            this.btnLead.Click += new System.EventHandler(this.btn_query);
             // 
             // btnThallium
             // 
@@ -407,6 +413,7 @@
             this.btnThallium.TabIndex = 95;
             this.btnThallium.Text = "Tl";
             this.btnThallium.UseVisualStyleBackColor = false;
+            this.btnThallium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnMercury
             // 
@@ -423,6 +430,7 @@
             this.btnMercury.TabIndex = 94;
             this.btnMercury.Text = "Hg";
             this.btnMercury.UseVisualStyleBackColor = false;
+            this.btnMercury.Click += new System.EventHandler(this.btn_query);
             // 
             // btnGold
             // 
@@ -439,6 +447,7 @@
             this.btnGold.TabIndex = 93;
             this.btnGold.Text = "Au";
             this.btnGold.UseVisualStyleBackColor = false;
+            this.btnGold.Click += new System.EventHandler(this.btn_query);
             // 
             // btnPlatinum
             // 
@@ -455,6 +464,7 @@
             this.btnPlatinum.TabIndex = 92;
             this.btnPlatinum.Text = "Pt";
             this.btnPlatinum.UseVisualStyleBackColor = false;
+            this.btnPlatinum.Click += new System.EventHandler(this.btn_query);
             // 
             // btnIridium
             // 
@@ -471,6 +481,7 @@
             this.btnIridium.TabIndex = 91;
             this.btnIridium.Text = "Ir";
             this.btnIridium.UseVisualStyleBackColor = false;
+            this.btnIridium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnOsmium
             // 
@@ -487,6 +498,7 @@
             this.btnOsmium.TabIndex = 90;
             this.btnOsmium.Text = "Os";
             this.btnOsmium.UseVisualStyleBackColor = false;
+            this.btnOsmium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRhenium
             // 
@@ -503,6 +515,7 @@
             this.btnRhenium.TabIndex = 89;
             this.btnRhenium.Text = "Re";
             this.btnRhenium.UseVisualStyleBackColor = false;
+            this.btnRhenium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnTungsten
             // 
@@ -519,6 +532,7 @@
             this.btnTungsten.TabIndex = 88;
             this.btnTungsten.Text = "W";
             this.btnTungsten.UseVisualStyleBackColor = false;
+            this.btnTungsten.Click += new System.EventHandler(this.btn_query);
             // 
             // btnTantalum
             // 
@@ -535,6 +549,7 @@
             this.btnTantalum.TabIndex = 87;
             this.btnTantalum.Text = "Ta";
             this.btnTantalum.UseVisualStyleBackColor = false;
+            this.btnTantalum.Click += new System.EventHandler(this.btn_query);
             // 
             // btnHafnium
             // 
@@ -551,6 +566,7 @@
             this.btnHafnium.TabIndex = 86;
             this.btnHafnium.Text = "Hf";
             this.btnHafnium.UseVisualStyleBackColor = false;
+            this.btnHafnium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnIodine
             // 
@@ -567,6 +583,7 @@
             this.btnIodine.TabIndex = 85;
             this.btnIodine.Text = "I";
             this.btnIodine.UseVisualStyleBackColor = false;
+            this.btnIodine.Click += new System.EventHandler(this.btn_query);
             // 
             // btnTellurium
             // 
@@ -583,6 +600,7 @@
             this.btnTellurium.TabIndex = 84;
             this.btnTellurium.Text = "Te";
             this.btnTellurium.UseVisualStyleBackColor = false;
+            this.btnTellurium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnAntimony
             // 
@@ -599,6 +617,7 @@
             this.btnAntimony.TabIndex = 83;
             this.btnAntimony.Text = "Sb";
             this.btnAntimony.UseVisualStyleBackColor = false;
+            this.btnAntimony.Click += new System.EventHandler(this.btn_query);
             // 
             // btnTin
             // 
@@ -615,6 +634,7 @@
             this.btnTin.TabIndex = 82;
             this.btnTin.Text = "Sn";
             this.btnTin.UseVisualStyleBackColor = false;
+            this.btnTin.Click += new System.EventHandler(this.btn_query);
             // 
             // btnIndium
             // 
@@ -631,6 +651,7 @@
             this.btnIndium.TabIndex = 81;
             this.btnIndium.Text = "In";
             this.btnIndium.UseVisualStyleBackColor = false;
+            this.btnIndium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnCadmium
             // 
@@ -647,6 +668,7 @@
             this.btnCadmium.TabIndex = 80;
             this.btnCadmium.Text = "Cd";
             this.btnCadmium.UseVisualStyleBackColor = false;
+            this.btnCadmium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnSilver
             // 
@@ -663,6 +685,7 @@
             this.btnSilver.TabIndex = 79;
             this.btnSilver.Text = "Ag";
             this.btnSilver.UseVisualStyleBackColor = false;
+            this.btnSilver.Click += new System.EventHandler(this.btn_query);
             // 
             // btnPalladium
             // 
@@ -679,6 +702,7 @@
             this.btnPalladium.TabIndex = 78;
             this.btnPalladium.Text = "Pd";
             this.btnPalladium.UseVisualStyleBackColor = false;
+            this.btnPalladium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRhodium
             // 
@@ -695,6 +719,7 @@
             this.btnRhodium.TabIndex = 77;
             this.btnRhodium.Text = "Rh";
             this.btnRhodium.UseVisualStyleBackColor = false;
+            this.btnRhodium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRuthenium
             // 
@@ -711,6 +736,7 @@
             this.btnRuthenium.TabIndex = 76;
             this.btnRuthenium.Text = "Ru";
             this.btnRuthenium.UseVisualStyleBackColor = false;
+            this.btnRuthenium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnTechnetium
             // 
@@ -727,6 +753,7 @@
             this.btnTechnetium.TabIndex = 75;
             this.btnTechnetium.Text = "Tc";
             this.btnTechnetium.UseVisualStyleBackColor = false;
+            this.btnTechnetium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnMolybdenum
             // 
@@ -743,6 +770,7 @@
             this.btnMolybdenum.TabIndex = 74;
             this.btnMolybdenum.Text = "Mo";
             this.btnMolybdenum.UseVisualStyleBackColor = false;
+            this.btnMolybdenum.Click += new System.EventHandler(this.btn_query);
             // 
             // btnNiobium
             // 
@@ -759,6 +787,7 @@
             this.btnNiobium.TabIndex = 73;
             this.btnNiobium.Text = "Nb";
             this.btnNiobium.UseVisualStyleBackColor = false;
+            this.btnNiobium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnZirconium
             // 
@@ -775,6 +804,7 @@
             this.btnZirconium.TabIndex = 72;
             this.btnZirconium.Text = "Zr";
             this.btnZirconium.UseVisualStyleBackColor = false;
+            this.btnZirconium.Click += new System.EventHandler(this.btn_query);
             // 
             // button61
             // 
@@ -791,6 +821,7 @@
             this.button61.TabIndex = 71;
             this.button61.Text = "Ca";
             this.button61.UseVisualStyleBackColor = false;
+            this.button61.Click += new System.EventHandler(this.btn_query);
             // 
             // btnYttrium
             // 
@@ -807,6 +838,7 @@
             this.btnYttrium.TabIndex = 70;
             this.btnYttrium.Text = "Y";
             this.btnYttrium.UseVisualStyleBackColor = false;
+            this.btnYttrium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnTennessine
             // 
@@ -823,6 +855,7 @@
             this.btnTennessine.TabIndex = 69;
             this.btnTennessine.Text = "Ts";
             this.btnTennessine.UseVisualStyleBackColor = false;
+            this.btnTennessine.Click += new System.EventHandler(this.btn_query);
             // 
             // btnLivermorium
             // 
@@ -839,6 +872,7 @@
             this.btnLivermorium.TabIndex = 68;
             this.btnLivermorium.Text = "Lv";
             this.btnLivermorium.UseVisualStyleBackColor = false;
+            this.btnLivermorium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnMoscovium
             // 
@@ -855,6 +889,7 @@
             this.btnMoscovium.TabIndex = 67;
             this.btnMoscovium.Text = "Mc";
             this.btnMoscovium.UseVisualStyleBackColor = false;
+            this.btnMoscovium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnFlerovium
             // 
@@ -871,6 +906,7 @@
             this.btnFlerovium.TabIndex = 66;
             this.btnFlerovium.Text = "Fl";
             this.btnFlerovium.UseVisualStyleBackColor = false;
+            this.btnFlerovium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnNihonium
             // 
@@ -887,6 +923,7 @@
             this.btnNihonium.TabIndex = 65;
             this.btnNihonium.Text = "Nh";
             this.btnNihonium.UseVisualStyleBackColor = false;
+            this.btnNihonium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnCopernicium
             // 
@@ -903,6 +940,7 @@
             this.btnCopernicium.TabIndex = 64;
             this.btnCopernicium.Text = "Cn";
             this.btnCopernicium.UseVisualStyleBackColor = false;
+            this.btnCopernicium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRoentgenium
             // 
@@ -919,6 +957,7 @@
             this.btnRoentgenium.TabIndex = 63;
             this.btnRoentgenium.Text = "Rg";
             this.btnRoentgenium.UseVisualStyleBackColor = false;
+            this.btnRoentgenium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnDarmstadtium
             // 
@@ -935,6 +974,7 @@
             this.btnDarmstadtium.TabIndex = 62;
             this.btnDarmstadtium.Text = "Ds";
             this.btnDarmstadtium.UseVisualStyleBackColor = false;
+            this.btnDarmstadtium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnMeitnerium
             // 
@@ -951,6 +991,7 @@
             this.btnMeitnerium.TabIndex = 61;
             this.btnMeitnerium.Text = "Mt";
             this.btnMeitnerium.UseVisualStyleBackColor = false;
+            this.btnMeitnerium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnHassium
             // 
@@ -967,6 +1008,7 @@
             this.btnHassium.TabIndex = 60;
             this.btnHassium.Text = "Hs";
             this.btnHassium.UseVisualStyleBackColor = false;
+            this.btnHassium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnBohrium
             // 
@@ -983,6 +1025,7 @@
             this.btnBohrium.TabIndex = 59;
             this.btnBohrium.Text = "Bh";
             this.btnBohrium.UseVisualStyleBackColor = false;
+            this.btnBohrium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnSeaborgium
             // 
@@ -999,6 +1042,7 @@
             this.btnSeaborgium.TabIndex = 58;
             this.btnSeaborgium.Text = "Sg";
             this.btnSeaborgium.UseVisualStyleBackColor = false;
+            this.btnSeaborgium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnDubnium
             // 
@@ -1015,6 +1059,7 @@
             this.btnDubnium.TabIndex = 57;
             this.btnDubnium.Text = "Db";
             this.btnDubnium.UseVisualStyleBackColor = false;
+            this.btnDubnium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRutherfordium
             // 
@@ -1031,6 +1076,7 @@
             this.btnRutherfordium.TabIndex = 56;
             this.btnRutherfordium.Text = "Rf";
             this.btnRutherfordium.UseVisualStyleBackColor = false;
+            this.btnRutherfordium.Click += new System.EventHandler(this.btn_query);
             // 
             // button45
             // 
@@ -1047,6 +1093,7 @@
             this.button45.TabIndex = 55;
             this.button45.Text = "Ca";
             this.button45.UseVisualStyleBackColor = false;
+            this.button45.Click += new System.EventHandler(this.btn_query);
             // 
             // btnOganesson
             // 
@@ -1063,6 +1110,7 @@
             this.btnOganesson.TabIndex = 54;
             this.btnOganesson.Text = "Og";
             this.btnOganesson.UseVisualStyleBackColor = false;
+            this.btnOganesson.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRadon
             // 
@@ -1079,6 +1127,7 @@
             this.btnRadon.TabIndex = 53;
             this.btnRadon.Text = "Rn";
             this.btnRadon.UseVisualStyleBackColor = false;
+            this.btnRadon.Click += new System.EventHandler(this.btn_query);
             // 
             // btnXenon
             // 
@@ -1095,6 +1144,7 @@
             this.btnXenon.TabIndex = 52;
             this.btnXenon.Text = "Xe";
             this.btnXenon.UseVisualStyleBackColor = false;
+            this.btnXenon.Click += new System.EventHandler(this.btn_query);
             // 
             // btnKrypton
             // 
@@ -1111,6 +1161,7 @@
             this.btnKrypton.TabIndex = 51;
             this.btnKrypton.Text = "Kr";
             this.btnKrypton.UseVisualStyleBackColor = false;
+            this.btnKrypton.Click += new System.EventHandler(this.btn_query);
             // 
             // btnBromine
             // 
@@ -1127,6 +1178,7 @@
             this.btnBromine.TabIndex = 50;
             this.btnBromine.Text = "Br";
             this.btnBromine.UseVisualStyleBackColor = false;
+            this.btnBromine.Click += new System.EventHandler(this.btn_query);
             // 
             // btnSelenium
             // 
@@ -1143,6 +1195,7 @@
             this.btnSelenium.TabIndex = 49;
             this.btnSelenium.Text = "Se";
             this.btnSelenium.UseVisualStyleBackColor = false;
+            this.btnSelenium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnArsenic
             // 
@@ -1159,6 +1212,7 @@
             this.btnArsenic.TabIndex = 48;
             this.btnArsenic.Text = "As";
             this.btnArsenic.UseVisualStyleBackColor = false;
+            this.btnArsenic.Click += new System.EventHandler(this.btn_query);
             // 
             // btnGermanium
             // 
@@ -1175,6 +1229,7 @@
             this.btnGermanium.TabIndex = 47;
             this.btnGermanium.Text = "Ge";
             this.btnGermanium.UseVisualStyleBackColor = false;
+            this.btnGermanium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnChlorine
             // 
@@ -1191,6 +1246,7 @@
             this.btnChlorine.TabIndex = 46;
             this.btnChlorine.Text = "Cl";
             this.btnChlorine.UseVisualStyleBackColor = false;
+            this.btnChlorine.Click += new System.EventHandler(this.btn_query);
             // 
             // btnSulfur
             // 
@@ -1207,6 +1263,7 @@
             this.btnSulfur.TabIndex = 45;
             this.btnSulfur.Text = "S";
             this.btnSulfur.UseVisualStyleBackColor = false;
+            this.btnSulfur.Click += new System.EventHandler(this.btn_query);
             // 
             // btnPhosphorus
             // 
@@ -1223,6 +1280,7 @@
             this.btnPhosphorus.TabIndex = 44;
             this.btnPhosphorus.Text = "P";
             this.btnPhosphorus.UseVisualStyleBackColor = false;
+            this.btnPhosphorus.Click += new System.EventHandler(this.btn_query);
             // 
             // btnSilicon
             // 
@@ -1239,6 +1297,7 @@
             this.btnSilicon.TabIndex = 43;
             this.btnSilicon.Text = "Si";
             this.btnSilicon.UseVisualStyleBackColor = false;
+            this.btnSilicon.Click += new System.EventHandler(this.btn_query);
             // 
             // btnArgon
             // 
@@ -1255,6 +1314,7 @@
             this.btnArgon.TabIndex = 42;
             this.btnArgon.Text = "Ar";
             this.btnArgon.UseVisualStyleBackColor = false;
+            this.btnArgon.Click += new System.EventHandler(this.btn_query);
             // 
             // btnHelium
             // 
@@ -1288,6 +1348,7 @@
             this.btnNeon.TabIndex = 40;
             this.btnNeon.Text = "Ne";
             this.btnNeon.UseVisualStyleBackColor = false;
+            this.btnNeon.Click += new System.EventHandler(this.btn_query);
             // 
             // btnFluorine
             // 
@@ -1304,6 +1365,7 @@
             this.btnFluorine.TabIndex = 39;
             this.btnFluorine.Text = "F";
             this.btnFluorine.UseVisualStyleBackColor = false;
+            this.btnFluorine.Click += new System.EventHandler(this.btn_query);
             // 
             // btnOxygen
             // 
@@ -1320,6 +1382,7 @@
             this.btnOxygen.TabIndex = 38;
             this.btnOxygen.Text = "O";
             this.btnOxygen.UseVisualStyleBackColor = false;
+            this.btnOxygen.Click += new System.EventHandler(this.btn_query);
             // 
             // btnNitrogen
             // 
@@ -1336,6 +1399,7 @@
             this.btnNitrogen.TabIndex = 37;
             this.btnNitrogen.Text = "N";
             this.btnNitrogen.UseVisualStyleBackColor = false;
+            this.btnNitrogen.Click += new System.EventHandler(this.btn_query);
             // 
             // btnCarbon
             // 
@@ -1352,6 +1416,7 @@
             this.btnCarbon.TabIndex = 36;
             this.btnCarbon.Text = "C";
             this.btnCarbon.UseVisualStyleBackColor = false;
+            this.btnCarbon.Click += new System.EventHandler(this.btn_query);
             // 
             // btnBoron
             // 
@@ -1368,6 +1433,7 @@
             this.btnBoron.TabIndex = 35;
             this.btnBoron.Text = "B";
             this.btnBoron.UseVisualStyleBackColor = false;
+            this.btnBoron.Click += new System.EventHandler(this.btn_query);
             // 
             // btnAluminum
             // 
@@ -1384,6 +1450,7 @@
             this.btnAluminum.TabIndex = 34;
             this.btnAluminum.Text = "Al";
             this.btnAluminum.UseVisualStyleBackColor = false;
+            this.btnAluminum.Click += new System.EventHandler(this.btn_query);
             // 
             // btnGallium
             // 
@@ -1400,6 +1467,7 @@
             this.btnGallium.TabIndex = 33;
             this.btnGallium.Text = "Ga";
             this.btnGallium.UseVisualStyleBackColor = false;
+            this.btnGallium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnZinc
             // 
@@ -1416,6 +1484,7 @@
             this.btnZinc.TabIndex = 32;
             this.btnZinc.Text = "Zn";
             this.btnZinc.UseVisualStyleBackColor = false;
+            this.btnZinc.Click += new System.EventHandler(this.btn_query);
             // 
             // btnCopper
             // 
@@ -1432,6 +1501,7 @@
             this.btnCopper.TabIndex = 31;
             this.btnCopper.Text = "Cu";
             this.btnCopper.UseVisualStyleBackColor = false;
+            this.btnCopper.Click += new System.EventHandler(this.btn_query);
             // 
             // btnNickel
             // 
@@ -1448,6 +1518,7 @@
             this.btnNickel.TabIndex = 30;
             this.btnNickel.Text = "Ni";
             this.btnNickel.UseVisualStyleBackColor = false;
+            this.btnNickel.Click += new System.EventHandler(this.btn_query);
             // 
             // btnCobalt
             // 
@@ -1464,6 +1535,7 @@
             this.btnCobalt.TabIndex = 29;
             this.btnCobalt.Text = "Co";
             this.btnCobalt.UseVisualStyleBackColor = false;
+            this.btnCobalt.Click += new System.EventHandler(this.btn_query);
             // 
             // btnIron
             // 
@@ -1480,6 +1552,7 @@
             this.btnIron.TabIndex = 28;
             this.btnIron.Text = "Fe";
             this.btnIron.UseVisualStyleBackColor = false;
+            this.btnIron.Click += new System.EventHandler(this.btn_query);
             // 
             // btnManganese
             // 
@@ -1496,6 +1569,7 @@
             this.btnManganese.TabIndex = 27;
             this.btnManganese.Text = "Mn";
             this.btnManganese.UseVisualStyleBackColor = false;
+            this.btnManganese.Click += new System.EventHandler(this.btn_query);
             // 
             // btnChromium
             // 
@@ -1512,6 +1586,7 @@
             this.btnChromium.TabIndex = 26;
             this.btnChromium.Text = "Cr";
             this.btnChromium.UseVisualStyleBackColor = false;
+            this.btnChromium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnVanadium
             // 
@@ -1528,6 +1603,7 @@
             this.btnVanadium.TabIndex = 25;
             this.btnVanadium.Text = "V";
             this.btnVanadium.UseVisualStyleBackColor = false;
+            this.btnVanadium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnTitanium
             // 
@@ -1544,6 +1620,7 @@
             this.btnTitanium.TabIndex = 24;
             this.btnTitanium.Text = "Ti";
             this.btnTitanium.UseVisualStyleBackColor = false;
+            this.btnTitanium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnScandium
             // 
@@ -1560,6 +1637,7 @@
             this.btnScandium.TabIndex = 23;
             this.btnScandium.Text = "Sc";
             this.btnScandium.UseVisualStyleBackColor = false;
+            this.btnScandium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRadium
             // 
@@ -1576,6 +1654,7 @@
             this.btnRadium.TabIndex = 22;
             this.btnRadium.Text = "Ra";
             this.btnRadium.UseVisualStyleBackColor = false;
+            this.btnRadium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnBarium
             // 
@@ -1592,6 +1671,7 @@
             this.btnBarium.TabIndex = 21;
             this.btnBarium.Text = "Ba";
             this.btnBarium.UseVisualStyleBackColor = false;
+            this.btnBarium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnStrontium
             // 
@@ -1608,6 +1688,7 @@
             this.btnStrontium.TabIndex = 20;
             this.btnStrontium.Text = "Sr";
             this.btnStrontium.UseVisualStyleBackColor = false;
+            this.btnStrontium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnCalcium
             // 
@@ -1624,6 +1705,7 @@
             this.btnCalcium.TabIndex = 19;
             this.btnCalcium.Text = "Ca";
             this.btnCalcium.UseVisualStyleBackColor = false;
+            this.btnCalcium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnMagnesium
             // 
@@ -1640,6 +1722,7 @@
             this.btnMagnesium.TabIndex = 18;
             this.btnMagnesium.Text = "Mg";
             this.btnMagnesium.UseVisualStyleBackColor = false;
+            this.btnMagnesium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnBeryllium
             // 
@@ -1673,6 +1756,7 @@
             this.btnFrancium.TabIndex = 16;
             this.btnFrancium.Text = "Fr";
             this.btnFrancium.UseVisualStyleBackColor = false;
+            this.btnFrancium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnCaesium
             // 
@@ -1689,6 +1773,7 @@
             this.btnCaesium.TabIndex = 15;
             this.btnCaesium.Text = "Cs";
             this.btnCaesium.UseVisualStyleBackColor = false;
+            this.btnCaesium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnRubidium
             // 
@@ -1705,6 +1790,7 @@
             this.btnRubidium.TabIndex = 14;
             this.btnRubidium.Text = "Rb";
             this.btnRubidium.UseVisualStyleBackColor = false;
+            this.btnRubidium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnPotassium
             // 
@@ -1721,6 +1807,7 @@
             this.btnPotassium.TabIndex = 13;
             this.btnPotassium.Text = "K";
             this.btnPotassium.UseVisualStyleBackColor = false;
+            this.btnPotassium.Click += new System.EventHandler(this.btn_query);
             // 
             // btnSodium
             // 
@@ -1777,6 +1864,7 @@
             // result_panel
             // 
             this.result_panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(55)))), ((int)(((byte)(55)))));
+            this.result_panel.Controls.Add(this.lblOutput);
             this.result_panel.Location = new System.Drawing.Point(1, 324);
             this.result_panel.Margin = new System.Windows.Forms.Padding(2);
             this.result_panel.Name = "result_panel";
@@ -1796,6 +1884,17 @@
             this.element_choice_label.TabIndex = 5;
             this.element_choice_label.Text = "Pick one element";
             this.element_choice_label.Click += new System.EventHandler(this.compound_choice_label_Click);
+            // 
+            // lblOutput
+            // 
+            this.lblOutput.AutoSize = true;
+            this.lblOutput.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutput.ForeColor = System.Drawing.Color.Yellow;
+            this.lblOutput.Location = new System.Drawing.Point(39, 18);
+            this.lblOutput.Name = "lblOutput";
+            this.lblOutput.Size = new System.Drawing.Size(272, 38);
+            this.lblOutput.TabIndex = 4;
+            this.lblOutput.Text = "BEAN ME UP MFer";
             // 
             // ElectronConfigScreen
             // 
@@ -1817,6 +1916,8 @@
             this.result_label_panel.PerformLayout();
             this.elem_table_panel.ResumeLayout(false);
             this.elem_table_panel.PerformLayout();
+            this.result_panel.ResumeLayout(false);
+            this.result_panel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1924,5 +2025,6 @@
         private System.Windows.Forms.Button btnArgon;
         private System.Windows.Forms.Button btnHelium;
         private System.Windows.Forms.Button btnNeon;
+        private System.Windows.Forms.Label lblOutput;
     }
 }
