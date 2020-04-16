@@ -66,10 +66,8 @@ namespace Chemistree_GUI_V1
 
         private void btnInput_Click(object sender, EventArgs e)
         {
-            this.Hide();
             DBInput s4 = new DBInput();
             s4.ShowDialog();
-            this.Close();
         }
     }
 }
