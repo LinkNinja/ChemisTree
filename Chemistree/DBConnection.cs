@@ -25,7 +25,7 @@ namespace Chemistree_GUI_V1
         private string server = "remotemysql.com";
         private string database = "Pnf2SBF448";
         private int port = 3306;
-
+        public Element e = new Element();
         private MySqlConnection conn;
 
         public DBConnection()
@@ -33,23 +33,22 @@ namespace Chemistree_GUI_V1
 
         }
 
-        public string ConnectToDB()
+        public bool ConnectToDB()
         {
-            string retVal;
-            string connStr = "server=" + this.server + ";user=" + this.username + ";database=" + this.database + ";port=" + this.port + ";password=" + this.password + ";";
+            bool result = false;
+            string connStr = $"server={this.server};user={this.username};database={this.database};port={this.port};password={this.password};";
+            //string connStr = "server=" + this.server + ";user=" + this.username + ";database=" + this.database + ";port=" + this.port + ";password=" + this.password + ";";
             this.conn = new MySqlConnection(connStr);
-
             try
             {
                 conn.Open();
-                retVal = "Connected.";
+                result = true;
             }
             catch (Exception ex)
             {
-                retVal = "Not connected. Error.";
+                // Handle Exception
             }
-
-            return retVal;
+            return result;
         }
 
         public void CloseDB()
@@ -57,200 +56,88 @@ namespace Chemistree_GUI_V1
             this.conn.Close();
         }
 
-/*
-        //Main code to look at thats selecting the database
-        public (List<Element>, string) GetDB()
+        public bool SubmitDB(Element e)
         {
-            List<Element> data = new List<Element>();
-            string msg = "";
-
-            string sql = "SELECT * FROM elements;";
-
-            try
-            {
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    data.Add(new Element(reader[3].ToString(), reader[1].ToString(), reader[2].ToString(), reader[4].ToString(), reader[5].ToString()));
-                    msg = "Successfully queried DB.";
-                }
-
-                reader.Close();
-            }
-            catch (Exception ex)
-            {
-                msg = "Error reading from DB.";
-            }
-
-            return (data, msg);
-        }
-        */
-
-        public DataTable GetDBGrid()
-        {
-            DataTable dt = new DataTable();
-            string sql = "SELECT * FROM elements;";
-
-            try
-            {
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
-                da.Fill(dt);
-            }
-            catch (Exception ex)
-            {
-                // Handle exception
-            }
-            return dt;
-        }
-
-        public void SubmitDB(Element e)
-        {
-            FormattableString sql = $"INSERT INTO elements (`name`, `abbreviation`, `atomicNumber`, `periodicGroup`, `periodicPeriod`) VALUES ('{e.name}', '{e.abbr}', '{e.atomicNumber}', '{e.periodicGroup}', '{e.periodicPeriod}');";
-            // Console.WriteLine(sql.ToString());
+            bool result = false;
+            FormattableString sql = $"INSERT INTO elements VALUES ('{e.abbr}', '{e.name}', '{e.atomicNumber}', '{e.periodicGroup}', '{e.periodicPeriod}', '{e.electronConfiguration}');";
             try
             {
                 MySqlCommand cmd = new MySqlCommand(sql.ToString(), conn);
-                int result = cmd.ExecuteNonQuery();
-                Console.WriteLine("Rows affected: {0}", result);
+                int rowsAffected = cmd.ExecuteNonQuery();
+                result = (rowsAffected > 0) ? true : false; 
             }
             catch (Exception ex)
             {
                 // Better handle exception
-                // Console.WriteLine("{0}", ex);
             }
+            return result;
         }
 
-        //This function will send a message to the database to request the information we want to query
-        public void queryDB(string abbr)
+        public (bool, Element) queryDB(string abbr)
         {
-            //Creating a new list of Elements from the Elements object
-            //variable is data
-            List<Element> data = new List<Element>();
+            bool result = false;
             Element e = new Element();
-
-            //random msg
-            string msg = "";
-
             //query statement for database
-            string sql = "SELECT * FROM elements;";
-
-
-            //using sql api 
-            //MySqlCommand cmd = new MySqlCommand(sql, conn);
-
-            // created a reader for the database
-            //MySqlDataReader reader = cmd.ExecuteReader();
-
-            //begins reading the records of the database
-            //reader.Read();
-
-            //The abbreviation will be used to pick out which element.
-            //So if the s.txt = h then h = abbreviation from database.
-            //abbreviation from database = 
-            // name
-            // abbreviation
-            // atomicNumber
-            // periodicGroup
-
-
-            //data.add adds an object to the end of the list
-            //Element(string atomicNumber, string name, string abbr, string periodicGroup, string periodicPeriod)
-
+            string query = $"SELECT * FROM elements WHERE abbreviation = '{abbr}';";
+            //Working on how to use a procedure to query the database making it more secure.
+            string sql = "ProcedureName";
             try
             {
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
+                //Begin reading the database
+                if (reader.HasRows)
                 {
-                    data.Add(new Element(reader[3].ToString(), reader[1].ToString(), reader[2].ToString(), reader[4].ToString(), reader[5].ToString()));
-
-
-                    //if the abbreviation is equal to the abbrevation in the database.
-                    //Create new element object and begin storing the element
-                    // information into the list.
-                    if (abbr == reader[2].ToString())
+                    while (reader.Read())
                     {
-
-
-                        e.atomicNumber = reader[3].ToString(); //will set the objects atomic number by reading the database array space [3] and storing assigning to e.atomicNumber as a String
-                        e.name = reader[1].ToString();// Set the object name by reading the database array space[1] it will assign whatever is in the space to the name.
-                        e.abbr = reader[2].ToString();// Set the abbrevation of the element object by reading the database array space [2] and assinging its value
-                        e.periodicGroup = reader[4].ToString(); // Set the periodic group
-                        e.periodicPeriod = reader[5].ToString();// set the periodic period
-
-                        msg = "Successfully queried DB.";
+                        //By reading the table column name it prevents issues if more columns are added in the future.
+                        e.abbr = reader["abbreviation"].ToString();
+                        e.name = reader["name"].ToString();
+                        e.atomicNumber = reader["atomicNumber"].ToString();
+                        e.periodicGroup = reader["periodicGroup"].ToString();
+                        e.periodicPeriod = reader["periodicPeriod"].ToString();
+                        e.electronConfiguration = reader["electronConfiguration"].ToString();
                     }
+                    result = true;
                 }
-
-
-
+                // Close the database.
                 reader.Close();
-
-
             }
             catch (Exception ex)
             {
-                msg = "Error reading from DB.";
+                // Handle Exception
             }
-
-            //Use for loop to clean up.
-            //Element e = new Element();
-            //e.atomicNumber = reader[3].ToString();
-            //e.name = reader[1].ToString();
-            //e.abbr = reader[2].ToString();
-            //e.periodicGroup = reader[4].ToString();
-            //e.periodicPeriod = reader[5].ToString();
-
-
-
-            //Testing if information was saved
-            Console.WriteLine(msg);
-            Console.WriteLine("This text excutued when element button is pressed");
-            Console.WriteLine("Passed through queryDB() method displays \nElement Name: " + e.name);
-            Console.WriteLine("Atomic Number: " + e.atomicNumber);
-            Console.WriteLine("Abbreviation: " + e.abbr);
-            Console.WriteLine("Periodic Group: " + e.periodicGroup);
-            Console.WriteLine("Periodic Perioud: " + e.periodicPeriod);
-            Console.WriteLine();
-
-
+            return (result, e);
         }
     }
-
-
-
-
-
 
     class Element
     {
-        public string atomicNumber;
-        public string name;
         public string abbr;
+        public string name;
+        public string atomicNumber;
         public string periodicGroup;
         public string periodicPeriod;
+        public string electronConfiguration;
 
         public Element()
         {
-            this.atomicNumber = "";
-            this.name = "";
             this.abbr = "";
+            this.name = "";
+            this.atomicNumber = "";
             this.periodicGroup = "";
             this.periodicPeriod = "";
+            this.electronConfiguration = "";
         }
 
-        public Element(string atomicNumber, string name, string abbr, string periodicGroup, string periodicPeriod)
+        public Element(string abbr, string name, string atomicNumber, string periodicGroup, string periodicPeriod, string electronConfiguration)
         {
-            this.atomicNumber = atomicNumber;
-            this.name = name;
             this.abbr = abbr;
+            this.name = name;
+            this.atomicNumber = atomicNumber;
             this.periodicGroup = periodicGroup;
             this.periodicPeriod = periodicPeriod;
+            this.electronConfiguration = electronConfiguration;
         }
     }
 }
-
