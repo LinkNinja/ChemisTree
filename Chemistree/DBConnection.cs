@@ -25,7 +25,7 @@ namespace Chemistree_GUI_V1
         private string server = "remotemysql.com";
         private string database = "Pnf2SBF448";
         private int port = 3306;
-
+        public Element e = new Element();
         private MySqlConnection conn;
 
         public DBConnection()
@@ -57,41 +57,13 @@ namespace Chemistree_GUI_V1
             this.conn.Close();
         }
 
-/*
-        //Main code to look at thats selecting the database
-        public (List<Element>, string) GetDB()
-        {
-            List<Element> data = new List<Element>();
-            string msg = "";
-
-            string sql = "SELECT * FROM elements;";
-
-            try
-            {
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
-                MySqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    data.Add(new Element(reader[3].ToString(), reader[1].ToString(), reader[2].ToString(), reader[4].ToString(), reader[5].ToString()));
-                    msg = "Successfully queried DB.";
-                }
-
-                reader.Close();
-            }
-            catch (Exception ex)
-            {
-                msg = "Error reading from DB.";
-            }
-
-            return (data, msg);
-        }
-        */
 
         public DataTable GetDBGrid()
         {
             DataTable dt = new DataTable();
             string sql = "SELECT * FROM elements;";
+
+
 
             try
             {
@@ -126,68 +98,40 @@ namespace Chemistree_GUI_V1
         //This function will send a message to the database to request the information we want to query
         public void queryDB(string abbr)
         {
-            //Creating a new list of Elements from the Elements object
-            //variable is data
+            //Create element list using variable data.
             List<Element> data = new List<Element>();
             Element e = new Element();
-
-            //random msg
+            // Debug message.
             string msg = "";
-
             //query statement for database
-            string sql = "SELECT * FROM elements;";
+            string query = "SELECT * FROM elements Where abbreviation ='" + abbr + "'";
 
+            //Working on how to use a procedure to query the database making it more secure.
+            string sql = "ProcedureName";
 
-            //using sql api 
-            //MySqlCommand cmd = new MySqlCommand(sql, conn);
-
-            // created a reader for the database
-            //MySqlDataReader reader = cmd.ExecuteReader();
-
-            //begins reading the records of the database
-            //reader.Read();
-
-            //The abbreviation will be used to pick out which element.
-            //So if the s.txt = h then h = abbreviation from database.
-            //abbreviation from database = 
-            // name
-            // abbreviation
-            // atomicNumber
-            // periodicGroup
-
-
-            //data.add adds an object to the end of the list
-            //Element(string atomicNumber, string name, string abbr, string periodicGroup, string periodicPeriod)
 
             try
             {
-                MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+                MySqlCommand cmd = new MySqlCommand(query, conn);
                 MySqlDataReader reader = cmd.ExecuteReader();
 
+                //Begin reading the database
                 while (reader.Read())
                 {
-                    data.Add(new Element(reader[3].ToString(), reader[1].ToString(), reader[2].ToString(), reader[4].ToString(), reader[5].ToString()));
+                    //By reading the table column name it prevents issues if more columns are added in the future.
+                    data.Add(new Element(reader["atomicNumber"].ToString(), reader["name"].ToString(), reader["abbreviation"].ToString(), reader["periodicGroup"].ToString(), reader["periodicPeriod"].ToString()));
 
+                    e.atomicNumber = reader["atomicNumber"].ToString();
+                    e.name = reader["name"].ToString();
+                    e.abbr = reader["abbreviation"].ToString();
+                    e.periodicGroup = reader["periodicGroup"].ToString();
+                    e.periodicPeriod = reader["periodicPeriod"].ToString();
 
-                    //if the abbreviation is equal to the abbrevation in the database.
-                    //Create new element object and begin storing the element
-                    // information into the list.
-                    if (abbr == reader[2].ToString())
-                    {
+                    msg = "Successfully queried DB.";
 
-
-                        e.atomicNumber = reader[3].ToString(); //will set the objects atomic number by reading the database array space [3] and storing assigning to e.atomicNumber as a String
-                        e.name = reader[1].ToString();// Set the object name by reading the database array space[1] it will assign whatever is in the space to the name.
-                        e.abbr = reader[2].ToString();// Set the abbrevation of the element object by reading the database array space [2] and assinging its value
-                        e.periodicGroup = reader[4].ToString(); // Set the periodic group
-                        e.periodicPeriod = reader[5].ToString();// set the periodic period
-
-                        msg = "Successfully queried DB.";
-                    }
                 }
-
-
-
+                // Close the database.
                 reader.Close();
 
 
@@ -197,20 +141,12 @@ namespace Chemistree_GUI_V1
                 msg = "Error reading from DB.";
             }
 
-            //Use for loop to clean up.
-            //Element e = new Element();
-            //e.atomicNumber = reader[3].ToString();
-            //e.name = reader[1].ToString();
-            //e.abbr = reader[2].ToString();
-            //e.periodicGroup = reader[4].ToString();
-            //e.periodicPeriod = reader[5].ToString();
-
-
 
             //Testing if information was saved
             Console.WriteLine(msg);
             Console.WriteLine("This text excutued when element button is pressed");
-            Console.WriteLine("Passed through queryDB() method displays \nElement Name: " + e.name);
+            Console.WriteLine("Passed through queryDB() method displays");
+            Console.WriteLine("Element Name: " + e.name);
             Console.WriteLine("Atomic Number: " + e.atomicNumber);
             Console.WriteLine("Abbreviation: " + e.abbr);
             Console.WriteLine("Periodic Group: " + e.periodicGroup);
@@ -220,11 +156,6 @@ namespace Chemistree_GUI_V1
 
         }
     }
-
-
-
-
-
 
     class Element
     {
@@ -253,4 +184,3 @@ namespace Chemistree_GUI_V1
         }
     }
 }
-
