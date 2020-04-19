@@ -35,8 +35,7 @@ namespace Chemistree_GUI_V1
         {
             this.Hide();
             MainMenu s1 = new MainMenu();
-            s1.ShowDialog();
-            this.Close();
+            s1.Show();
         }
 
         private void result_panel_Paint(object sender, PaintEventArgs e)
@@ -51,7 +50,7 @@ namespace Chemistree_GUI_V1
 
         private void nav_exit_btn_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
 
@@ -68,17 +67,19 @@ namespace Chemistree_GUI_V1
       
         private void btn_query(object sender, EventArgs e)
         {
-            // 
             Button s = (System.Windows.Forms.Button)sender;
 
             //the button text is passed into the argument of queryDB();
-            conn.queryDB(s.Text);
-            //Element e = conn.queryDB();
-  
-
-            // Element e = conn.queryDB(s.text);
-            // resultLabel.text = "" + e.name + " " + e.abbr;
-             
+            (bool result, Element el) = conn.queryDB(s.Text);
+            if (result)
+            {
+                string output = $"{el.name} - Atomic Number: {el.atomicNumber} - Electron Configuration: {el.electronConfiguration}";
+                lblOutput.Text = output;
+            }
+            else
+            {
+                lblOutput.Text = "Error, that MFing bean ain't in the MFing table >:-|";
+            }
         }
 
  
