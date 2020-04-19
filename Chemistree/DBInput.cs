@@ -58,5 +58,24 @@ namespace Chemistree_GUI_V1
             //s1.ShowDialog();
             this.Close();
         }
+
+        private void btnClearTextBoxes_Click(object sender, EventArgs e)
+        {
+            ClearAllText(this);
+        }
+
+
+        private void ClearAllText(Control con)
+        {
+            foreach (Control c in con.Controls)
+            {
+                if (c is TextBox)
+                    ((TextBox)c).Clear();
+                else
+                    ClearAllText(c);
+            }
+        }
+
+        
     }
 }
