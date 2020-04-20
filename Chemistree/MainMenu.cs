@@ -17,31 +17,6 @@ namespace Chemistree_GUI_V1
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
         private void roundedButton1_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -68,6 +43,14 @@ namespace Chemistree_GUI_V1
         {
             DBInput s4 = new DBInput();
             s4.ShowDialog();
+        }
+
+        private void btnIonInput_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            IonInput s5 = new IonInput();
+            s5.ShowDialog();
+            this.Close();
         }
     }
 }

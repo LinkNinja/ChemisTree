@@ -81,6 +81,12 @@
     <Compile Include="ElectronConfigScreen.Designer.cs">
       <DependentUpon>ElectronConfigScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="IonInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IonInput.Designer.cs">
+      <DependentUpon>IonInput.cs</DependentUpon>
+    </Compile>
     <Compile Include="IoCompoundScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +115,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ElectronConfigScreen.resx">
       <DependentUpon>ElectronConfigScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IonInput.resx">
+      <DependentUpon>IonInput.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="IoCompoundScreen.resx">
       <DependentUpon>IoCompoundScreen.cs</DependentUpon>

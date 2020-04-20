@@ -73,6 +73,29 @@ namespace Chemistree_GUI_V1
             return result;
         }
 
+
+        public bool SubmitIonDB(Ion i)
+        {
+            bool result = false;
+            FormattableString sql = $"INSERT INTO ions (`abbreviation`, `name`, `charge`, `type`) VALUES ('{i.ionAbbr}', '{i.ionName}', '{i.ionCharge}', '{i.ionType}');";
+
+
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(sql.ToString(), conn);
+                int rowsAffected = cmd.ExecuteNonQuery();
+                result = (rowsAffected > 0) ? true : false;
+            }
+            catch (Exception ex)
+            {
+                // Better handle exception
+                // Console.WriteLine("{0}", ex);
+            }
+            return result;
+        }
+
+
+
         public (bool, Element) queryDB(string abbr)
         {
             bool result = false;
@@ -80,7 +103,7 @@ namespace Chemistree_GUI_V1
             //query statement for database
             string query = $"SELECT * FROM elements WHERE abbreviation = '{abbr}';";
             //Working on how to use a procedure to query the database making it more secure.
-            string sql = "ProcedureName";
+         
             try
             {
                 MySqlCommand cmd = new MySqlCommand(query, conn);
@@ -138,6 +161,33 @@ namespace Chemistree_GUI_V1
             this.periodicGroup = periodicGroup;
             this.periodicPeriod = periodicPeriod;
             this.electronConfiguration = electronConfiguration;
+        }
+    }
+    class Ion
+    {
+        public string ionAbbr;
+        public string ionName;
+        public string ionCharge;
+        public string ionType;
+
+
+
+        public Ion()
+        {
+            this.ionAbbr = "";
+            this.ionName = "";
+            this.ionCharge = "";
+            this.ionType = "";
+
+        }
+
+        public Ion(string ionAbbr, string ionName, string ionCharge, string ionType)
+        {
+            this.ionAbbr = ionAbbr;
+            this.ionName = ionName;
+            this.ionCharge = ionCharge;
+            this.ionType = ionType;
+
         }
     }
 }

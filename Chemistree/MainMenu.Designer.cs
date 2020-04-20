@@ -35,6 +35,7 @@
             this.exit_btn = new Chemistree_GUI_V1.RoundedButton();
             this.roundedButton2 = new Chemistree_GUI_V1.RoundedButton();
             this.roundedButton1 = new Chemistree_GUI_V1.RoundedButton();
+            this.btnIonInput = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -49,7 +50,6 @@
             this.AppTitle.Size = new System.Drawing.Size(139, 29);
             this.AppTitle.TabIndex = 0;
             this.AppTitle.Text = "ChemisTree";
-            this.AppTitle.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1
             // 
@@ -119,6 +119,18 @@
             this.roundedButton1.UseVisualStyleBackColor = false;
             this.roundedButton1.Click += new System.EventHandler(this.roundedButton1_Click);
             // 
+            // btnIonInput
+            // 
+            this.btnIonInput.Cursor = System.Windows.Forms.Cursors.Default;
+            this.btnIonInput.FlatAppearance.BorderSize = 0;
+            this.btnIonInput.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIonInput.Location = new System.Drawing.Point(563, 12);
+            this.btnIonInput.Name = "btnIonInput";
+            this.btnIonInput.Size = new System.Drawing.Size(75, 23);
+            this.btnIonInput.TabIndex = 9;
+            this.btnIonInput.UseVisualStyleBackColor = false;
+            this.btnIonInput.Click += new System.EventHandler(this.btnIonInput_Click);
+            // 
             // MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -127,6 +139,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(650, 431);
+            this.Controls.Add(this.btnIonInput);
             this.Controls.Add(this.btnInput);
             this.Controls.Add(this.exit_btn);
             this.Controls.Add(this.roundedButton2);
@@ -139,7 +152,6 @@
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ChemisTree";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -154,6 +166,7 @@
         private RoundedButton roundedButton2;
         private RoundedButton exit_btn;
         private System.Windows.Forms.Button btnInput;
+        private System.Windows.Forms.Button btnIonInput;
     }
 }
 
