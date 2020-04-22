@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnMenu = new System.Windows.Forms.Button();
@@ -47,7 +48,11 @@
             this.lblElectronConfiguration = new System.Windows.Forms.Label();
             this.txtbxElectronConfiguration = new System.Windows.Forms.TextBox();
             this.lblResult = new System.Windows.Forms.Label();
+            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.btnClearTextBoxes = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -243,12 +248,28 @@
             this.lblResult.Size = new System.Drawing.Size(0, 23);
             this.lblResult.TabIndex = 15;
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            // 
+            // btnClearTextBoxes
+            // 
+            this.btnClearTextBoxes.Location = new System.Drawing.Point(493, 383);
+            this.btnClearTextBoxes.Name = "btnClearTextBoxes";
+            this.btnClearTextBoxes.Size = new System.Drawing.Size(101, 23);
+            this.btnClearTextBoxes.TabIndex = 17;
+            this.btnClearTextBoxes.Text = "Clear Text Boxes";
+            this.btnClearTextBoxes.UseVisualStyleBackColor = true;
+            this.btnClearTextBoxes.Click += new System.EventHandler(this.btnClearTextBoxes_Click);
+            // 
             // DBInput
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(46)))), ((int)(((byte)(46)))));
             this.ClientSize = new System.Drawing.Size(620, 450);
+            this.Controls.Add(this.btnClearTextBoxes);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.txtbxElectronConfiguration);
             this.Controls.Add(this.lblElectronConfiguration);
@@ -268,6 +289,7 @@
             this.Text = "DBInput";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -294,5 +316,8 @@
         private System.Windows.Forms.Label lblElectronConfiguration;
         private System.Windows.Forms.TextBox txtbxElectronConfiguration;
         private System.Windows.Forms.Label lblResult;
+        private System.Diagnostics.PerformanceCounter performanceCounter1;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Button btnClearTextBoxes;
     }
 }
