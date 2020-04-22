@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS ions (
     charge          INT         NOT NULL,
     type            ENUM('anion', 'cation', 'zwitterion'),
     PRIMARY KEY(id)
- )
+ );
 
 INSERT INTO elements
 VALUES
