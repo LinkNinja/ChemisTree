@@ -21,6 +21,17 @@ namespace Chemistree_GUI_V1
             conn.ConnectToDB();
         }
 
+        #region Public Methods
+
+        /*public static string formatElectronConfig() {
+            UnicodeConverter uni = new UnicodeConverter();
+
+        }*/
+
+        #endregion
+
+        #region Unhandled Events
+
         private void navigation_panal_Paint(object sender, PaintEventArgs e)
         {
 
@@ -31,11 +42,24 @@ namespace Chemistree_GUI_V1
 
         }
 
-        private void nav_menu_btn_Click(object sender, EventArgs e)
+        private void ElectronConfigScreen_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            MainMenu s1 = new MainMenu();
-            s1.Show();
+
+        }
+
+        private void result_panel_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void result_panel_Paint(object sender, PaintEventArgs e)
@@ -46,6 +70,17 @@ namespace Chemistree_GUI_V1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        #endregion
+
+        #region Handled Events
+
+        private void nav_menu_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu s1 = new MainMenu();
+            s1.Show();
         }
 
         private void nav_exit_btn_Click(object sender, EventArgs e)
@@ -73,10 +108,13 @@ namespace Chemistree_GUI_V1
             (bool result, Element el) = conn.queryDB(s.Text);
             if (result)
             {
-                pnlElemAbbr.Visible = true;
+                lblElemAbbr.Visible = true;
                 lblElemAbbr.Text = $"{el.abbr}";
                 string elemInfo = $"Protons {el.atomicNumber} \nElectrons: {el.atomicNumber} \nPeriod: {el.periodicPeriod} \nGroup: {el.periodicGroup}";
+
+                // Must convert the superscripts in the electron configuration to unicode.
                 lblElectronConfig.Text = $"{el.electronConfiguration}";
+
                 lblElemName.Text = $"{el.name}";
                 lblOutput.Text = elemInfo;
             }
@@ -86,24 +124,6 @@ namespace Chemistree_GUI_V1
             }
         }
 
-        private void ElectronConfigScreen_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void result_panel_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lblOutput_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
+        #endregion
     }
 }
