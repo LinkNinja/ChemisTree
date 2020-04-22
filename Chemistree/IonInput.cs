@@ -50,8 +50,8 @@ namespace Chemistree_GUI_V1
             Ion i = new Ion();
 
             i.ionAbbr = txtbxIonAbbr.Text;
-            i.ionName = txtbxIonCharge.Text;
-            i.ionCharge = txtbxIonName.Text;
+            i.ionName = txtbxIonName.Text; 
+            i.ionCharge = Convert.ToInt32(txtbxIonCharge.Text);
             i.ionType = txtbxIonType.Text;
 
             if (conn.SubmitIonDB(i))

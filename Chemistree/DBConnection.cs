@@ -167,7 +167,7 @@ namespace Chemistree_GUI_V1
     {
         public string ionAbbr;
         public string ionName;
-        public string ionCharge;
+        public int ionCharge;
         public string ionType;
 
 
@@ -176,12 +176,12 @@ namespace Chemistree_GUI_V1
         {
             this.ionAbbr = "";
             this.ionName = "";
-            this.ionCharge = "";
+            this.ionCharge = 0;
             this.ionType = "";
 
         }
 
-        public Ion(string ionAbbr, string ionName, string ionCharge, string ionType)
+        public Ion(string ionAbbr, string ionName, int ionCharge, string ionType)
         {
             this.ionAbbr = ionAbbr;
             this.ionName = ionName;
