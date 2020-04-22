@@ -73,15 +73,37 @@ namespace Chemistree_GUI_V1
             (bool result, Element el) = conn.queryDB(s.Text);
             if (result)
             {
-                string output = $"{el.name} - Atomic Number: {el.atomicNumber} - Electron Configuration: {el.electronConfiguration}";
-                lblOutput.Text = output;
+                pnlElemAbbr.Visible = true;
+                lblElemAbbr.Text = $"{el.abbr}";
+                string elemInfo = $"Protons {el.atomicNumber} \nElectrons: {el.atomicNumber} \nPeriod: {el.periodicPeriod} \nGroup: {el.periodicGroup}";
+                lblElectronConfig.Text = $"{el.electronConfiguration}";
+                lblElemName.Text = $"{el.name}";
+                lblOutput.Text = elemInfo;
             }
             else
             {
-                lblOutput.Text = "Error, that MFing bean ain't in the MFing table >:-|";
+                lblOutput.Text = "Error! Element not found in table";
             }
         }
 
- 
+        private void ElectronConfigScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void result_panel_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
