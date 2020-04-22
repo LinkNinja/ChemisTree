@@ -14,5 +14,4 @@ CREATE TABLE IF NOT EXISTS ions (
     name            VARCHAR(30) NOT NULL,
     charge          INT         NOT NULL,
     type            ENUM('anion', 'cation'),
-    PRIMARY KEY(id)
- )
+    PRIMARY KEY(

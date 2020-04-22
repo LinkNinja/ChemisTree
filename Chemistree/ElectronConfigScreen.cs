@@ -23,10 +23,43 @@ namespace Chemistree_GUI_V1
 
         #region Public Methods
 
-        /*public static string formatElectronConfig() {
+        // 
+        // Formats the electron configuration appropriately by finding the numbers that need to be converted to superscripts.
+        //
+        public static string formatElectronConfig(string config) {
             UnicodeConverter uni = new UnicodeConverter();
+            string[] splittedConfig = config.Split(',');
+            string formattedConfig = "";
+            int splitMarker = 0;
+            int superNum;
+            string superStr;
 
-        }*/
+            for (int i = 0; i < splittedConfig.Length; i++)
+            {
+                int configLen = splittedConfig[i].Length;
+
+                for (int x = 0; x < configLen; x++)
+                {
+                    if (splittedConfig[i][x] == '^')
+                    {
+                        splitMarker = x;
+                    }
+                }
+
+                for (int y = splitMarker; y < configLen - 1; y++)
+                {
+                    int.TryParse(splittedConfig[i][y + 1].ToString(), out superNum);
+                    superStr = uni.convertToSuperscript(superNum);
+                    splittedConfig[i] = splittedConfig[i].Replace(splittedConfig[i][y].ToString(), superStr.ToString());
+                }
+
+                splittedConfig[i] = splittedConfig[i].Remove((configLen - 1), 1);
+                formattedConfig += splittedConfig[i];
+
+            }
+
+            return formattedConfig;
+        }
 
         #endregion
 
@@ -112,7 +145,8 @@ namespace Chemistree_GUI_V1
                 lblElemAbbr.Text = $"{el.abbr}";
                 string elemInfo = $"Protons {el.atomicNumber} \nElectrons: {el.atomicNumber} \nPeriod: {el.periodicPeriod} \nGroup: {el.periodicGroup}";
 
-                // Must convert the superscripts in the electron configuration to unicode.
+                // Must convert the superscripts in the unformatted electron configuration to unicode.
+                el.electronConfiguration = formatElectronConfig(el.electronConfiguration);
                 lblElectronConfig.Text = $"{el.electronConfiguration}";
 
                 lblElemName.Text = $"{el.name}";

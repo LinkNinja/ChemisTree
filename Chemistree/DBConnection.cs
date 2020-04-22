@@ -293,10 +293,10 @@ namespace Chemistree_GUI_V1
                     superscript = "\u00B9";
                     break;
                 case 2:
-                    superscript = "\u2072";
+                    superscript = "\u00B2";
                     break;
                 case 3:
-                    superscript = "\u2073";
+                    superscript = "\u00B3";
                     break;
                 case 4:
                     superscript = "\u2074";
