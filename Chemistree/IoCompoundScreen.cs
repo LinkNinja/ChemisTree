@@ -277,5 +277,10 @@ namespace Chemistree_GUI_V1
             anionChg_txt.Text = "";
             anion_input.Text = "";
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
