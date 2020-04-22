@@ -358,7 +358,7 @@
             this.lblCompoundScreen.AutoSize = true;
             this.lblCompoundScreen.Font = new System.Drawing.Font("Bahnschrift", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCompoundScreen.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblCompoundScreen.Location = new System.Drawing.Point(597, 32);
+            this.lblCompoundScreen.Location = new System.Drawing.Point(551, 32);
             this.lblCompoundScreen.Name = "lblCompoundScreen";
             this.lblCompoundScreen.Size = new System.Drawing.Size(340, 29);
             this.lblCompoundScreen.TabIndex = 2;
