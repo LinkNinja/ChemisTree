@@ -12,14 +12,23 @@ namespace Chemistree_GUI_V1
 {
     public partial class IoCompoundScreen : Form
     {
+        private DBConnection conn;
+
         public IoCompoundScreen()
         {
             InitializeComponent();
+            conn = new DBConnection();
+            conn.ConnectToDB();
         }
 
+        #region Public Methods
+        //
+        // Converts the number of ions to a unicode subscript value.
+        //
         public static string displayIonNumber(int n)
         {
             string number;
+            UnicodeConverter uni = new UnicodeConverter();
 
             if (n == 1)
             {
@@ -28,96 +37,56 @@ namespace Chemistree_GUI_V1
             }
             else
             {
-                number = convertToSubscript(n).ToString();
+                number = uni.convertToSubscript(n).ToString();
             }
 
             return number;
         }
-        public static string convertToSubscript(int n)
-        {
-            string subscript;
 
-            switch (n)
-            {
-                case 0:
-                    subscript = "\u2080";
-                    break;
-                case 1:
-                    subscript = "\u2081";
-                    break;
-                case 2:
-                    subscript = "\u2082";
-                    break;
-                case 3:
-                    subscript = "\u2083";
-                    break;
-                case 4:
-                    subscript = "\u2084";
-                    break;
-                case 5:
-                    subscript = "\u2085";
-                    break;
-                case 6:
-                    subscript = "\u2086";
-                    break;
-                case 7:
-                    subscript = "\u2087";
-                    break;
-                case 8:
-                    subscript = "\u2088";
-                    break;
-                case 9:
-                    subscript = "\u2089";
-                    break;
-                default:
-                    subscript = "";
-                    break;
-            }
-            return subscript;
-        }
-        public static string convertToSuperscript(int n)
-        {
-            string superscript;
+        //
+        // Converts the user's charge input to an integer.
+        //
+        public static void convertChargeToInt(string ionStr, out int ionInt, int sign, ref string errorMessage) {
 
-            switch (n)
-            {
-                case 0:
-                    superscript = "\u2070";
-                    break;
-                case 1:
-                    superscript = "\u2071";
-                    break;
-                case 2:
-                    superscript = "\u2072";
-                    break;
-                case 3:
-                    superscript = "\u2073";
-                    break;
-                case 4:
-                    superscript = "\u2074";
-                    break;
-                case 5:
-                    superscript = "\u2075";
-                    break;
-                case 6:
-                    superscript = "\u2076";
-                    break;
-                case 7:
-                    superscript = "\u2077";
-                    break;
-                case 8:
-                    superscript = "\u2078";
-                    break;
-                case 9:
-                    superscript = "\u2079";
-                    break;
-                default:
-                    superscript = "";
-                    break;
+            if (!int.TryParse(ionStr, out ionInt)) {
+                if (ionStr == "") {
+                    ionInt = sign;
+
+                } else {
+                    errorMessage = "Error! This is not a valid charge.";
+                }
+
+            } else {
+                ionInt *= sign;
             }
-            return superscript;
         }
 
+        //
+        // Formats the abbreviation of the ion to include subscripts.
+        //
+        public static string formatIonAbbr(string ionAbbr) {
+
+            string subNum;
+            UnicodeConverter uni = new UnicodeConverter();
+
+            for (int x = 0; x < ionAbbr.Length; x++) {
+                for (int i = 0; i <= 9; i++) {
+
+                    if (ionAbbr[x].ToString() == i.ToString()) {
+                        subNum = uni.convertToSubscript(i);
+                        ionAbbr = ionAbbr.Replace(ionAbbr[x].ToString(), subNum);
+                    } 
+
+                }
+            }
+            
+            return ionAbbr;
+        }
+
+
+        //
+        // Determines the number of ions necessary to form a compound.
+        //
         public static void findIonNums(int cCharge, int aCharge, out int cNum, out int aNum)
         {
             int chargeDifference;
@@ -139,6 +108,9 @@ namespace Chemistree_GUI_V1
             aNum = Math.Abs(commonFactor / aCharge);
         }
 
+        #endregion
+
+        #region Unhandled Events
         private void IoCompoundScreen_Load(object sender, EventArgs e)
         {
 
@@ -154,19 +126,6 @@ namespace Chemistree_GUI_V1
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            MainMenu s1 = new MainMenu();
-            s1.Show();
-            //this.Close();
-        }
-
-        private void nav_exit_btn_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
         private void compount_panel_Paint(object sender, PaintEventArgs e)
         {
 
@@ -177,94 +136,75 @@ namespace Chemistree_GUI_V1
 
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        #endregion
+
+        #region Handled Events
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu s1 = new MainMenu();
+            s1.Show();
+        }
+
+        private void nav_exit_btn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void create_compound_btn_Click(object sender, EventArgs e)
         {
-            // Ionic compound
-            string ionicCompound, ionicName, errorMessage;
+            string ionicCompound, ionicName;
+            string errorMessage = "";
+            int cationNum, anionNum;
 
             // Colors
-            Color blue = Color.FromArgb(54, 175, 255);
+            Color yellow = Color.FromArgb(211, 255, 64);
             Color red = Color.FromArgb(255, 54, 54);
 
-            // Cation properties
-            string cationAbbr = cation_input.Text;
-            int cationChg;
-            string cationName;
-            int cationNum;
+            /** Cation properties **/
+            Ion cation = new Ion();
+            cation.ionAbbr = cation_input.Text;
+            convertChargeToInt(cationChg_txt.Text, out cation.ionCharge, 1, ref errorMessage);
 
-            // Anion properties
-            string anionAbbr = anion_input.Text;
-            int anionChg;
-            string anionName;
-            int anionNum;
+            /** Anion properties **/
+            Ion anion = new Ion();
+            anion.ionAbbr = anion_input.Text;
+            convertChargeToInt(anionChg_txt.Text, out anion.ionCharge, -1, ref errorMessage);
 
-
-            if (!int.TryParse(cationChg_txt.Text, out cationChg)) {
-                if (cationChg_txt.Text == "") {
-                    cationChg = 1;
-
-                } else {
-                    errorMessage = "Error! This is not a valid charge.";
-                }
-
-            } 
-
-            if (!int.TryParse(anionChg_txt.Text, out anionChg)) {
-                if (anionChg_txt.Text == "") {
-                    anionChg = -1;
-
-                } else {
-                    errorMessage = "Error! This is not a valid charge.";
-                }
-
-            } else {
-                anionChg *= -1;
-            }
-
-
-
-            // Functionality needed to look up the cation and anion in the database to validate it and see 
-            // whether it exists or not, and was entered in the correct panel.
-            /** Query parameters: abbr & charge (composite primary key (?)) **/
-
-            // Functionality needed to pull out the formal name of the ion in the database.
-            /** Query parameters: abbr & charge (composite primary key (?)) **/
-
-            // ionQuery(cationAbbr, cationChg, out cationName);
-            // ionQuery(anionAbbr, anionChg, out anionName);
+            // These connect to the database and determines whether the ion entered exists or not.
+            // This also saves the name of the ion to the object property ionName.
+            conn.queryIonDB(ref cation, "cation", ref errorMessage);
+            conn.queryIonDB(ref anion, "anion", ref errorMessage);
 
             // Function determines how many anions and cations are needed to form the ionic compound.
-            findIonNums(cationChg, anionChg, out cationNum, out anionNum);
-            ionicCompound = cationAbbr + displayIonNumber(cationNum) + anionAbbr + displayIonNumber(anionNum);
-            // ionicName = cationName + " " + anionName;
+            findIonNums(cation.ionCharge, anion.ionCharge, out cationNum, out anionNum);
+            ionicCompound = formatIonAbbr(cation.ionAbbr) + displayIonNumber(cationNum) + formatIonAbbr(anion.ionAbbr) + displayIonNumber(anionNum);
+            ionicName = cation.ionName + " " + anion.ionName;
 
-            /** 
-             * If successful and validated 
-             * 
-             * **/
-            ionicCompound_label.Text = ionicCompound;
-            ionicCompound_label.ForeColor = blue;
+            // Validation successful, and ionic compound was formed.
+            if (errorMessage == "") {
+                ionicCompound_label.Text = ionicCompound;
+                ionicCompound_label.ForeColor = yellow;
+                ionicName_label.Text = ionicName;
 
-            // ionicName_label.Text = ionicName;
-            ionicName_label.Text = "Insert ionic name";
+            // Validation unsuccessful, and ran into an error.
+            } else {
+                ionicCompound_label.Text = "Error";
+                ionicCompound_label.ForeColor = red;
+                ionicName_label.Text = errorMessage;
+                ionicName_label.Font = new Font("Bahnschrift", 14);
+            }
 
-            /** 
-             * If there are errors 
-             * 
-             * **/
-            //ionicCompound_label.Text = "Error";
-            //ionicCompound_label.ForeColor = red;
-            //ionicName_label.Text = errorMessage;
         }
 
         private void nav_exit_btn_Click_1(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void reset_btn_Click(object sender, EventArgs e)
@@ -277,5 +217,7 @@ namespace Chemistree_GUI_V1
             anionChg_txt.Text = "";
             anion_input.Text = "";
         }
+
+        #endregion
     }
 }

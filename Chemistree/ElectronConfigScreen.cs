@@ -21,6 +21,50 @@ namespace Chemistree_GUI_V1
             conn.ConnectToDB();
         }
 
+        #region Public Methods
+
+        // 
+        // Formats the electron configuration appropriately by finding the numbers that need to be converted to superscripts.
+        //
+        public static string formatElectronConfig(string config) {
+            UnicodeConverter uni = new UnicodeConverter();
+            string[] splittedConfig = config.Split(',');
+            string formattedConfig = "";
+            int splitMarker = 0;
+            int superNum;
+            string superStr;
+
+            for (int i = 0; i < splittedConfig.Length; i++)
+            {
+                int configLen = splittedConfig[i].Length;
+
+                for (int x = 0; x < configLen; x++)
+                {
+                    if (splittedConfig[i][x] == '^')
+                    {
+                        splitMarker = x;
+                    }
+                }
+
+                for (int y = splitMarker; y < configLen - 1; y++)
+                {
+                    int.TryParse(splittedConfig[i][y + 1].ToString(), out superNum);
+                    superStr = uni.convertToSuperscript(superNum);
+                    splittedConfig[i] = splittedConfig[i].Replace(splittedConfig[i][y].ToString(), superStr.ToString());
+                }
+
+                splittedConfig[i] = splittedConfig[i].Remove((configLen - 1), 1);
+                formattedConfig += splittedConfig[i];
+
+            }
+
+            return formattedConfig;
+        }
+
+        #endregion
+
+        #region Unhandled Events
+
         private void navigation_panal_Paint(object sender, PaintEventArgs e)
         {
 
@@ -31,11 +75,24 @@ namespace Chemistree_GUI_V1
 
         }
 
-        private void nav_menu_btn_Click(object sender, EventArgs e)
+        private void ElectronConfigScreen_Load(object sender, EventArgs e)
         {
-            this.Hide();
-            MainMenu s1 = new MainMenu();
-            s1.Show();
+
+        }
+
+        private void result_panel_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblOutput_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
 
         private void result_panel_Paint(object sender, PaintEventArgs e)
@@ -46,6 +103,17 @@ namespace Chemistree_GUI_V1
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        #endregion
+
+        #region Handled Events
+
+        private void nav_menu_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainMenu s1 = new MainMenu();
+            s1.Show();
         }
 
         private void nav_exit_btn_Click(object sender, EventArgs e)
@@ -73,15 +141,23 @@ namespace Chemistree_GUI_V1
             (bool result, Element el) = conn.queryDB(s.Text);
             if (result)
             {
-                string output = $"{el.name} - Atomic Number: {el.atomicNumber} - Electron Configuration: {el.electronConfiguration}";
-                lblOutput.Text = output;
+                lblElemAbbr.Visible = true;
+                lblElemAbbr.Text = $"{el.abbr}";
+                string elemInfo = $"Protons {el.atomicNumber} \nElectrons: {el.atomicNumber} \nPeriod: {el.periodicPeriod} \nGroup: {el.periodicGroup}";
+
+                // Must convert the superscripts in the unformatted electron configuration to unicode.
+                el.electronConfiguration = formatElectronConfig(el.electronConfiguration);
+                lblElectronConfig.Text = $"{el.electronConfiguration}";
+
+                lblElemName.Text = $"{el.name}";
+                lblOutput.Text = elemInfo;
             }
             else
             {
-                lblOutput.Text = "Error, that MFing bean ain't in the MFing table >:-|";
+                lblOutput.Text = "Error! Element not found in table";
             }
         }
 
- 
+        #endregion
     }
 }

@@ -64,7 +64,7 @@ namespace Chemistree_GUI_V1
             {
                 MySqlCommand cmd = new MySqlCommand(sql.ToString(), conn);
                 int rowsAffected = cmd.ExecuteNonQuery();
-                result = (rowsAffected > 0) ? true : false; 
+                result = (rowsAffected > 0) ? true : false;
             }
             catch (Exception ex)
             {
@@ -103,7 +103,7 @@ namespace Chemistree_GUI_V1
             //query statement for database
             string query = $"SELECT * FROM elements WHERE abbreviation = '{abbr}';";
             //Working on how to use a procedure to query the database making it more secure.
-         
+
             try
             {
                 MySqlCommand cmd = new MySqlCommand(query, conn);
@@ -131,6 +131,44 @@ namespace Chemistree_GUI_V1
                 // Handle Exception
             }
             return (result, e);
+        }
+
+        public void queryIonDB(ref Ion userIon, string ionType, ref string errorMessage)
+        {
+            bool result = false;
+            string query = $"SELECT * FROM ions " +
+                           $"WHERE abbreviation = '{userIon.ionAbbr}'" +
+                           $"AND charge = '{userIon.ionCharge}'" +
+                           $"AND type = '{ionType}'";
+
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand(query, conn);
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+                if (reader.HasRows)
+                {
+
+                    while (reader.Read())
+                    {
+                        userIon.ionName = reader["name"].ToString();
+                    }
+
+                    result = true;
+                }
+
+                if (result == false)
+                {
+                    errorMessage = "Ion not found. The " + ionType + " you entered either doesn't exist, is in the wrong category, or perhaps you misspelled it.";
+                }
+
+                reader.Close();
+            }
+
+            catch (Exception ex)
+            {
+                errorMessage = "Encountered an issue with the database. Try again.";
+            }
         }
     }
 
@@ -163,6 +201,7 @@ namespace Chemistree_GUI_V1
             this.electronConfiguration = electronConfiguration;
         }
     }
+
     class Ion
     {
         public string ionAbbr;
@@ -189,5 +228,100 @@ namespace Chemistree_GUI_V1
             this.ionType = ionType;
 
         }
+    }
+
+    class UnicodeConverter
+    {
+        public UnicodeConverter() {
+        }
+
+        //
+        // Converts to subscript or superscript using unicode values.
+        //
+        public string convertToSubscript(int n)
+        {
+            string subscript;
+
+            switch (n)
+            {
+                case 0:
+                    subscript = "\u2080";
+                    break;
+                case 1:
+                    subscript = "\u2081";
+                    break;
+                case 2:
+                    subscript = "\u2082";
+                    break;
+                case 3:
+                    subscript = "\u2083";
+                    break;
+                case 4:
+                    subscript = "\u2084";
+                    break;
+                case 5:
+                    subscript = "\u2085";
+                    break;
+                case 6:
+                    subscript = "\u2086";
+                    break;
+                case 7:
+                    subscript = "\u2087";
+                    break;
+                case 8:
+                    subscript = "\u2088";
+                    break;
+                case 9:
+                    subscript = "\u2089";
+                    break;
+                default:
+                    subscript = "";
+                    break;
+            }
+            return subscript;
+        }
+        public string convertToSuperscript(int n)
+        {
+            string superscript;
+
+            switch (n)
+            {
+                case 0:
+                    superscript = "\u2070";
+                    break;
+                case 1:
+                    superscript = "\u00B9";
+                    break;
+                case 2:
+                    superscript = "\u00B2";
+                    break;
+                case 3:
+                    superscript = "\u00B3";
+                    break;
+                case 4:
+                    superscript = "\u2074";
+                    break;
+                case 5:
+                    superscript = "\u2075";
+                    break;
+                case 6:
+                    superscript = "\u2076";
+                    break;
+                case 7:
+                    superscript = "\u2077";
+                    break;
+                case 8:
+                    superscript = "\u2078";
+                    break;
+                case 9:
+                    superscript = "\u2079";
+                    break;
+                default:
+                    superscript = "";
+                    break;
+            }
+            return superscript;
+        }
+
     }
 }
