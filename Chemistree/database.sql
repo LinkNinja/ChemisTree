@@ -1,3 +1,5 @@
+CREATE DATABASE chemistree;
+
 CREATE TABLE IF NOT EXISTS elements (
     abbreviation            VARCHAR(4)  NOT NULL,
     name				    VARCHAR(30)	NOT NULL,
