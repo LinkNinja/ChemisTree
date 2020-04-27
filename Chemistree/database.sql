@@ -10,7 +10,6 @@ CREATE TABLE IF NOT EXISTS elements (
     PRIMARY KEY(abbreviation)
     );
 
-DROP TABLE IF EXISTS ions;
 
 CREATE TABLE IF NOT EXISTS ions (
     id              INT         NOT NULL    AUTO_INCREMENT,
