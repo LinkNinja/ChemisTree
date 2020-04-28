@@ -75,6 +75,10 @@ namespace Chemistree_GUI_V1
                     if (ionAbbr[x].ToString() == i.ToString()) {
                         subNum = uni.convertToSubscript(i);
                         ionAbbr = ionAbbr.Replace(ionAbbr[x].ToString(), subNum);
+
+                        if (x == ionAbbr.Length - 1) {
+                            ionAbbr = "(" + ionAbbr + ")";
+                        }
                     } 
 
                 }

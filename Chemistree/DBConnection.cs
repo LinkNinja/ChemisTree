@@ -167,7 +167,7 @@ namespace Chemistree_GUI_V1
 
             catch (Exception ex)
             {
-                errorMessage = "Encountered an issue with the database. Try again.";
+                errorMessage = "Encountered an issue with the database. Try again." + ex;
             }
         }
     }
